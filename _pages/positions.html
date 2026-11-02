@@ -1,0 +1,50 @@
+---
+layout: archive
+title: "Positions & News"
+permalink: /positions/
+author_profile: true
+---
+{% include base_path %}
+{% assign ann = site.data.profile.announcements %}
+{% assign arch = site.data.archive_2010 %}
+
+<p class="kb-intro">Internship, PhD and post-doc offers, and related news. All offers listed below are closed unless stated otherwise; feel free to <a href="{{ base_path }}/contact/">get in touch</a> about future opportunities.</p>
+
+{% assign by_year = ann | group_by: "year" %}
+{% for g in by_year %}
+<h2 class="kb-h2">{{ g.name }}</h2>
+<ul class="kb-timeline kb-timeline--wide">
+  {% for a in g.items %}
+  <li class="kb-timeline__item">
+    <span class="kb-timeline__date">
+      {% case a.type %}
+        {% when 'phd' %}<i class="fa-solid fa-user-graduate" aria-hidden="true"></i> PhD
+        {% when 'postdoc' %}<i class="fa-solid fa-microscope" aria-hidden="true"></i> Post-doc
+        {% when 'master_internship' %}<i class="fa-solid fa-book-open-reader" aria-hidden="true"></i> Master
+        {% else %}<i class="fa-solid fa-calendar-day" aria-hidden="true"></i> Event
+      {% endcase %}
+    </span>
+    <div class="kb-timeline__body">
+      {{ a.text | remove: ' (Closed)' | remove: '(Closed)' | remove: ': click here' | remove: ' : click here' }}
+      {% if a.status == 'closed' %}<span class="kb-badge kb-badge--muted">Closed</span>{% endif %}
+      {% if a.link %}<a class="kb-badge kb-badge--link" href="{{ a.link }}">{% if a.link_label == 'here' %}Details{% else %}{{ a.link_label }}{% endif %}</a>{% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}
+
+<h2 class="kb-h2"><i class="fa-solid fa-box-archive" aria-hidden="true"></i> Archive: {{ arch.title }}</h2>
+{% for i in arch.internships %}
+<details class="kb-details">
+  <summary>{{ i.title }}</summary>
+  {% for para in i.description %}<p>{{ para }}</p>{% endfor %}
+  <p class="kb-muted">
+    Encadrants : {{ i.supervisors | join: ", " }}<br>
+    Contact : {{ i.contact }}
+    {% if i.location %}<br>Lieu : {{ i.location }}{% endif %}
+    {% if i.funding %}<br>{{ i.funding }}{% endif %}
+  </p>
+</details>
+{% endfor %}
+<p class="kb-muted">{{ arch.workshop.label }} : <a href="{{ arch.workshop.url }}">{{ arch.workshop.title }}</a>, {{ arch.workshop.location }}, {{ arch.workshop.date | date: "%d/%m/%Y" }}.</p>

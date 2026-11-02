@@ -1,0 +1,35 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+{% include base_path %}
+{% assign r = site.data.profile.research %}
+
+<p class="kb-intro">My work sits at the crossroads of machine learning and data mining, with a long-standing focus on learning from partially labelled data. I co-head the <a href="https://projet.liris.cnrs.fr/dm2l/#HOME">DM2L team</a> at the LIRIS laboratory (CNRS UMR 5205).</p>
+
+<div class="kb-research">
+  <section class="kb-panel">
+    <h2 class="kb-panel__title"><i class="fa-solid fa-compass" aria-hidden="true"></i> Areas</h2>
+    <div class="kb-chips">{% for t in r.areas %}<span class="kb-chip kb-chip--strong">{{ t }}</span>{% endfor %}</div>
+  </section>
+  <section class="kb-panel">
+    <h2 class="kb-panel__title"><i class="fa-solid fa-gears" aria-hidden="true"></i> Techniques</h2>
+    <div class="kb-chips">{% for t in r.techniques %}{% assign technique = t | replace: "L_{p,q}", "L<sub>p,q</sub>" %}<span class="kb-chip kb-chip--strong">{{ technique }}</span>{% endfor %}</div>
+  </section>
+  <section class="kb-panel kb-panel--wide">
+    <h2 class="kb-panel__title"><i class="fa-solid fa-list-check" aria-hidden="true"></i> Tasks</h2>
+    <div class="kb-chips">{% for t in r.tasks %}<span class="kb-chip">{{ t }}</span>{% endfor %}</div>
+  </section>
+  <section class="kb-panel kb-panel--wide">
+    <h2 class="kb-panel__title"><i class="fa-solid fa-industry" aria-hidden="true"></i> Applications</h2>
+    <div class="kb-chips">{% for t in r.applications %}<span class="kb-chip">{{ t }}</span>{% endfor %}</div>
+  </section>
+</div>
+
+<div class="kb-cta">
+  <a class="kb-btn kb-btn--primary" href="{{ base_path }}/publications/"><i class="fa-solid fa-book" aria-hidden="true"></i> Publications</a>
+  <a class="kb-btn" href="{{ base_path }}/projects/"><i class="fa-solid fa-rocket" aria-hidden="true"></i> Projects</a>
+  <a class="kb-btn" href="{{ base_path }}/students/"><i class="fa-solid fa-user-graduate" aria-hidden="true"></i> Students</a>
+</div>

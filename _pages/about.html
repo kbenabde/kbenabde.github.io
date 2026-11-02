@@ -1,0 +1,80 @@
+---
+layout: archive
+permalink: /
+title: "Khalid Benabdeslem"
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
+{% include base_path %}
+{% assign prof = site.data.profile %}
+{% assign n_journals = site.publications | where: "category", "journals" | size %}
+{% assign n_conf = site.publications | where: "category", "conferences" | size %}
+{% assign n_phd = site.data.students.phd | size %}
+{% assign n_msc = site.data.students.msc | size %}
+{% assign n_proj = site.data.projects.current.size | plus: site.data.projects.past.size %}
+
+<section class="kb-hero">
+  <p class="kb-eyebrow"><i class="fa-solid fa-brain" aria-hidden="true"></i> {{ prof.position }} · Machine Learning &amp; Data Mining</p>
+  <p class="kb-lead">I am an Associate Professor (HDR) at Université Claude Bernard Lyon 1, where I teach at Polytech Lyon, and a researcher at the LIRIS laboratory (CNRS UMR 5205), where I co-head the <a href="https://projet.liris.cnrs.fr/dm2l/#HOME">DM2L team</a>.</p>
+  <p>My research focuses on <strong>semi-supervised learning</strong> and <strong>statistical data mining</strong>: optimization with L<sub>p,q</sub>-norms, spectral and knowledge graphs, and topological models (SOM), applied to multimodal and multi-view learning, feature selection and co-selection, anomaly detection and clustering. I received my PhD in Data Mining from Université Paris 13 (2003) and my HDR in Machine Learning from Université Lyon 1 (2014).</p>
+  <ul class="kb-roles">
+    {% for r in prof.roles %}
+    <li><i class="fa-solid {{ r.icon }}" aria-hidden="true"></i><span>{% if r.link %}{{ r.before }}<a href="{{ r.link }}">{{ r.link_label }}</a>{{ r.after }}{% else %}{{ r.text }}{% endif %}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<div class="kb-stats">
+  <a class="kb-stat" href="{{ base_path }}/publications/#journals"><span class="kb-stat__num" data-count="{{ n_journals }}">{{ n_journals }}</span><span class="kb-stat__label">Journal articles</span></a>
+  <a class="kb-stat" href="{{ base_path }}/publications/#conferences"><span class="kb-stat__num" data-count="{{ n_conf }}">{{ n_conf }}</span><span class="kb-stat__label">Conference papers</span></a>
+  <a class="kb-stat" href="{{ base_path }}/students/"><span class="kb-stat__num" data-count="{{ n_phd }}">{{ n_phd }}</span><span class="kb-stat__label">PhD students</span></a>
+  <a class="kb-stat" href="{{ base_path }}/students/#msc"><span class="kb-stat__num" data-count="{{ n_msc }}">{{ n_msc }}</span><span class="kb-stat__label">MSc students</span></a>
+  <a class="kb-stat" href="{{ base_path }}/projects/"><span class="kb-stat__num" data-count="{{ n_proj }}">{{ n_proj }}</span><span class="kb-stat__label">Research projects</span></a>
+</div>
+
+<h2 class="kb-h2"><i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Research interests</h2>
+<div class="kb-chips">
+  {% for t in prof.research.areas %}<span class="kb-chip kb-chip--strong">{{ t }}</span>{% endfor %}
+  {% for t in prof.research.tasks %}<span class="kb-chip">{{ t }}</span>{% endfor %}
+</div>
+<p class="kb-more"><a href="{{ base_path }}/research/">Techniques and application domains <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></p>
+
+<div class="kb-cols">
+  <section>
+    <h2 class="kb-h2"><i class="fa-solid fa-newspaper" aria-hidden="true"></i> Recent publications</h2>
+    {% assign recent = site.publications | where_exp: "p", "p.category == 'journals' or p.category == 'conferences'" | sort: "sort_key" | reverse %}
+    <ol class="kb-publist kb-publist--compact">
+      {% for post in recent limit: 6 %}{% include pub-item.html pub=post %}{% endfor %}
+    </ol>
+    <p class="kb-more"><a href="{{ base_path }}/publications/">All {{ site.publications | size }} publications <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></p>
+  </section>
+  <section>
+    <h2 class="kb-h2"><i class="fa-solid fa-bullhorn" aria-hidden="true"></i> Positions &amp; news</h2>
+    <ul class="kb-timeline">
+      {% for a in prof.announcements limit: 7 %}
+      <li class="kb-timeline__item">
+        <span class="kb-timeline__date">{{ a.year }}</span>
+        <div class="kb-timeline__body">
+          {{ a.text | remove: ' (Closed)' | remove: '(Closed)' | remove: ': click here' | remove: ' : click here' }}
+          {% if a.status == 'closed' %}<span class="kb-badge kb-badge--muted">Closed</span>{% endif %}
+          {% if a.link %}<a class="kb-badge kb-badge--link" href="{{ a.link }}">Details</a>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="kb-more"><a href="{{ base_path }}/positions/">All positions and news <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></p>
+  </section>
+</div>
+
+<h2 class="kb-h2"><i class="fa-solid fa-rocket" aria-hidden="true"></i> Current projects</h2>
+<div class="kb-cards">
+  {% for p in site.data.projects.current %}
+  <article class="kb-card">
+    <p class="kb-card__kicker">{{ p.program }}{% if p.partner %} · {{ p.partner }}{% endif %}</p>
+    <h3 class="kb-card__title">{{ p.name }}</h3>
+    <p class="kb-card__meta"><i class="fa-regular fa-calendar" aria-hidden="true"></i> {{ p.start_year }}–{{ p.end_year }} &nbsp; <i class="fa-solid fa-user-tie" aria-hidden="true"></i> {{ p.role }}</p>
+  </article>
+  {% endfor %}
+</div>

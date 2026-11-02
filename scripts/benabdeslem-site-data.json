@@ -1,0 +1,4516 @@
+{
+  "meta": {
+    "source_site": "http://kbenabde.free.fr/bk/index.php",
+    "scraped_on": "2026-11-02",
+    "site_name": "Khalid BENABDESLEM",
+    "site_slogan": "Apprendre à découvrir pour connaitre",
+    "platform": "Drupal (theme: fourseasons)",
+    "header_image": "http://kbenabde.free.fr/bk/themes/fourseasons/img/headerimg.jpg",
+    "self_author_aliases": [
+      "K. Benabdeslem",
+      "K.Benabdeslem"
+    ],
+    "notes": [
+      "Text is kept as written on the original site (spelling included); every item has a source_text or citation field with the original wording.",
+      "Dates are normalized to YYYY-MM where the site gives MM/YYYY.",
+      "The original pages also print a repeated PHP warning ('Function ereg() is deprecated'); it was dropped."
+    ],
+    "possible_issues_found": [
+      "Publications C87, C90, C91 spell the author 'Y. Lairigi', while the Students page lists 'Yassir Lairgi'.",
+      "Editorial E1 is labelled AGS'09 but dated '25 Mai 2011'; the 2010 archive page dates that Hammamet workshop to 25 May 2009.",
+      "Several titles/topics contain typos on the original (e.g. 'Muti-modal', 'Crowdsoursing', 'uncertainlty', 'Reasonning', 'Responsabilities').",
+      "Menu label 'Students' points to a page titled 'Supervision'."
+    ]
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "node": 3,
+      "data_key": "profile",
+      "original_url": "http://kbenabde.free.fr/bk/?q=node/3"
+    },
+    {
+      "label": "CV",
+      "node": 6,
+      "data_key": "cv",
+      "original_url": "http://kbenabde.free.fr/bk/?q=node/6"
+    },
+    {
+      "label": "Research",
+      "node": 13,
+      "data_key": "research",
+      "original_url": "http://kbenabde.free.fr/bk/?q=node/13"
+    },
+    {
+      "label": "Publications",
+      "node": 4,
+      "data_key": "publications",
+      "original_url": "http://kbenabde.free.fr/bk/?q=node/4"
+    },
+    {
+      "label": "Students",
+      "node": 5,
+      "data_key": "students",
+      "original_url": "http://kbenabde.free.fr/bk/?q=node/5"
+    },
+    {
+      "label": "Projects",
+      "node": 15,
+      "data_key": "projects",
+      "original_url": "http://kbenabde.free.fr/bk/?q=node/15"
+    },
+    {
+      "label": "Teaching",
+      "node": 7,
+      "data_key": "teaching",
+      "original_url": "http://kbenabde.free.fr/bk/?q=node/7"
+    },
+    {
+      "label": "Responsabilities",
+      "node": 8,
+      "data_key": "responsibilities",
+      "original_url": "http://kbenabde.free.fr/bk/?q=node/8"
+    },
+    {
+      "label": "Links",
+      "node": 10,
+      "data_key": "links",
+      "original_url": "http://kbenabde.free.fr/bk/?q=node/10"
+    },
+    {
+      "label": "Contact",
+      "node": 12,
+      "data_key": "contact",
+      "original_url": "http://kbenabde.free.fr/bk/?q=node/12"
+    }
+  ],
+  "pages": [
+    {
+      "node": 3,
+      "menu_label": "Home",
+      "menu_order": 1,
+      "title": "Position: Associate Professor (HDR)",
+      "data_key": "profile",
+      "url": "http://kbenabde.free.fr/bk/?q=node/3"
+    },
+    {
+      "node": 6,
+      "menu_label": "CV",
+      "menu_order": 2,
+      "title": "CV",
+      "data_key": "cv",
+      "url": "http://kbenabde.free.fr/bk/?q=node/6"
+    },
+    {
+      "node": 13,
+      "menu_label": "Research",
+      "menu_order": 3,
+      "title": "Research",
+      "data_key": "research",
+      "url": "http://kbenabde.free.fr/bk/?q=node/13"
+    },
+    {
+      "node": 4,
+      "menu_label": "Publications",
+      "menu_order": 4,
+      "title": "Publications",
+      "data_key": "publications",
+      "url": "http://kbenabde.free.fr/bk/?q=node/4"
+    },
+    {
+      "node": 5,
+      "menu_label": "Students",
+      "menu_order": 5,
+      "title": "Supervision",
+      "data_key": "students",
+      "url": "http://kbenabde.free.fr/bk/?q=node/5"
+    },
+    {
+      "node": 15,
+      "menu_label": "Projects",
+      "menu_order": 6,
+      "title": "Projects",
+      "data_key": "projects",
+      "url": "http://kbenabde.free.fr/bk/?q=node/15"
+    },
+    {
+      "node": 7,
+      "menu_label": "Teaching",
+      "menu_order": 7,
+      "title": "Teaching",
+      "data_key": "teaching",
+      "url": "http://kbenabde.free.fr/bk/?q=node/7"
+    },
+    {
+      "node": 8,
+      "menu_label": "Responsabilities",
+      "menu_order": 8,
+      "title": "Responsabilities",
+      "data_key": "responsibilities",
+      "url": "http://kbenabde.free.fr/bk/?q=node/8"
+    },
+    {
+      "node": 10,
+      "menu_label": "Links",
+      "menu_order": 9,
+      "title": "Links",
+      "data_key": "links",
+      "url": "http://kbenabde.free.fr/bk/?q=node/10"
+    },
+    {
+      "node": 12,
+      "menu_label": "Contact",
+      "menu_order": 10,
+      "title": "Contact",
+      "data_key": "contact",
+      "url": "http://kbenabde.free.fr/bk/?q=node/12"
+    },
+    {
+      "node": 9,
+      "menu_label": null,
+      "menu_order": null,
+      "title": "Software",
+      "data_key": "unlisted_pages.software",
+      "url": "http://kbenabde.free.fr/bk/?q=node/9",
+      "note": "Not linked from the menu"
+    },
+    {
+      "node": 14,
+      "menu_label": null,
+      "menu_order": null,
+      "title": "New",
+      "data_key": "unlisted_pages.archive_2010",
+      "url": "http://kbenabde.free.fr/bk/?q=node/14",
+      "note": "Not linked from the menu; 2010 content"
+    },
+    {
+      "node": 11,
+      "menu_label": null,
+      "menu_order": null,
+      "title": "Links",
+      "data_key": null,
+      "url": "http://kbenabde.free.fr/bk/?q=node/11",
+      "note": "Empty page"
+    },
+    {
+      "node": 17,
+      "menu_label": null,
+      "menu_order": null,
+      "title": "Projects",
+      "data_key": null,
+      "url": "http://kbenabde.free.fr/bk/?q=node/17",
+      "note": "Empty page"
+    }
+  ],
+  "profile": {
+    "name": "Khalid Benabdeslem",
+    "position": "Associate Professor (HDR)",
+    "roles": [
+      {
+        "text": "Lecturer at UCBL (POLYTECH)",
+        "source_text": "* Lecturer at UCBL (POLYTECH)"
+      },
+      {
+        "text": "Researcher at LIRIS Lab (CNRS UMR5205)",
+        "source_text": "* Researcher at LIRIS Lab (CNRS UMR5205)"
+      },
+      {
+        "text": "Co-head of DM2L team at LIRIS Lab (CNRS UMR5205)",
+        "link": {
+          "label": "DM2L team",
+          "url": "https://projet.liris.cnrs.fr/dm2l/#HOME"
+        },
+        "source_text": "* Co-head of DM2L team at LIRIS Lab (CNRS UMR5205)"
+      },
+      {
+        "text": "Responsible of the 5th year of engineering (INFO@POLYTECH)",
+        "source_text": "* Responsible of the 5th year of engineering (INFO@POLYTECH)"
+      },
+      {
+        "text": "Consultant Data scientist (Industry)",
+        "source_text": "* Consultant Data scientist (Industry)"
+      }
+    ],
+    "announcements_title": "Positions !",
+    "announcements": [
+      {
+        "type": "master_internship",
+        "count": 4,
+        "year": 2026,
+        "topic": "Advanced Deep Learning",
+        "domain": "Health",
+        "funding": null,
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of 4 Master internships (2026) on Advanced Deep Learning (Health) (Closed)"
+      },
+      {
+        "type": "master_internship",
+        "count": 1,
+        "year": 2026,
+        "topic": "Knowledge graph reasoning",
+        "domain": "Competitive intelligence",
+        "funding": null,
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of 1 Master internships (2026) on Knowledge graph reasoning (Competitive intelligence) (Closed)"
+      },
+      {
+        "type": "master_internship",
+        "count": 2,
+        "year": 2026,
+        "topic": "Muti-modal learning",
+        "domain": "Automobile",
+        "funding": null,
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of 2 Master internships (2026) on Muti-modal learning (Automobile) (Closed)"
+      },
+      {
+        "type": "master_internship",
+        "count": 1,
+        "year": 2025,
+        "topic": "Muti-modal learning",
+        "domain": "Health",
+        "funding": null,
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of 1 Master internships (2025) on Muti-modal learning (Health) (Closed)"
+      },
+      {
+        "type": "master_internship",
+        "count": 2,
+        "year": 2025,
+        "topic": "Muti-modal learning",
+        "domain": "Automobile",
+        "funding": null,
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of 2 Master internships (2025) on Muti-modal learning (Automobile) (Closed)"
+      },
+      {
+        "type": "phd",
+        "count": 1,
+        "year": 2025,
+        "topic": "Multimodal learning for Diagnosis of electric cars",
+        "domain": null,
+        "funding": "CIFRE",
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of PhD thesis (CIFRE, 2025) on Multimodal learning for Diagnosis of electric cars (Closed)"
+      },
+      {
+        "type": "master_internship",
+        "count": 2,
+        "year": 2024,
+        "topic": "Muti-view learning",
+        "domain": "Health",
+        "funding": null,
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of 2 Master internships (2024) : 2 on Muti-view learning (Health) (Closed)"
+      },
+      {
+        "type": "phd",
+        "count": 1,
+        "year": 2023,
+        "topic": "machine learning for Competitive Intelligence",
+        "domain": null,
+        "funding": "CIFRE",
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of PhD thesis (CIFRE, 2023) on machine learning for Competitive Intelligence (Closed)"
+      },
+      {
+        "type": "master_internship",
+        "count": 2,
+        "year": 2023,
+        "topic": "Deep learning",
+        "domain": "Predictive maintenance, Health",
+        "funding": null,
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of 2 Master internships (2023) on Deep learning (Predictive maintenance, Health) (Closed)"
+      },
+      {
+        "type": "master_internship",
+        "count": 3,
+        "year": 2021,
+        "topic": "machine learning",
+        "domain": null,
+        "funding": null,
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of 3 Master internships (2021) on machine learning (Closed)"
+      },
+      {
+        "type": "phd",
+        "count": 1,
+        "year": 2020,
+        "topic": "multi source learning for quality of life of patients after immunotherapy",
+        "domain": null,
+        "funding": "H2020",
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of one PhD thesis (H2020, 2020) on multi source learning for quality of life of patients after immunotherapy (Closed)"
+      },
+      {
+        "type": "master_internship",
+        "count": 4,
+        "year": 2020,
+        "topic": "machine learning",
+        "domain": null,
+        "funding": null,
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of 4 Master internships (2020) on machine learning (Closed)"
+      },
+      {
+        "type": "phd",
+        "count": 2,
+        "year": 2019,
+        "topic": "machine learning for Conversational AI",
+        "domain": null,
+        "funding": "IDEX Lyon",
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of 2 PhD thesis (IDEX Lyon, 2019) on machine learning for Conversational AI (Closed)"
+      },
+      {
+        "type": "phd",
+        "count": 1,
+        "year": 2019,
+        "topic": "machine learning for optimizing the age of cold rolling tool profiles",
+        "domain": null,
+        "funding": "CIFRE",
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of PhD thesis (CIFRE, 2019) on machine learning for optimizing the age of cold rolling tool profiles (Closed)"
+      },
+      {
+        "type": "master_internship",
+        "count": 2,
+        "year": 2019,
+        "topic": "machine learning",
+        "domain": null,
+        "funding": null,
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of 2 Master internships (2019) on machine learning (Closed)"
+      },
+      {
+        "type": "event",
+        "title": "Colloque sur l'IA et la médecine personnalisée à Lyon",
+        "date": "2018-11-06",
+        "year": 2018,
+        "link": {
+          "label": "here",
+          "url": "http://perso.univ-lyon1.fr/khalid.benabdeslem/IAMed/IAMed.htm"
+        },
+        "source_text": "- Colloque sur l'IA et la médecine personnalisée à Lyon, le 06 Novembre 2018: click here"
+      },
+      {
+        "type": "phd",
+        "count": 1,
+        "year": 2018,
+        "topic": "machine learning for user profiling",
+        "domain": null,
+        "funding": "CIFRE",
+        "status": null,
+        "link": {
+          "label": "here",
+          "url": "http://www.pressinnov.com/actualites/2018/02/sujet-de-these-cifre-apprentissage-automatique-pour-le-profiling-a-partir-de-grandes-masses-de-donnees-comportementales/"
+        },
+        "source_text": "- Offer of PhD thesis (CIFRE, 2018) on machine learning for user profiling : click here"
+      },
+      {
+        "type": "postdoc",
+        "count": 1,
+        "year": 2018,
+        "topic": "semi-supervised regression",
+        "domain": null,
+        "funding": "IMU Project: HIREAU",
+        "status": "closed",
+        "link": {
+          "label": "HIREAU",
+          "url": "https://hireau.org/"
+        },
+        "source_text": "- Offer of Post-doc on semi-supervised regression (2018), related to IMU Project: HIREAU (Closed)"
+      },
+      {
+        "type": "phd",
+        "count": 1,
+        "year": 2018,
+        "topic": "semi-supervised multi-label learning",
+        "domain": null,
+        "funding": "CIFRE",
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of PhD thesis (CIFRE, 2018) on semi-supervised multi-label learning (Closed)"
+      },
+      {
+        "type": "master_internship",
+        "count": 2,
+        "year": 2018,
+        "topic": "machine learning for recommendation systems",
+        "domain": null,
+        "funding": null,
+        "status": "closed",
+        "link": null,
+        "source_text": "- Offer of 2 Master internships (2018) on machine learning for recommendation systems (Closed)"
+      }
+    ]
+  },
+  "contact": {
+    "organization": "University of Lyon 1— LIRIS",
+    "address_lines": [
+      "University of Lyon 1— LIRIS",
+      "Bâtiment Nautibus",
+      "43 Boulevard du 11 Novembre 1918",
+      "69622 Villeurbanne Cedex France"
+    ],
+    "phone": "+33 (0) 4 72 43 19 97",
+    "fax": "+33 (0) 4 72 43 15 37",
+    "email_display": "kbenabde [at] univ-lyon1.fr",
+    "email": "kbenabde@univ-lyon1.fr",
+    "website": "http://perso.univ-lyon1.fr/khalid.benabdeslem",
+    "map_image": {
+      "src": "http://kbenabde.free.fr/bk/modules/htmlarea/xinha/plugins/ImageManager/demo_images/campus_ouest_710.gif",
+      "alt": "Campus ouest",
+      "width": 148,
+      "height": 124,
+      "link": "http://fst-informatique.univ-lyon1.fr/departement/acces-et-plans/acces-au-departement-informatique-662194.kjsp"
+    }
+  },
+  "cv": {
+    "diplomas": [
+      {
+        "date": "2014-06",
+        "degree": "HDR",
+        "field": "Machine Learning",
+        "institution": "UCBL",
+        "source_text": "06/2014: HDR (Machine Learning), UCBL"
+      },
+      {
+        "date": "2003-12",
+        "degree": "PhD",
+        "field": "Data Mining",
+        "institution": "USPN",
+        "source_text": "12/2003: PhD (Data Mining), USPN"
+      },
+      {
+        "date": "2000-09",
+        "degree": "DEA (MSc)",
+        "field": "Artificial Intelligence",
+        "institution": "USPN",
+        "source_text": "09/2000: DEA (MSc) (Artificial Intelligence), USPN"
+      },
+      {
+        "date": "1998-09",
+        "degree": "Eng",
+        "field": "Computer Science",
+        "institution": "USTO",
+        "source_text": "09/1998: Eng (Computer Science), USTO"
+      },
+      {
+        "date": "1993-06",
+        "degree": "Bac",
+        "field": "Maths",
+        "institution": "St Eugène",
+        "source_text": "06/1993: Bac (Maths), St Eugène"
+      },
+      {
+        "date": "1990-06",
+        "degree": "BEF",
+        "field": "Fondamental",
+        "institution": "Bel-Air",
+        "source_text": "06/1990: BEF (Fondamental), Bel-Air"
+      }
+    ],
+    "experience": [
+      {
+        "date": "2024 (Spring)",
+        "role": "Visiting researcher",
+        "organization": "GRAAL Lab (LAVAL Univ, Québec) and GERAD Lab (UQAR Univ, Montréal)",
+        "source_text": "Spring 2024 :Visiting researcher at GRAAL Lab (LAVAL Univ, Québec) and GERAD Lab (UQAR Univ, Montréal)"
+      },
+      {
+        "date": "2006-09",
+        "role": "Associate Professor",
+        "organization": "UCBL",
+        "source_text": "09/2006 : Associate Professor at UCBL"
+      },
+      {
+        "date": "2006-03",
+        "role": "Post-Doc",
+        "organization": "INRIA (LORIA & IBCP)",
+        "source_text": "03/2006 : Post-Doc at INRIA (LORIA & IBCP)"
+      },
+      {
+        "date": "2004-09",
+        "role": "Post-Doc",
+        "organization": "CNRS (PBIL - IBCP)",
+        "source_text": "09/2004 : Post-Doc at CNRS (PBIL - IBCP)"
+      },
+      {
+        "date": "2002-09",
+        "role": "Teaching assistant (ATER)",
+        "organization": "USPN",
+        "source_text": "09/2002 : Teaching assistant (ATER) at USPN"
+      },
+      {
+        "date": "2000-10",
+        "role": "R&D Engineer",
+        "organization": "NumSight",
+        "source_text": "10/2000 : R&D Engineer at NumSight"
+      }
+    ]
+  },
+  "research": {
+    "areas": [
+      "Semi-supervised Learning (SSL)",
+      "Statistical Data Mining (SDM)"
+    ],
+    "techniques": [
+      "Optimization (L_{p,q}-Norm)",
+      "Graphs (Spectral, Knowledge)",
+      "Topological Models (SOM)"
+    ],
+    "tasks": [
+      "Multimodal learning",
+      "Multi-view learning",
+      "Regression",
+      "Multi-label learning",
+      "Feature selection",
+      "Co-selection",
+      "Outlier detection",
+      "Complex data clustering",
+      "Constrained clustering",
+      "Incremental clustering",
+      "Co-clustering"
+    ],
+    "applications": [
+      "Automobile",
+      "NLP",
+      "Competitive intelligence",
+      "Health",
+      "Cognitive services",
+      "Distributed systems",
+      "Town planning",
+      "CRM",
+      "Fault detection (Tyre labeling and price)",
+      "Neuroscience",
+      "e-Marketing",
+      "Industrial engineering",
+      "Bioinformatics",
+      "Webmining"
+    ]
+  },
+  "publications": {
+    "counts": {
+      "journal": 24,
+      "conference": 91,
+      "patent": 1,
+      "editorial": 3,
+      "thesis": 4
+    },
+    "journals": [
+      {
+        "id": "J24",
+        "type": "journal",
+        "number": 24,
+        "citation": "S-E. Benkabou, K. Benabdeslem, D-E-K. Mansouri, S. Chaib, A. Mesmoudi, A. Hadjali. A Temporal Dependency Preserving Approach for Anomaly Detection on Multivariate Time Series. WWW journal, 28(37), 2025 (https://doi.org/10.1007/s11280-025-01346-y).",
+        "title": "A Temporal Dependency Preserving Approach for Anomaly Detection on Multivariate Time Series",
+        "authors": [
+          "S-E. Benkabou",
+          "K. Benabdeslem",
+          "D-E-K. Mansouri",
+          "S. Chaib",
+          "A. Mesmoudi",
+          "A. Hadjali"
+        ],
+        "year": 2025,
+        "journal": "WWW journal",
+        "details": "WWW journal, 28(37), 2025 (https://doi.org/10.1007/s11280-025-01346-y)",
+        "online": false,
+        "award": null,
+        "doi": "10.1007/s11280-025-01346-y",
+        "links": [
+          {
+            "label": "DOI",
+            "url": "https://doi.org/10.1007/s11280-025-01346-y"
+          }
+        ]
+      },
+      {
+        "id": "J23",
+        "type": "journal",
+        "number": 23,
+        "citation": "D-E-K. Mansouri, K. Benabdeslem, S-E. Benkabou, S. Chaib, M. Chohri. mFILS: Tri-selection via convex and nonconvex regularizations, IEEE Transactions on Neural Networks and Learning Systems, 35(7), 9871-9884, 2024.",
+        "title": "mFILS: Tri-selection via convex and nonconvex regularizations",
+        "authors": [
+          "D-E-K. Mansouri",
+          "K. Benabdeslem",
+          "S-E. Benkabou",
+          "S. Chaib",
+          "M. Chohri"
+        ],
+        "year": 2024,
+        "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+        "details": "IEEE Transactions on Neural Networks and Learning Systems, 35(7), 9871-9884, 2024",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J22",
+        "type": "journal",
+        "number": 22,
+        "citation": "D-E-K. Mansouri, S-E. Benkabou, A. Hadjali, K. Meddahi, A. Mesmoudi, K. Benabdeslem, S. Chaib. CoSP: Co-Selection Pick for a Global Explainability of Black Box Machine Learning Models. WWW journal, 26(6), 3965-3981, 2023.",
+        "title": "CoSP: Co-Selection Pick for a Global Explainability of Black Box Machine Learning Models",
+        "authors": [
+          "D-E-K. Mansouri",
+          "S-E. Benkabou",
+          "A. Hadjali",
+          "K. Meddahi",
+          "A. Mesmoudi",
+          "K. Benabdeslem",
+          "S. Chaib"
+        ],
+        "year": 2023,
+        "journal": "WWW journal",
+        "details": "WWW journal, 26(6), 3965-3981, 2023",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J21",
+        "type": "journal",
+        "number": 21,
+        "citation": "M. Labiadh, C. Obrecht, C. Ferreira da Silva, P. Ghodous and K. Benabdeslem. Query-adaptive training data recommendation for cross-building predictive modeling. Knowledge and Information Systems. 65(2), 707-732, 2023.",
+        "title": "Query-adaptive training data recommendation for cross-building predictive modeling",
+        "authors": [
+          "M. Labiadh",
+          "C. Obrecht",
+          "C. Ferreira da Silva",
+          "P. Ghodous",
+          "K. Benabdeslem"
+        ],
+        "year": 2023,
+        "journal": "Knowledge and Information Systems",
+        "details": "Knowledge and Information Systems. 65(2), 707-732, 2023",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J20",
+        "type": "journal",
+        "number": 20,
+        "citation": "S-E. Benkabou, K. Benabdeslem, V. Kraus, K. Bourhis, B. Canitia. Local Anomaly Detection for Multivariate Time Series by Temporal Dependency Based on Poisson Model, IEEE Transactions on Neural Networks and Learning Systems, 33(11), 6701-6711, 2022.",
+        "title": "Local Anomaly Detection for Multivariate Time Series by Temporal Dependency Based on Poisson Model",
+        "authors": [
+          "S-E. Benkabou",
+          "K. Benabdeslem",
+          "V. Kraus",
+          "K. Bourhis",
+          "B. Canitia"
+        ],
+        "year": 2022,
+        "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+        "details": "IEEE Transactions on Neural Networks and Learning Systems, 33(11), 6701-6711, 2022",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J19",
+        "type": "journal",
+        "number": 19,
+        "citation": "K. Benabdeslem, D-E-K. Mansouri and R. Makkhongkaew. sCOs: Semi-supervised co-selection by a similarity preserving approach, IEEE Transactions on Knowledge and Data Engineering, 34(6): 2899-2911, 2022.",
+        "title": "sCOs: Semi-supervised co-selection by a similarity preserving approach",
+        "authors": [
+          "K. Benabdeslem",
+          "D-E-K. Mansouri",
+          "R. Makkhongkaew"
+        ],
+        "year": 2022,
+        "journal": "IEEE Transactions on Knowledge and Data Engineering",
+        "details": "IEEE Transactions on Knowledge and Data Engineering, 34(6): 2899-2911, 2022",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "dblp",
+            "url": "https://dblp.org/db/journals/tkde/tkde34.html#BenabdeslemMM22"
+          }
+        ]
+      },
+      {
+        "id": "J18",
+        "type": "journal",
+        "number": 18,
+        "citation": "A. Berro, M-A. Yaghoub-Zadeh-Fard, M. Baez, B. Benatallah, K. Benabdeslem. An Extensible and Reusable Pipeline for Automated Utterance Paraphrases. In Proc VLDB Endow 14(12): 2839-2842, 2021",
+        "title": "An Extensible and Reusable Pipeline for Automated Utterance Paraphrases",
+        "authors": [
+          "A. Berro",
+          "M-A. Yaghoub-Zadeh-Fard",
+          "M. Baez",
+          "B. Benatallah",
+          "K. Benabdeslem"
+        ],
+        "year": 2021,
+        "journal": "Proc VLDB Endow",
+        "details": "In Proc VLDB Endow 14(12): 2839-2842, 2021",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J17",
+        "type": "journal",
+        "number": 17,
+        "citation": "A. Alalga, K. Benabdeslem and D-E-K. Mansouri. 3-3FS : Ensemble method for semi-supervised multi-label feature selection, Knowledge and Information Systems,63 (11): 2969-2999, 2021.",
+        "title": "3-3FS : Ensemble method for semi-supervised multi-label feature selection",
+        "authors": [
+          "A. Alalga",
+          "K. Benabdeslem",
+          "D-E-K. Mansouri"
+        ],
+        "year": 2021,
+        "journal": "Knowledge and Information Systems",
+        "details": "Knowledge and Information Systems,63 (11): 2969-2999, 2021",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J16",
+        "type": "journal",
+        "number": 16,
+        "citation": "D-E-K. Mansouri, B. Kaddar, S-E. Benkabou and K. Benabdeslem. The Mode-Fisher pooling for Time complexity Optimization in Deep Convolutional Neural Networks, Neural Computing and Applications, 3(12) : 6443-6465, 2021.",
+        "title": "The Mode-Fisher pooling for Time complexity Optimization in Deep Convolutional Neural Networks",
+        "authors": [
+          "D-E-K. Mansouri",
+          "B. Kaddar",
+          "S-E. Benkabou",
+          "K. Benabdeslem"
+        ],
+        "year": 2021,
+        "journal": "Neural Computing and Applications",
+        "details": "Neural Computing and Applications, 3(12) : 6443-6465, 2021",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J15",
+        "type": "journal",
+        "number": 15,
+        "citation": "S-E. Benkabou, K. Benabdeslem, B. Canitia. Unsupervised Outlier Detection for Time Series by Entropy and Dynamic Time Warping. Knowledge and Information Systems, Volume 54, N°2, pp 463–486, 2018",
+        "title": "Unsupervised Outlier Detection for Time Series by Entropy and Dynamic Time Warping",
+        "authors": [
+          "S-E. Benkabou",
+          "K. Benabdeslem",
+          "B. Canitia"
+        ],
+        "year": 2018,
+        "journal": "Knowledge and Information Systems",
+        "details": "Knowledge and Information Systems, Volume 54, N°2, pp 463–486, 2018",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J14",
+        "type": "journal",
+        "number": 14,
+        "citation": "K. Benabdeslem, H. Elghazel, M. Hindawi. Ensemble Constrained Laplacian score for efficient and robust semi-supervised feature selection. Knowledge and Information Systems, Volume 49, N°3, pp 1161–1185, 2016",
+        "title": "Ensemble Constrained Laplacian score for efficient and robust semi-supervised feature selection",
+        "authors": [
+          "K. Benabdeslem",
+          "H. Elghazel",
+          "M. Hindawi"
+        ],
+        "year": 2016,
+        "journal": "Knowledge and Information Systems",
+        "details": "Knowledge and Information Systems, Volume 49, N°3, pp 1161–1185, 2016",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J13",
+        "type": "journal",
+        "number": 13,
+        "citation": "A. Alalga, K. Benabdeslem, N. Taleb. Soft-Constrained Laplacian score for semi-supervised multi-label feature selection. Knowledge and Information Systems, Volume 47, N°1, pp 75–98, 2016",
+        "title": "Soft-Constrained Laplacian score for semi-supervised multi-label feature selection",
+        "authors": [
+          "A. Alalga",
+          "K. Benabdeslem",
+          "N. Taleb"
+        ],
+        "year": 2016,
+        "journal": "Knowledge and Information Systems",
+        "details": "Knowledge and Information Systems, Volume 47, N°1, pp 75–98, 2016",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J12",
+        "type": "journal",
+        "number": 12,
+        "citation": "K. Benabdeslem, C. Biernacki, M. Lebbah. Les trois défis du Big-Data: Eléments de reflexion. Statistique et Société. Vol 3, N°1, 19-22, 2015",
+        "title": "Les trois défis du Big-Data: Eléments de reflexion",
+        "authors": [
+          "K. Benabdeslem",
+          "C. Biernacki",
+          "M. Lebbah"
+        ],
+        "year": 2015,
+        "journal": "Statistique et Société",
+        "details": "Statistique et Société. Vol 3, N°1, 19-22, 2015",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J11",
+        "type": "journal",
+        "number": 11,
+        "citation": "R. Makkhongkaew, S. Bonnevay, A. Aussem, K. Benabdeslem. Classification model for performance diagnosis of dry port by rail. Journal of Society for Transportation and Traffic Studies, Vol 6, N°2, 31-40, 2015.",
+        "title": "Classification model for performance diagnosis of dry port by rail",
+        "authors": [
+          "R. Makkhongkaew",
+          "S. Bonnevay",
+          "A. Aussem",
+          "K. Benabdeslem"
+        ],
+        "year": 2015,
+        "journal": "Journal of Society for Transportation and Traffic Studies",
+        "details": "Journal of Society for Transportation and Traffic Studies, Vol 6, N°2, 31-40, 2015",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J10",
+        "type": "journal",
+        "number": 10,
+        "citation": "K. Benabdeslem, M. Hindawi. Efficient semi-supervised feature selection: Constraint, Relevance and Redundancy. IEEE Transactions on Knowledge and Data Engineering, Vol 26, N°5, pp 1131-1143, 2014.",
+        "title": "Efficient semi-supervised feature selection: Constraint, Relevance and Redundancy",
+        "authors": [
+          "K. Benabdeslem",
+          "M. Hindawi"
+        ],
+        "year": 2014,
+        "journal": "IEEE Transactions on Knowledge and Data Engineering",
+        "details": "IEEE Transactions on Knowledge and Data Engineering, Vol 26, N°5, pp 1131-1143, 2014",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J9",
+        "type": "journal",
+        "number": 9,
+        "citation": "H. Elghazel, K. Benabdeslem. Different aspects of clustering the self-organizing maps. Neural Processing Letters, Vol 39, N°1, pp 97-114, 2014.",
+        "title": "Different aspects of clustering the self-organizing maps",
+        "authors": [
+          "H. Elghazel",
+          "K. Benabdeslem"
+        ],
+        "year": 2014,
+        "journal": "Neural Processing Letters",
+        "details": "Neural Processing Letters, Vol 39, N°1, pp 97-114, 2014",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J8",
+        "type": "journal",
+        "number": 8,
+        "citation": "K. Benabdeslem and K. Allab. Bi-clustering continuous data with self-organizing map. Neural Computing and Applications. Vol 22, N°7, pp 1551-1562, 2013.",
+        "title": "Bi-clustering continuous data with self-organizing map",
+        "authors": [
+          "K. Benabdeslem",
+          "K. Allab"
+        ],
+        "year": 2013,
+        "journal": "Neural Computing and Applications",
+        "details": "Neural Computing and Applications. Vol 22, N°7, pp 1551-1562, 2013",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J7",
+        "type": "journal",
+        "number": 7,
+        "citation": "K. Allab, K. Benabdeslem, A. Aussem. Une approche de co-classification automatique à base des cartes topologiques. Revue des nouvelles technologies d'information: RNTI. pp 1-24, 2011.",
+        "title": "Une approche de co-classification automatique à base des cartes topologiques",
+        "authors": [
+          "K. Allab",
+          "K. Benabdeslem",
+          "A. Aussem"
+        ],
+        "year": 2011,
+        "journal": "Revue des nouvelles technologies d'information: RNTI",
+        "details": "Revue des nouvelles technologies d'information: RNTI. pp 1-24, 2011",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J6",
+        "type": "journal",
+        "number": 6,
+        "citation": "K. Benabdeslem, H. Elghazel et R. Jaziri. Un cadre graphique pour la visualisation et la caractérisation de classes en mode non-supervisé. Revue des nouvelles technologies d'information: RNTI, pp, 17-33, 2010.",
+        "title": "Un cadre graphique pour la visualisation et la caractérisation de classes en mode non-supervisé",
+        "authors": [
+          "K. Benabdeslem",
+          "H. Elghazel",
+          "R. Jaziri"
+        ],
+        "year": 2010,
+        "journal": "Revue des nouvelles technologies d'information: RNTI",
+        "details": "Revue des nouvelles technologies d'information: RNTI, pp, 17-33, 2010",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J5",
+        "type": "journal",
+        "number": 5,
+        "citation": "M. Lebbah and K. Benabdeslem. Visualization and clustering of categorical data with probabilistic self organizing map. Neural Computing and Applications. Vol 19, N°3, pp 393-404, 2010.",
+        "title": "Visualization and clustering of categorical data with probabilistic self organizing map",
+        "authors": [
+          "M. Lebbah",
+          "K. Benabdeslem"
+        ],
+        "year": 2010,
+        "journal": "Neural Computing and Applications",
+        "details": "Neural Computing and Applications. Vol 19, N°3, pp 393-404, 2010",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J4",
+        "type": "journal",
+        "number": 4,
+        "citation": "J. Snoussi et K. Benabdeslem. Classification sous contraintes probabilistes par les cartes topologiques. Revue des nouvelles technologies d'information: RNTI, pp 77-91, 2009.",
+        "title": "Classification sous contraintes probabilistes par les cartes topologiques",
+        "authors": [
+          "J. Snoussi",
+          "K. Benabdeslem"
+        ],
+        "year": 2009,
+        "journal": "Revue des nouvelles technologies d'information: RNTI",
+        "details": "Revue des nouvelles technologies d'information: RNTI, pp 77-91, 2009",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J3",
+        "type": "journal",
+        "number": 3,
+        "citation": "K. Benabdeslem et Y. Bennani. Approche connexionniste pour l’analyse des données issues d’usages d’Internet: Classification et Visualisation. Revue des nouvelles technologies de l’information: RNTI, pp 23-36, 2007.",
+        "title": "Approche connexionniste pour l’analyse des données issues d’usages d’Internet: Classification et Visualisation",
+        "authors": [
+          "K. Benabdeslem",
+          "Y. Bennani"
+        ],
+        "year": 2007,
+        "journal": "Revue des nouvelles technologies de l’information: RNTI",
+        "details": "Revue des nouvelles technologies de l’information: RNTI, pp 23-36, 2007",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J2",
+        "type": "journal",
+        "number": 2,
+        "citation": "K. Benabdeslem and Y. Bennani. Dendogram based SVM for multi-class classification. Journal of Computing and Information Technology, Vol 14, No 4, pp 283–289, 2006.",
+        "title": "Dendogram based SVM for multi-class classification",
+        "authors": [
+          "K. Benabdeslem",
+          "Y. Bennani"
+        ],
+        "year": 2006,
+        "journal": "Journal of Computing and Information Technology",
+        "details": "Journal of Computing and Information Technology, Vol 14, No 4, pp 283–289, 2006",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "J1",
+        "type": "journal",
+        "number": 1,
+        "citation": "Y. Le Coadou and K. Benabdeslem. Optimizing local modeling for times series prediction. International Journal of Computational Intelligence Research. Vol.2, No. 1, pp 81-85, 2006.",
+        "title": "Optimizing local modeling for times series prediction",
+        "authors": [
+          "Y. Le Coadou",
+          "K. Benabdeslem"
+        ],
+        "year": 2006,
+        "journal": "International Journal of Computational Intelligence Research",
+        "details": "International Journal of Computational Intelligence Research. Vol.2, No. 1, pp 81-85, 2006",
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      }
+    ],
+    "conferences": [
+      {
+        "id": "C91",
+        "type": "conference",
+        "number": 91,
+        "citation": "Y. Lairigi, L. Moncla, K. Benabdeslem, R. Cazabet, P. Cléau. C-Unseen: Weak Signal Detection in Dynamic Temporal Knowledge Graphs via LLM Reasoning. In the Findings of WISE: international conference on Web information systems engineering, Nov 01-04 2026, Venice (Italy).",
+        "title": "C-Unseen: Weak Signal Detection in Dynamic Temporal Knowledge Graphs via LLM Reasoning",
+        "authors": [
+          "Y. Lairigi",
+          "L. Moncla",
+          "K. Benabdeslem",
+          "R. Cazabet",
+          "P. Cléau"
+        ],
+        "year": 2026,
+        "venue_short": "WISE",
+        "venue": "In the Findings of WISE: international conference on Web information systems engineering, Nov 01-04 2026, Venice (Italy)",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C90",
+        "type": "conference",
+        "number": 90,
+        "citation": "Y. Lairigi, L. Moncla, K. Benabdeslem, R. Cazabet, P. Cléau. ATOM: AdapTive and OptiMized dynamic temporal knowledge graph construction using LLMs. In the Findings of EACL: Conference of the European Chapter of the Association for Computational Linguistics, Mar 24-29 2026, Rabat (Morocco).",
+        "title": "ATOM: AdapTive and OptiMized dynamic temporal knowledge graph construction using LLMs",
+        "authors": [
+          "Y. Lairigi",
+          "L. Moncla",
+          "K. Benabdeslem",
+          "R. Cazabet",
+          "P. Cléau"
+        ],
+        "year": 2026,
+        "venue_short": "EACL",
+        "venue": "In the Findings of EACL: Conference of the European Chapter of the Association for Computational Linguistics, Mar 24-29 2026, Rabat (Morocco)",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C89",
+        "type": "conference",
+        "number": 89,
+        "citation": "A. Berro, VG. Dos Santos, B. Benatallah, K. Benabdeslem. LLMs to replace Crowdsoursing syntactically diverse paraphrases for task-oriented chatbots. In the proceeding of CAISE. June 16-20 2025, Vienna, Austria.",
+        "title": "LLMs to replace Crowdsoursing syntactically diverse paraphrases for task-oriented chatbots",
+        "authors": [
+          "A. Berro",
+          "VG. Dos Santos",
+          "B. Benatallah",
+          "K. Benabdeslem"
+        ],
+        "year": 2025,
+        "venue_short": "CAISE",
+        "venue": "In the proceeding of CAISE. June 16-20 2025, Vienna, Austria",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C88",
+        "type": "conference",
+        "number": 88,
+        "citation": "Y. Gaci, B. Benatallah, F. Casati, K. Benabdeslem. Bias Exposed: The BiaXposer framework for NLP Fairness. In the proceeding of ICSOC 2024, Dec 2024, Tunis (Tunisia).",
+        "title": "Bias Exposed: The BiaXposer framework for NLP Fairness",
+        "authors": [
+          "Y. Gaci",
+          "B. Benatallah",
+          "F. Casati",
+          "K. Benabdeslem"
+        ],
+        "year": 2024,
+        "venue_short": "ICSOC",
+        "venue": "In the proceeding of ICSOC 2024, Dec 2024, Tunis (Tunisia)",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "Y. Gaci, B. Benatallah, F. Casati (dblp)",
+            "url": "https://dblp.org/pid/287/6851.html"
+          },
+          {
+            "label": "F. Casati (dblp)",
+            "url": "https://dblp.org/pid/c/FabioCasati.html"
+          }
+        ]
+      },
+      {
+        "id": "C87",
+        "type": "conference",
+        "number": 87,
+        "citation": "Y. Lairigi, L. Moncla, R. Cazabet, K. Benabdeslem, P. Cléau. iText2KG: Incremental knowledge graphs construction using large language models. In the proceeding of WISE: international conference on Web information systems engineering, Dec 2024, Doha (Qatar).",
+        "title": "iText2KG: Incremental knowledge graphs construction using large language models",
+        "authors": [
+          "Y. Lairigi",
+          "L. Moncla",
+          "R. Cazabet",
+          "K. Benabdeslem",
+          "P. Cléau"
+        ],
+        "year": 2024,
+        "venue_short": "WISE",
+        "venue": "In the proceeding of WISE: international conference on Web information systems engineering, Dec 2024, Doha (Qatar)",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C86",
+        "type": "conference",
+        "number": 86,
+        "citation": "A. Berro, B. Benatallah, Y. Gaci, K. Benabdeslem. Error types in Transformer-based Paraphrasing Models: A Taxonomy, Paraphrase Annotation Model and Dataset. In the proceeding of ECML/PKDD: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases. September 09-13 2024, Vilnius, Lithuania.",
+        "title": "Error types in Transformer-based Paraphrasing Models: A Taxonomy, Paraphrase Annotation Model and Dataset",
+        "authors": [
+          "A. Berro",
+          "B. Benatallah",
+          "Y. Gaci",
+          "K. Benabdeslem"
+        ],
+        "year": 2024,
+        "venue_short": "ECML/PKDD",
+        "venue": "In the proceeding of ECML/PKDD: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases. September 09-13 2024, Vilnius, Lithuania",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C85",
+        "type": "conference",
+        "number": 85,
+        "citation": "V. Kraus, K. Benabdeslem, S-E. Benkabou, D-E-K. Mansouri, B. Canitia. RSMS: Robust semi-supervised multi-label feature selection for regression. In the proceeding of IEEE ICTAI: International Conference on Tools with Artificial Intelligence, Atlanta, USA, Nov 2023.",
+        "title": "RSMS: Robust semi-supervised multi-label feature selection for regression",
+        "authors": [
+          "V. Kraus",
+          "K. Benabdeslem",
+          "S-E. Benkabou",
+          "D-E-K. Mansouri",
+          "B. Canitia"
+        ],
+        "year": 2023,
+        "venue_short": "ICTAI",
+        "venue": "In the proceeding of IEEE ICTAI: International Conference on Tools with Artificial Intelligence, Atlanta, USA, Nov 2023",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C84",
+        "type": "conference",
+        "number": 84,
+        "citation": "Y. Gaci, B. Benatallah, F. Casati, K. Benabdeslem. Societal versus encoded stereotypes in text encoders. In the proceeding of IEEE ICTAI: International Conference on Tools with Artificial Intelligence, Atlanta, USA, Nov 2023.",
+        "title": "Societal versus encoded stereotypes in text encoders",
+        "authors": [
+          "Y. Gaci",
+          "B. Benatallah",
+          "F. Casati",
+          "K. Benabdeslem"
+        ],
+        "year": 2023,
+        "venue_short": "ICTAI",
+        "venue": "In the proceeding of IEEE ICTAI: International Conference on Tools with Artificial Intelligence, Atlanta, USA, Nov 2023",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C83",
+        "type": "conference",
+        "number": 83,
+        "citation": "M. Hennequin, K. Benabdeslem, H. Elghazel. PAC-Bayesian domain adaptation bounds for multi-view learning. In ICML Workshop on PAC-Bayes and Interactive Learning, July 28th 2023, Hawaii, USA.",
+        "title": "PAC-Bayesian domain adaptation bounds for multi-view learning",
+        "authors": [
+          "M. Hennequin",
+          "K. Benabdeslem",
+          "H. Elghazel"
+        ],
+        "year": 2023,
+        "venue_short": "ICML",
+        "venue": "In ICML Workshop on PAC-Bayes and Interactive Learning, July 28th 2023, Hawaii, USA",
+        "workshop": true,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C82",
+        "type": "conference",
+        "number": 82,
+        "citation": "Y. Gaci, B. Benatallah, F. Casati, K. Benabdeslem. Targeting the source: selective data curations for debiasing NLP models. In the proceeding of ECML/PKDD: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases. September 18-22 2023, Turin, Italy.",
+        "title": "Targeting the source: selective data curations for debiasing NLP models",
+        "authors": [
+          "Y. Gaci",
+          "B. Benatallah",
+          "F. Casati",
+          "K. Benabdeslem"
+        ],
+        "year": 2023,
+        "venue_short": "ECML/PKDD",
+        "venue": "In the proceeding of ECML/PKDD: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases. September 18-22 2023, Turin, Italy",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C81",
+        "type": "conference",
+        "number": 81,
+        "citation": "T. Ranvier, E.Coquery, H. Elghazel, K. Benabdeslem. Accounting for imputation uncertainlty during neural network training. In the proceeding of DaWaK: International Conference on Data Warehousing and Knowledge Discovery, 28-30 Augest 2023, Penang, Malaysia.",
+        "title": "Accounting for imputation uncertainlty during neural network training",
+        "authors": [
+          "T. Ranvier",
+          "E.Coquery",
+          "H. Elghazel",
+          "K. Benabdeslem"
+        ],
+        "year": 2023,
+        "venue_short": "DaWaK",
+        "venue": "In the proceeding of DaWaK: International Conference on Data Warehousing and Knowledge Discovery, 28-30 Augest 2023, Penang, Malaysia",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C80",
+        "type": "conference",
+        "number": 80,
+        "citation": "M. Hennequin, K. Benabdeslem, H. Elghazel. Des bornes PAC-Bayesiennes pour l'adaptation de domaine non supervisée dans un cadre d'apprentissage multi-vues. SFC, 06-07 juillet 2023, Strasbourg.",
+        "title": "Des bornes PAC-Bayesiennes pour l'adaptation de domaine non supervisée dans un cadre d'apprentissage multi-vues",
+        "authors": [
+          "M. Hennequin",
+          "K. Benabdeslem",
+          "H. Elghazel"
+        ],
+        "year": 2023,
+        "venue_short": "SFC",
+        "venue": "SFC, 06-07 juillet 2023, Strasbourg",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C79",
+        "type": "conference",
+        "number": 79,
+        "citation": "T. Ranvier, H. Elghazel, E. Coquery, K. Benabdeslem. Considération de l'incertitude de l'imputation dans l'apprentissage des réseaux de neurones. SFC, 06-07 juillet 2023, Strasbourg.",
+        "title": "Considération de l'incertitude de l'imputation dans l'apprentissage des réseaux de neurones",
+        "authors": [
+          "T. Ranvier",
+          "H. Elghazel",
+          "E. Coquery",
+          "K. Benabdeslem"
+        ],
+        "year": 2023,
+        "venue_short": "SFC",
+        "venue": "SFC, 06-07 juillet 2023, Strasbourg",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C78",
+        "type": "conference",
+        "number": 78,
+        "citation": "Y. Gaci, B. Benatallah, F. Casati, K. Benabdeslem. L’importance des mécanismes d’attention dans le débiaisage des encodeurs de textes pré-entrainés. CAp'23. 26ème Conférence francophone d’apprentissage, 03-05 Juillet 2023, Strasbourg.",
+        "title": "L’importance des mécanismes d’attention dans le débiaisage des encodeurs de textes pré-entrainés",
+        "authors": [
+          "Y. Gaci",
+          "B. Benatallah",
+          "F. Casati",
+          "K. Benabdeslem"
+        ],
+        "year": 2023,
+        "venue_short": "CAp",
+        "venue": "CAp'23. 26ème Conférence francophone d’apprentissage, 03-05 Juillet 2023, Strasbourg",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C77",
+        "type": "conference",
+        "number": 77,
+        "citation": "Y. Gaci, B. Benatallah, F. Casati, K. Benabdeslem. Conceptual Debiasing Pretrained Text Encoders by Paying Attention to Payning Attention. EMNLP 2022.",
+        "title": "Conceptual Debiasing Pretrained Text Encoders by Paying Attention to Payning Attention",
+        "authors": [
+          "Y. Gaci",
+          "B. Benatallah",
+          "F. Casati",
+          "K. Benabdeslem"
+        ],
+        "year": 2022,
+        "venue_short": "EMNLP",
+        "venue": "EMNLP 2022",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "Y. Gaci, B. Benatallah, F. Casati (dblp)",
+            "url": "https://dblp.org/pid/287/6851.html"
+          },
+          {
+            "label": "F. Casati (dblp)",
+            "url": "https://dblp.org/pid/c/FabioCasati.html"
+          }
+        ]
+      },
+      {
+        "id": "C76",
+        "type": "conference",
+        "number": 76,
+        "citation": "Y. Gaci, B. Benatallah, F. Casati, K. Benabdeslem. Conceptual Similarity for Subjective Tags. AACL-IJCNLP 2022.",
+        "title": "Conceptual Similarity for Subjective Tags",
+        "authors": [
+          "Y. Gaci",
+          "B. Benatallah",
+          "F. Casati",
+          "K. Benabdeslem"
+        ],
+        "year": 2022,
+        "venue_short": "AACL-IJCNLP",
+        "venue": "AACL-IJCNLP 2022",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "Y. Gaci, B. Benatallah, F. Casati (dblp)",
+            "url": "https://dblp.org/pid/287/6851.html"
+          },
+          {
+            "label": "F. Casati (dblp)",
+            "url": "https://dblp.org/pid/c/FabioCasati.html"
+          }
+        ]
+      },
+      {
+        "id": "C75",
+        "type": "conference",
+        "number": 75,
+        "citation": "T. Ranvier, H. Elghazel, E. Coquery, K. Benabdeslem. Autoencoder-based Attribute Noise Handling Method for Medical Data. In the proceeding of ICONIP: International Conference on Neural Information Processing, 22nd- 26th Nov 2022, New Delhi, India.",
+        "title": "Autoencoder-based Attribute Noise Handling Method for Medical Data",
+        "authors": [
+          "T. Ranvier",
+          "H. Elghazel",
+          "E. Coquery",
+          "K. Benabdeslem"
+        ],
+        "year": 2022,
+        "venue_short": "ICONIP",
+        "venue": "In the proceeding of ICONIP: International Conference on Neural Information Processing, 22nd- 26th Nov 2022, New Delhi, India",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C74",
+        "type": "conference",
+        "number": 74,
+        "citation": "M. Hennequin, K. Benabdeslem, H. Elghazel, T. Ranvier, E. Michoux. Multi-view Self-Attention for Regression Domain Adaptation with feature selection. In the proceeding of ICONIP: International Conference on Neural Information Processing, 22nd- 26th Nov 2022, New Delhi, India.",
+        "title": "Multi-view Self-Attention for Regression Domain Adaptation with feature selection",
+        "authors": [
+          "M. Hennequin",
+          "K. Benabdeslem",
+          "H. Elghazel",
+          "T. Ranvier",
+          "E. Michoux"
+        ],
+        "year": 2022,
+        "venue_short": "ICONIP",
+        "venue": "In the proceeding of ICONIP: International Conference on Neural Information Processing, 22nd- 26th Nov 2022, New Delhi, India",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C73",
+        "type": "conference",
+        "number": 73,
+        "citation": "K. Meddahi, A. Hadjali, S-E. Benkabou, A. Mesmoudi, D-E-K. Mansouri, K. Benabdeslem, S. Chaib. Towards a co-selection approach for a global explainability of black box machine learning models. In the proceeding of WISE: international conference on Web information systems engineering, Oct-Nov 2022, Biarritz (France).",
+        "title": "Towards a co-selection approach for a global explainability of black box machine learning models",
+        "authors": [
+          "K. Meddahi",
+          "A. Hadjali",
+          "S-E. Benkabou",
+          "A. Mesmoudi",
+          "D-E-K. Mansouri",
+          "K. Benabdeslem",
+          "S. Chaib"
+        ],
+        "year": 2022,
+        "venue_short": "WISE",
+        "venue": "In the proceeding of WISE: international conference on Web information systems engineering, Oct-Nov 2022, Biarritz (France)",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C72",
+        "type": "conference",
+        "number": 72,
+        "citation": "M. Hennequin, K. Benabdeslem, H. Elghazel. Adversarial Multi-View Domain Adaptation for Regression. In the proceeding of IEEE IJCNN: International Joint Conference on Neural Network, 18-23 July 2022, Padua (Italy).",
+        "title": "Adversarial Multi-View Domain Adaptation for Regression",
+        "authors": [
+          "M. Hennequin",
+          "K. Benabdeslem",
+          "H. Elghazel"
+        ],
+        "year": 2022,
+        "venue_short": "IJCNN",
+        "venue": "In the proceeding of IEEE IJCNN: International Joint Conference on Neural Network, 18-23 July 2022, Padua (Italy)",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C71",
+        "type": "conference",
+        "number": 71,
+        "citation": "Y. Gaci, B. Benatallah, F. Casati, K. Benabdeslem. Masked language Models as Stereotype Detectors? The 25th international conference on extending database technology EDBT 2022: 2: 383-387.",
+        "title": "Masked language Models as Stereotype Detectors?",
+        "authors": [
+          "Y. Gaci",
+          "B. Benatallah",
+          "F. Casati",
+          "K. Benabdeslem"
+        ],
+        "year": 2022,
+        "venue_short": "EDBT",
+        "venue": "The 25th international conference on extending database technology EDBT 2022: 2: 383-387",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "Y. Gaci, B. Benatallah, F. Casati (dblp)",
+            "url": "https://dblp.org/pid/287/6851.html"
+          },
+          {
+            "label": "F. Casati (dblp)",
+            "url": "https://dblp.org/pid/c/FabioCasati.html"
+          }
+        ]
+      },
+      {
+        "id": "C70",
+        "type": "conference",
+        "number": 70,
+        "citation": "Y. Gaci, B. Benatallah, F. Casati, K. Benabdeslem. Iterative adversarial removal of gender bias in pretrained word embeddings. ACM SAC 2022: 829-836 (Best paper award)",
+        "title": "Iterative adversarial removal of gender bias in pretrained word embeddings",
+        "authors": [
+          "Y. Gaci",
+          "B. Benatallah",
+          "F. Casati",
+          "K. Benabdeslem"
+        ],
+        "year": 2022,
+        "venue_short": "ACM SAC",
+        "venue": "ACM SAC 2022: 829-836 (Best paper award)",
+        "workshop": false,
+        "online": false,
+        "award": "Best paper award",
+        "doi": null,
+        "links": [
+          {
+            "label": "Y. Gaci, B. Benatallah, F. Casati (dblp)",
+            "url": "https://dblp.org/pid/287/6851.html"
+          },
+          {
+            "label": "F. Casati (dblp)",
+            "url": "https://dblp.org/pid/c/FabioCasati.html"
+          },
+          {
+            "label": "dblp",
+            "url": "https://dblp.org/db/conf/sac/sac2022.html#GaciBCB22"
+          }
+        ]
+      },
+      {
+        "id": "C69",
+        "type": "conference",
+        "number": 69,
+        "citation": "A. Berro, M. Baez, B. Benatallah, K. Benabdeslem, M-A. Yaghoub-Zadeh-Fard. Automated Paraphrase Generation with Over-Generation and Pruning Services. ICSOC 2021, pp 400-414.",
+        "title": "Automated Paraphrase Generation with Over-Generation and Pruning Services",
+        "authors": [
+          "A. Berro",
+          "M. Baez",
+          "B. Benatallah",
+          "K. Benabdeslem",
+          "M-A. Yaghoub-Zadeh-Fard"
+        ],
+        "year": 2021,
+        "venue_short": "ICSOC",
+        "venue": "ICSOC 2021, pp 400-414",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C68",
+        "type": "conference",
+        "number": 68,
+        "citation": "T. Ranvier, K. Benabdeslem, K. Bourhis, B. Canitia. Deep Multi-View Learning for Tire Recommendation. In the proceeding of IEEE IJCNN: International Joint Conference on Neural Network, 18-22 July 2021, Shenzhen (China), (Online).",
+        "title": "Deep Multi-View Learning for Tire Recommendation",
+        "authors": [
+          "T. Ranvier",
+          "K. Benabdeslem",
+          "K. Bourhis",
+          "B. Canitia"
+        ],
+        "year": 2021,
+        "venue_short": "IJCNN",
+        "venue": "In the proceeding of IEEE IJCNN: International Joint Conference on Neural Network, 18-22 July 2021, Shenzhen (China), (Online)",
+        "workshop": false,
+        "online": true,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C67",
+        "type": "conference",
+        "number": 67,
+        "citation": "D-E-K. Mansouri, K. Benabdeslem. Towards multi-label Feature selection by Instance and Label Selections. In the proceeding of PAKDD: the 25th Pacific-Asia Conference on Knowledge Discovery and Data Mining, pp 233-244, May 2021, Delhi (India). (Online).",
+        "title": "Towards multi-label Feature selection by Instance and Label Selections",
+        "authors": [
+          "D-E-K. Mansouri",
+          "K. Benabdeslem"
+        ],
+        "year": 2021,
+        "venue_short": "PAKDD",
+        "venue": "In the proceeding of PAKDD: the 25th Pacific-Asia Conference on Knowledge Discovery and Data Mining, pp 233-244, May 2021, Delhi (India). (Online)",
+        "workshop": false,
+        "online": true,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C66",
+        "type": "conference",
+        "number": 66,
+        "citation": "Y. Gaci, J. Ramirez, B. Benatallah, F. Casati and K. Benabdeslem. Subjectivity Aware Conversational Search Services. In the proceeding of EDBT: the 24th International Conference on Extending Database Technology, pp 157-168, March 2021, Nicosia (Cyprus). (Online).",
+        "title": "Subjectivity Aware Conversational Search Services",
+        "authors": [
+          "Y. Gaci",
+          "J. Ramirez",
+          "B. Benatallah",
+          "F. Casati",
+          "K. Benabdeslem"
+        ],
+        "year": 2021,
+        "venue_short": "EDBT",
+        "venue": "In the proceeding of EDBT: the 24th International Conference on Extending Database Technology, pp 157-168, March 2021, Nicosia (Cyprus). (Online)",
+        "workshop": false,
+        "online": true,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C65",
+        "type": "conference",
+        "number": 65,
+        "citation": "V. Kraus, K. Benabdeslem, B. Canitia. Vers une régression Laplacienne semi-supervisée et multi-labels. In the proceeding of CIFSD, Marseille, France, 9-11 Juin 2021. (Online) (2nd Best paper award)",
+        "title": "Vers une régression Laplacienne semi-supervisée et multi-labels",
+        "authors": [
+          "V. Kraus",
+          "K. Benabdeslem",
+          "B. Canitia"
+        ],
+        "year": 2021,
+        "venue_short": "CIFSD",
+        "venue": "In the proceeding of CIFSD, Marseille, France, 9-11 Juin 2021. (Online) (2nd Best paper award)",
+        "workshop": false,
+        "online": true,
+        "award": "2nd Best paper award",
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C64",
+        "type": "conference",
+        "number": 64,
+        "citation": "T. Ranvier, K. Benabdeslem, K. Bourhis, B. Canitia. Apprentissage multi-vues pour la recommandation dans le domaine du pneumatique. EGC, 25-29 janvier 2021, Montpellier. (Online).",
+        "title": "Apprentissage multi-vues pour la recommandation dans le domaine du pneumatique",
+        "authors": [
+          "T. Ranvier",
+          "K. Benabdeslem",
+          "K. Bourhis",
+          "B. Canitia"
+        ],
+        "year": 2021,
+        "venue_short": "EGC",
+        "venue": "EGC, 25-29 janvier 2021, Montpellier. (Online)",
+        "workshop": false,
+        "online": true,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C63",
+        "type": "conference",
+        "number": 63,
+        "citation": "M. Kanaan, K. Benabdeslem, H. Kheddouci. A Generative Time Series Clustering Framework Based on an Ensemble Mixture of HMMs. In the proceeding of IEEE ICTAI: International Conference on Tools with Artificial Intelligence, pp 793-798, Nov 2020, (Online).",
+        "title": "A Generative Time Series Clustering Framework Based on an Ensemble Mixture of HMMs",
+        "authors": [
+          "M. Kanaan",
+          "K. Benabdeslem",
+          "H. Kheddouci"
+        ],
+        "year": 2020,
+        "venue_short": "ICTAI",
+        "venue": "In the proceeding of IEEE ICTAI: International Conference on Tools with Artificial Intelligence, pp 793-798, Nov 2020, (Online)",
+        "workshop": false,
+        "online": true,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C62",
+        "type": "conference",
+        "number": 62,
+        "citation": "Y. Djebrouni, S. Bouchenak, K. Benabdeslem. Collecting and Characterizing Distributed Machine Learning Workloads. COMPAS, Lyon, France, 30 Juin - 03 July 2020. (Online).",
+        "title": "Collecting and Characterizing Distributed Machine Learning Workloads",
+        "authors": [
+          "Y. Djebrouni",
+          "S. Bouchenak",
+          "K. Benabdeslem"
+        ],
+        "year": 2020,
+        "venue_short": "COMPAS",
+        "venue": "COMPAS, Lyon, France, 30 Juin - 03 July 2020. (Online)",
+        "workshop": false,
+        "online": true,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C61",
+        "type": "conference",
+        "number": 61,
+        "citation": "V. Kraus, K. Benabdeslem, B. Canitia. Laplacian-based Semi-supervised Multi-Label Regression. In the proceeding of IEEE IJCNN: International Joint Conference on Neural Network, Glasgow, UK, 19-24 July 2020. (Online).",
+        "title": "Laplacian-based Semi-supervised Multi-Label Regression",
+        "authors": [
+          "V. Kraus",
+          "K. Benabdeslem",
+          "B. Canitia"
+        ],
+        "year": 2020,
+        "venue_short": "IJCNN",
+        "venue": "In the proceeding of IEEE IJCNN: International Joint Conference on Neural Network, Glasgow, UK, 19-24 July 2020. (Online)",
+        "workshop": false,
+        "online": true,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C60",
+        "type": "conference",
+        "number": 60,
+        "citation": "A. Keraghel, K. Benabdeslem, B. Canitia. Data augmentation process to improve deep learning-based NER task in the automotive industry field. In the proceeding of IEEE IJCNN: International Joint Conference on Neural Network, Glasgow, UK, 19-24 July 2020. (Online).",
+        "title": "Data augmentation process to improve deep learning-based NER task in the automotive industry field",
+        "authors": [
+          "A. Keraghel",
+          "K. Benabdeslem",
+          "B. Canitia"
+        ],
+        "year": 2020,
+        "venue_short": "IJCNN",
+        "venue": "In the proceeding of IEEE IJCNN: International Joint Conference on Neural Network, Glasgow, UK, 19-24 July 2020. (Online)",
+        "workshop": false,
+        "online": true,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C59",
+        "type": "conference",
+        "number": 59,
+        "citation": "A. Keraghel, K. Benabdeslem, B. Canitia. Étude comparative pour l'analyse de requêtes complexes dans le domaine du pneumatique. EGC, 27-31 janvier 2020, Bruxelles.",
+        "title": "Étude comparative pour l'analyse de requêtes complexes dans le domaine du pneumatique",
+        "authors": [
+          "A. Keraghel",
+          "K. Benabdeslem",
+          "B. Canitia"
+        ],
+        "year": 2020,
+        "venue_short": "EGC",
+        "venue": "EGC, 27-31 janvier 2020, Bruxelles",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C58",
+        "type": "conference",
+        "number": 58,
+        "citation": "A. Kenaan, K. Benabdeslem, K. Bourhis, B. Canitia. Approches hybrides pour la recommandation dans le domaine du pneumatique. EGC, 27-31 janvier 2020, Bruxelles.",
+        "title": "Approches hybrides pour la recommandation dans le domaine du pneumatique",
+        "authors": [
+          "A. Kenaan",
+          "K. Benabdeslem",
+          "K. Bourhis",
+          "B. Canitia"
+        ],
+        "year": 2020,
+        "venue_short": "EGC",
+        "venue": "EGC, 27-31 janvier 2020, Bruxelles",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C57",
+        "type": "conference",
+        "number": 57,
+        "citation": "D-E-K. Mansouri, S-E. Benkabou, B. Kaddar and K. Benabdeslem. A novel proposed pooling for convolutional neural network. In the proceeding of IEEE ICTAI: International Conference on Tools with Artificial Intelligence, pp 1739-1743, Nov 2019, Portland, OR (USA).",
+        "title": "A novel proposed pooling for convolutional neural network",
+        "authors": [
+          "D-E-K. Mansouri",
+          "S-E. Benkabou",
+          "B. Kaddar",
+          "K. Benabdeslem"
+        ],
+        "year": 2019,
+        "venue_short": "ICTAI",
+        "venue": "In the proceeding of IEEE ICTAI: International Conference on Tools with Artificial Intelligence, pp 1739-1743, Nov 2019, Portland, OR (USA)",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C56",
+        "type": "conference",
+        "number": 56,
+        "citation": "D-E-K. Mansouri, S-E. Benkabou, B. Kaddar, J-L. Larriba-Pey and K. Benabdeslem. Reducing Traffic Congestion by LSTM-LOF Framework. In the proceeding of IEEE AICCSA: International Conference on Computer Systems and Applicationse, Nov 2019, Abu Dhabi (UAE).",
+        "title": "Reducing Traffic Congestion by LSTM-LOF Framework",
+        "authors": [
+          "D-E-K. Mansouri",
+          "S-E. Benkabou",
+          "B. Kaddar",
+          "J-L. Larriba-Pey",
+          "K. Benabdeslem"
+        ],
+        "year": 2019,
+        "venue_short": "AICCSA",
+        "venue": "In the proceeding of IEEE AICCSA: International Conference on Computer Systems and Applicationse, Nov 2019, Abu Dhabi (UAE)",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C55",
+        "type": "conference",
+        "number": 55,
+        "citation": "S-E.Benkabou, K. Benabdeslem, V. Kraus, K. bourhis, B. Canitia. Détection contextuelle d'anomalies à partir de séries temporelles multi-variées à base de modèle de Poisson. CAp'19. 22ème Conférence francophone d’apprentissage, 03-05 Juillet 2019, Toulouse.",
+        "title": "Détection contextuelle d'anomalies à partir de séries temporelles multi-variées à base de modèle de Poisson",
+        "authors": [
+          "S-E.Benkabou",
+          "K. Benabdeslem",
+          "V. Kraus",
+          "K. bourhis",
+          "B. Canitia"
+        ],
+        "year": 2019,
+        "venue_short": "CAp",
+        "venue": "CAp'19. 22ème Conférence francophone d’apprentissage, 03-05 Juillet 2019, Toulouse",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C54",
+        "type": "conference",
+        "number": 54,
+        "citation": "K. Bourhis, K. Benabdeslem, B. Canitia. Entre factorisation de matrices et apprentissage profond pour la recommandation dans le domaine du pneumatique. EGC, 21-25 janvier 2019, Metz.",
+        "title": "Entre factorisation de matrices et apprentissage profond pour la recommandation dans le domaine du pneumatique",
+        "authors": [
+          "K. Bourhis",
+          "K. Benabdeslem",
+          "B. Canitia"
+        ],
+        "year": 2019,
+        "venue_short": "EGC",
+        "venue": "EGC, 21-25 janvier 2019, Metz",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C53",
+        "type": "conference",
+        "number": 53,
+        "citation": "V. Kraus, S-E. Benkabou, K. Benabdeslem, F. Cherqui. An improved Laplacian semi-supervised regression. In the proceeding of IEEE ICTAI: International Conference on Tools with Artificial Intelligence, pp 564-570, 05-07 Nov 2018, Volos (Greece).",
+        "title": "An improved Laplacian semi-supervised regression",
+        "authors": [
+          "V. Kraus",
+          "S-E. Benkabou",
+          "K. Benabdeslem",
+          "F. Cherqui"
+        ],
+        "year": 2018,
+        "venue_short": "ICTAI",
+        "venue": "In the proceeding of IEEE ICTAI: International Conference on Tools with Artificial Intelligence, pp 564-570, 05-07 Nov 2018, Volos (Greece)",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C52",
+        "type": "conference",
+        "number": 52,
+        "citation": "V. Kraus, K. Benabdeslem, F. Cherqui. Régression Laplacienne semi-supervisée pour la reconstitution des dates de pose des réseaux d'assainissement. EGC, 24-26 janvier 2018, Paris.",
+        "title": "Régression Laplacienne semi-supervisée pour la reconstitution des dates de pose des réseaux d'assainissement",
+        "authors": [
+          "V. Kraus",
+          "K. Benabdeslem",
+          "F. Cherqui"
+        ],
+        "year": 2018,
+        "venue_short": "EGC",
+        "venue": "EGC, 24-26 janvier 2018, Paris",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C51",
+        "type": "conference",
+        "number": 51,
+        "citation": "S-E. Benkabou, K. Benabdeslem, B. Canitia. Régularisation Ridge pour la détection non-supervisée à partir de séries temporelles. SFC, 28-30 juin 2017, Lyon.",
+        "title": "Régularisation Ridge pour la détection non-supervisée à partir de séries temporelles",
+        "authors": [
+          "S-E. Benkabou",
+          "K. Benabdeslem",
+          "B. Canitia"
+        ],
+        "year": 2017,
+        "venue_short": "SFC",
+        "venue": "SFC, 28-30 juin 2017, Lyon",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C50",
+        "type": "conference",
+        "number": 50,
+        "citation": "S-E. Benkabou, K. Benabdeslem, B. Canitia. L2-Type Regularization-based Unsupervised Anomaly Detection from Temporal Data. In the proceeding of IEEE IJCNN: International Joint Conference on Neural Network, pp 2354-2361, Alaska, USA, May 2017.",
+        "title": "L2-Type Regularization-based Unsupervised Anomaly Detection from Temporal Data",
+        "authors": [
+          "S-E. Benkabou",
+          "K. Benabdeslem",
+          "B. Canitia"
+        ],
+        "year": 2017,
+        "venue_short": "IJCNN",
+        "venue": "In the proceeding of IEEE IJCNN: International Joint Conference on Neural Network, pp 2354-2361, Alaska, USA, May 2017",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C49",
+        "type": "conference",
+        "number": 49,
+        "citation": "S-E. Benkabou, K. Benabdeslem, B. Canitia. Local-to-Global unsupervised anomaly detection from temporal data. In the proceeding of PAKDD, pp 762-772, Jeju, South Korea, May 2017.",
+        "title": "Local-to-Global unsupervised anomaly detection from temporal data",
+        "authors": [
+          "S-E. Benkabou",
+          "K. Benabdeslem",
+          "B. Canitia"
+        ],
+        "year": 2017,
+        "venue_short": "PAKDD",
+        "venue": "In the proceeding of PAKDD, pp 762-772, Jeju, South Korea, May 2017",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C48",
+        "type": "conference",
+        "number": 48,
+        "citation": "R. Makkhongkaew, K. Benabdeslem. Semi-supervised similarity preserving co-selection. In IEEE ICDM Workshop on High Dimensional Data Mining, Barcelona, Spain, December 2016.",
+        "title": "Semi-supervised similarity preserving co-selection",
+        "authors": [
+          "R. Makkhongkaew",
+          "K. Benabdeslem"
+        ],
+        "year": 2016,
+        "venue_short": "ICDM",
+        "venue": "In IEEE ICDM Workshop on High Dimensional Data Mining, Barcelona, Spain, December 2016",
+        "workshop": true,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C47",
+        "type": "conference",
+        "number": 47,
+        "citation": "S-E. Benkabou, K. Benabdeslem, B. Canitia. Entropy-based clustering for anomaly detection from time-series data. In ICML Workshop on anomaly detection, NY, USA, June 2016.",
+        "title": "Entropy-based clustering for anomaly detection from time-series data",
+        "authors": [
+          "S-E. Benkabou",
+          "K. Benabdeslem",
+          "B. Canitia"
+        ],
+        "year": 2016,
+        "venue_short": "ICML",
+        "venue": "In ICML Workshop on anomaly detection, NY, USA, June 2016",
+        "workshop": true,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C46",
+        "type": "conference",
+        "number": 46,
+        "citation": "R. Makkhongkaew, K. Benabdeslem, H. Elghazel. Semi-supervised co-selection: features and instances by a weighting approach. In the proceeding of IEEE IJCNN: International Joint Conference on Neural Network 2016, pp 3477-3484, Vancouver, Canada.",
+        "title": "Semi-supervised co-selection: features and instances by a weighting approach",
+        "authors": [
+          "R. Makkhongkaew",
+          "K. Benabdeslem",
+          "H. Elghazel"
+        ],
+        "year": 2016,
+        "venue_short": "IJCNN",
+        "venue": "In the proceeding of IEEE IJCNN: International Joint Conference on Neural Network 2016, pp 3477-3484, Vancouver, Canada",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C45",
+        "type": "conference",
+        "number": 45,
+        "citation": "R. Makkhongkaew, K. Benabdeslem, H. Elghazel. Co-sélection instances-variables en mode semi-supervisé. SFC, 22-26 Mai 2016, Marrakech, Maroc.",
+        "title": "Co-sélection instances-variables en mode semi-supervisé",
+        "authors": [
+          "R. Makkhongkaew",
+          "K. Benabdeslem",
+          "H. Elghazel"
+        ],
+        "year": 2016,
+        "venue_short": "SFC",
+        "venue": "SFC, 22-26 Mai 2016, Marrakech, Maroc",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C44",
+        "type": "conference",
+        "number": 44,
+        "citation": "S-E. Benkabou, K. Benabdeslem, B. Canitia. Une approche Embedded pour la détection de nouveautés à partir de séries temporelles. SFC, 22-26 Mai 2016, Marrakech, Maroc.",
+        "title": "Une approche Embedded pour la détection de nouveautés à partir de séries temporelles",
+        "authors": [
+          "S-E. Benkabou",
+          "K. Benabdeslem",
+          "B. Canitia"
+        ],
+        "year": 2016,
+        "venue_short": "SFC",
+        "venue": "SFC, 22-26 Mai 2016, Marrakech, Maroc",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C43",
+        "type": "conference",
+        "number": 43,
+        "citation": "K. Benabdeslem, M. Hindawi, R. Makkhongkaew. Weighting-based approach for semi-supervised feature selection. In the proceeding of ICONIP. International Conference on Neural Information Processing, pp 300-307, 9th- 12th Nov 2015, Istanbul, Turkey.",
+        "title": "Weighting-based approach for semi-supervised feature selection",
+        "authors": [
+          "K. Benabdeslem",
+          "M. Hindawi",
+          "R. Makkhongkaew"
+        ],
+        "year": 2015,
+        "venue_short": "ICONIP",
+        "venue": "In the proceeding of ICONIP. International Conference on Neural Information Processing, pp 300-307, 9th- 12th Nov 2015, Istanbul, Turkey",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C42",
+        "type": "conference",
+        "number": 42,
+        "citation": "S-E. Benkabou, K. Benabdeslem, B. Canitia. Une approche à deux niveaux séquentiels pour la détection de nouveautés à partir de séries temporelles. SFC, 09-11 Septembre 2015, Nantes.",
+        "title": "Une approche à deux niveaux séquentiels pour la détection de nouveautés à partir de séries temporelles",
+        "authors": [
+          "S-E. Benkabou",
+          "K. Benabdeslem",
+          "B. Canitia"
+        ],
+        "year": 2015,
+        "venue_short": "SFC",
+        "venue": "SFC, 09-11 Septembre 2015, Nantes",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C41",
+        "type": "conference",
+        "number": 41,
+        "citation": "A. Bendahmane, A. Benyettou, K. Benabdeslem. Une approche évolutionnaire multi-contraintes pour l'optimisation de la génération automatique d'emplois du temps universitaires. COSI. Coloque sur l’optimisation et les systèmes d’information, 01-03 Juin 2015, Oran.",
+        "title": "Une approche évolutionnaire multi-contraintes pour l'optimisation de la génération automatique d'emplois du temps universitaires",
+        "authors": [
+          "A. Bendahmane",
+          "A. Benyettou",
+          "K. Benabdeslem"
+        ],
+        "year": 2015,
+        "venue_short": "COSI",
+        "venue": "COSI. Coloque sur l’optimisation et les systèmes d’information, 01-03 Juin 2015, Oran",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C40",
+        "type": "conference",
+        "number": 40,
+        "citation": "As. Benyettou, A. Bendahmane, K. Benabdeslem. Sélection de variables pour l'amélioration de l'accès à l'information sur le Web. COSI. Coloque sur l’optimisation et les systèmes d’information, 01-03 Juin 2015, Oran.",
+        "title": "Sélection de variables pour l'amélioration de l'accès à l'information sur le Web",
+        "authors": [
+          "As. Benyettou",
+          "A. Bendahmane",
+          "K. Benabdeslem"
+        ],
+        "year": 2015,
+        "venue_short": "COSI",
+        "venue": "COSI. Coloque sur l’optimisation et les systèmes d’information, 01-03 Juin 2015, Oran",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C39",
+        "type": "conference",
+        "number": 39,
+        "citation": "A. Alalga et K. Benabdeslem. Sélection de variables en mode semi-supervisé dans un contexte multi-labels. CAp'14. 16ème Conférence francophone d’apprentissage, 08-10 Juillet 2014, Saint Etienne.",
+        "title": "Sélection de variables en mode semi-supervisé dans un contexte multi-labels",
+        "authors": [
+          "A. Alalga",
+          "K. Benabdeslem"
+        ],
+        "year": 2014,
+        "venue_short": "CAp",
+        "venue": "CAp'14. 16ème Conférence francophone d’apprentissage, 08-10 Juillet 2014, Saint Etienne",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C38",
+        "type": "conference",
+        "number": 38,
+        "citation": "M. Hindawi, H. Elghazel, K. Benabdeslem. Efficient Semi-Supervised Feature Selection by An Ensemble Approach. In COPEM@ECML/PKDD. International Workshop on Complex Machine Learning Problems with Ensemble Methods. 27th September 2013, Prague, Czech Republic.",
+        "title": "Efficient Semi-Supervised Feature Selection by An Ensemble Approach",
+        "authors": [
+          "M. Hindawi",
+          "H. Elghazel",
+          "K. Benabdeslem"
+        ],
+        "year": 2013,
+        "venue_short": "COPEM@ECML/PKDD",
+        "venue": "In COPEM@ECML/PKDD. International Workshop on Complex Machine Learning Problems with Ensemble Methods. 27th September 2013, Prague, Czech Republic",
+        "workshop": true,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "COPEM@ECML/PKDD",
+            "url": "http://ama.imag.fr/COPEM/"
+          }
+        ]
+      },
+      {
+        "id": "C37",
+        "type": "conference",
+        "number": 37,
+        "citation": "M. Hindawi, K. Benabdeslem. Local-To-Global Semi-Supervised Feature selection. In the proceeding of CIKM. ACM International Conference on Information and Knowledge Management, pp 2159-2168, 27th Oct- 1st Nov 2013, San Francisco, CA, USA.",
+        "title": "Local-To-Global Semi-Supervised Feature selection",
+        "authors": [
+          "M. Hindawi",
+          "K. Benabdeslem"
+        ],
+        "year": 2013,
+        "venue_short": "CIKM",
+        "venue": "In the proceeding of CIKM. ACM International Conference on Information and Knowledge Management, pp 2159-2168, 27th Oct- 1st Nov 2013, San Francisco, CA, USA",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "CIKM",
+            "url": "http://www.cikm2013.org"
+          }
+        ]
+      },
+      {
+        "id": "C36",
+        "type": "conference",
+        "number": 36,
+        "citation": "M. Hindawi, K. Benabdeslem. Une approche embedded pour la sélection de variables en mode semi-supervisé. SFC, pp13, 29-31 Octobre 2012, Marseille.",
+        "title": "Une approche embedded pour la sélection de variables en mode semi-supervisé",
+        "authors": [
+          "M. Hindawi",
+          "K. Benabdeslem"
+        ],
+        "year": 2012,
+        "venue_short": "SFC",
+        "venue": "SFC, pp13, 29-31 Octobre 2012, Marseille",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "link",
+            "url": "http://www.springerlink.com/content/b495k706762k4231/"
+          }
+        ]
+      },
+      {
+        "id": "C35",
+        "type": "conference",
+        "number": 35,
+        "citation": "K. Benabdeslem, B. Effantin, H. Elghazel. A graph enrichment based clustering over vertically partitioned data. In the proceeding of ADMA. International Conference on Advanced Data Mining and Applications. LNAI N°7120 - © Springer Verlag, pp 42-54, 17-19 December 2011, Beijing, China.",
+        "title": "A graph enrichment based clustering over vertically partitioned data",
+        "authors": [
+          "K. Benabdeslem",
+          "B. Effantin",
+          "H. Elghazel"
+        ],
+        "year": 2011,
+        "venue_short": "ADMA",
+        "venue": "In the proceeding of ADMA. International Conference on Advanced Data Mining and Applications. LNAI N°7120 - © Springer Verlag, pp 42-54, 17-19 December 2011, Beijing, China",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "ADMA",
+            "url": "http://adma2011.arnetminer.org/doku.php?id=program#program_overview"
+          }
+        ]
+      },
+      {
+        "id": "C34",
+        "type": "conference",
+        "number": 34,
+        "citation": "M. Hindawi, K. Allab, K. Benabdeslem. Constraint selection based semi-supervised feature selection. In the proceeding of ICDM. IEEE International Conference on Data Mining, pp 1080-1085, 11-14 December 2011, Vancouver, Canada.",
+        "title": "Constraint selection based semi-supervised feature selection",
+        "authors": [
+          "M. Hindawi",
+          "K. Allab",
+          "K. Benabdeslem"
+        ],
+        "year": 2011,
+        "venue_short": "ICDM",
+        "venue": "In the proceeding of ICDM. IEEE International Conference on Data Mining, pp 1080-1085, 11-14 December 2011, Vancouver, Canada",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "ICDM",
+            "url": "http://icdm2011.cs.ualberta.ca/program-overview.php"
+          }
+        ]
+      },
+      {
+        "id": "C33",
+        "type": "conference",
+        "number": 33,
+        "citation": "K. Benabdeslem, M. Hindawi. Constrained Laplacian Score for semi-supervised feature selection. In the proceeding of ECML/PKDD. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases. LNAI N°6911 - © Springer Verlag, pp 204-218, 05-09 September 2011, Athens, Greece.",
+        "title": "Constrained Laplacian Score for semi-supervised feature selection",
+        "authors": [
+          "K. Benabdeslem",
+          "M. Hindawi"
+        ],
+        "year": 2011,
+        "venue_short": "ECML/PKDD",
+        "venue": "In the proceeding of ECML/PKDD. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases. LNAI N°6911 - © Springer Verlag, pp 204-218, 05-09 September 2011, Athens, Greece",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "ECML/PKDD",
+            "url": "http://www.ecmlpkdd2011.org/acceptedPapers.php"
+          }
+        ]
+      },
+      {
+        "id": "C32",
+        "type": "conference",
+        "number": 32,
+        "citation": "K. Allab, K. Benabdeslem. Constraint selection for semi-supervised topological clustering. In the proceeding of ECML/PKDD. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases. LNAI N°6911 - © Springer Verlag, pp 28-43, September 2011, Athens, Greece.",
+        "title": "Constraint selection for semi-supervised topological clustering",
+        "authors": [
+          "K. Allab",
+          "K. Benabdeslem"
+        ],
+        "year": 2011,
+        "venue_short": "ECML/PKDD",
+        "venue": "In the proceeding of ECML/PKDD. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases. LNAI N°6911 - © Springer Verlag, pp 28-43, September 2011, Athens, Greece",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "ECML/PKDD",
+            "url": "http://www.ecmlpkdd2011.org/acceptedPapers.php"
+          }
+        ]
+      },
+      {
+        "id": "C31",
+        "type": "conference",
+        "number": 31,
+        "citation": "M. Hindawi, K. Benabdeslem. Un score Laplacien sous contraintes pour la sélection de variables en mode semi-supervisé. Journées \"Fouille de Données Complexes et de Grands Graphes\", 20-21 Juin 2011, Paris.",
+        "title": "Un score Laplacien sous contraintes pour la sélection de variables en mode semi-supervisé",
+        "authors": [
+          "M. Hindawi",
+          "K. Benabdeslem"
+        ],
+        "year": 2011,
+        "venue_short": null,
+        "venue": "Journées \"Fouille de Données Complexes et de Grands Graphes\", 20-21 Juin 2011, Paris",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "Fouille de Données Complexes et de Grands Graphes",
+            "url": "http://eric.univ-lyon2.fr/~gt-fdc/"
+          }
+        ]
+      },
+      {
+        "id": "C30",
+        "type": "conference",
+        "number": 30,
+        "citation": "K. Allab et K. Benabdeslem. Sélection de contraintes en apprentissage topologique semi-supervisé. CAp'11. 13ème Conférence francophone d’apprentissage, pp 39-54, Chambéry, 17-20 Mai 2011.",
+        "title": "Sélection de contraintes en apprentissage topologique semi-supervisé",
+        "authors": [
+          "K. Allab",
+          "K. Benabdeslem"
+        ],
+        "year": 2011,
+        "venue_short": "CAp",
+        "venue": "CAp'11. 13ème Conférence francophone d’apprentissage, pp 39-54, Chambéry, 17-20 Mai 2011",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C29",
+        "type": "conference",
+        "number": 29,
+        "citation": "R. Jaziri, K. Benabdeslem and H. Elghazel. A Graph based framework for clustering and characterization of SOM. 20th International Conference on Artificial Neural Networks, ICANN'10, LNCS N°6354 - © Springer Verlag. pp 387-396, September 15-18, 2010, Thessaloniki, Greece.",
+        "title": "A Graph based framework for clustering and characterization of SOM",
+        "authors": [
+          "R. Jaziri",
+          "K. Benabdeslem",
+          "H. Elghazel"
+        ],
+        "year": 2010,
+        "venue_short": "ICANN",
+        "venue": "20th International Conference on Artificial Neural Networks, ICANN'10, LNCS N°6354 - © Springer Verlag. pp 387-396, September 15-18, 2010, Thessaloniki, Greece",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "20th International Conference on Artificial Neural Networks",
+            "url": "http://www.springerlink.com/content/e2jt74j74t0n0l76/"
+          }
+        ]
+      },
+      {
+        "id": "C28",
+        "type": "conference",
+        "number": 28,
+        "citation": "H. Elghazel, K. Benabdeslem and F. Hamdi. Consensus clustering by graph based approach. ESANN'10 proceedings - European Symposium on Artificial Neural Networks, pp 493-498, Bruges (Belgium), 28-30 April 2010.",
+        "title": "Consensus clustering by graph based approach",
+        "authors": [
+          "H. Elghazel",
+          "K. Benabdeslem",
+          "F. Hamdi"
+        ],
+        "year": 2010,
+        "venue_short": "ESANN",
+        "venue": "ESANN'10 proceedings - European Symposium on Artificial Neural Networks, pp 493-498, Bruges (Belgium), 28-30 April 2010",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "European Symposium on Artificial Neural Networks",
+            "url": "http://www.dice.ucl.ac.be/Proceedings/esann/esannpdf/es2010-92.pdf"
+          }
+        ]
+      },
+      {
+        "id": "C27",
+        "type": "conference",
+        "number": 27,
+        "citation": "F. Hamdi, H. Elghazel et K.Benabdeslem . AFDC-EGC’10. Approche graphique pour l'agrégation de classifications non-supervisées. Atelier : Fouille de données complexes dans le cadre de la conférence EGC2010, Hammamet, Janvier 2010.",
+        "title": "Approche graphique pour l'agrégation de classifications non-supervisées",
+        "authors": [
+          "F. Hamdi",
+          "H. Elghazel",
+          "K.Benabdeslem"
+        ],
+        "year": 2010,
+        "venue_short": "AFDC-EGC’10",
+        "venue": "Atelier : Fouille de données complexes dans le cadre de la conférence EGC2010, Hammamet, Janvier 2010",
+        "workshop": true,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "Fouille de données complexes",
+            "url": "http://sites.google.com/site/afdcegc10/programme"
+          }
+        ]
+      },
+      {
+        "id": "C26",
+        "type": "conference",
+        "number": 26,
+        "citation": "H. Elghazel, K. Benabdeslem and H.Kheddouci. McSOM: Minimal coloring of Self organizing map. ADMA'09. The 5th International Conference on Advanced Data Mining and Applications, LNAI N°5678 - © Springer Verlag, pp 128-139, Beijing, 17-19 August 2009.",
+        "title": "McSOM: Minimal coloring of Self organizing map",
+        "authors": [
+          "H. Elghazel",
+          "K. Benabdeslem",
+          "H.Kheddouci"
+        ],
+        "year": 2009,
+        "venue_short": "ADMA",
+        "venue": "ADMA'09. The 5th International Conference on Advanced Data Mining and Applications, LNAI N°5678 - © Springer Verlag, pp 128-139, Beijing, 17-19 August 2009",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C25",
+        "type": "conference",
+        "number": 25,
+        "citation": "K. Benabdeslem and J. Snoussi. A probabilistic approach for constrained clustering with topological map. MLDM'09. The 6th International Conference on Machine Learning and Data Mining, LNAI N°5632 - © Springer Verlag, pp 413-426, Leipzig, 23-25 July 2009.",
+        "title": "A probabilistic approach for constrained clustering with topological map",
+        "authors": [
+          "K. Benabdeslem",
+          "J. Snoussi"
+        ],
+        "year": 2009,
+        "venue_short": "MLDM",
+        "venue": "MLDM'09. The 6th International Conference on Machine Learning and Data Mining, LNAI N°5632 - © Springer Verlag, pp 413-426, Leipzig, 23-25 July 2009",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C24",
+        "type": "conference",
+        "number": 24,
+        "citation": "H. Elghazel and K. Benabdeslem. Towards b-coloring of SOM. MLDM'09. The 6th International Conference on Machine Learning and Data Mining, LNAI N°5632 - © Springer Verlag, pp 322-336, Leipzig, 23-25 July 2009.",
+        "title": "Towards b-coloring of SOM",
+        "authors": [
+          "H. Elghazel",
+          "K. Benabdeslem"
+        ],
+        "year": 2009,
+        "venue_short": "MLDM",
+        "venue": "MLDM'09. The 6th International Conference on Machine Learning and Data Mining, LNAI N°5632 - © Springer Verlag, pp 322-336, Leipzig, 23-25 July 2009",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C23",
+        "type": "conference",
+        "number": 23,
+        "citation": "H. Elghazel et K. Benabdeslem. Segmentation graphique des cartes topologiques. CAp'09. 11ème Conférence francophone d’apprentissage, pp 343-346, Hammamet, 26-29 Mai 2009.",
+        "title": "Segmentation graphique des cartes topologiques",
+        "authors": [
+          "H. Elghazel",
+          "K. Benabdeslem"
+        ],
+        "year": 2009,
+        "venue_short": "CAp",
+        "venue": "CAp'09. 11ème Conférence francophone d’apprentissage, pp 343-346, Hammamet, 26-29 Mai 2009",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C22",
+        "type": "conference",
+        "number": 22,
+        "citation": "F. Bellal, K. Benabdeslem and A. Aussem. SOM based clustering with instance-level constraints. ESANN'08 proceedings - European Symposium on Artificial Neural Networks, pp 313-318, Bruges (Belgium), 23-25 April 2008.",
+        "title": "SOM based clustering with instance-level constraints",
+        "authors": [
+          "F. Bellal",
+          "K. Benabdeslem",
+          "A. Aussem"
+        ],
+        "year": 2008,
+        "venue_short": "ESANN",
+        "venue": "ESANN'08 proceedings - European Symposium on Artificial Neural Networks, pp 313-318, Bruges (Belgium), 23-25 April 2008",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C21",
+        "type": "conference",
+        "number": 21,
+        "citation": "F. Bellal, K. Benabdeslem and A. Aussem. SOM based clustering with instance-level constraints. CAp'08 proceedings - Conférence francophone d’apprentissage, pp 17-18, Ile de Porquerolles, 29-31 Mai 2008.",
+        "title": "SOM based clustering with instance-level constraints",
+        "authors": [
+          "F. Bellal",
+          "K. Benabdeslem",
+          "A. Aussem"
+        ],
+        "year": 2008,
+        "venue_short": "CAp",
+        "venue": "CAp'08 proceedings - Conférence francophone d’apprentissage, pp 17-18, Ile de Porquerolles, 29-31 Mai 2008",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C20",
+        "type": "conference",
+        "number": 20,
+        "citation": "A. Benahassena, K. Benabdeslem, F. Bellal, A. Aussem et B. Canitia. EGC'08. Intégration de contraintes dans les cartes auto-organisatrices. 8ème journées francophones :Extraction et gestion des Connaissances, pp 643-648, Nice, Janvier 2008.",
+        "title": "Intégration de contraintes dans les cartes auto-organisatrices",
+        "authors": [
+          "A. Benahassena",
+          "K. Benabdeslem",
+          "F. Bellal",
+          "A. Aussem",
+          "B. Canitia"
+        ],
+        "year": 2008,
+        "venue_short": "EGC'08",
+        "venue": "8ème journées francophones :Extraction et gestion des Connaissances, pp 643-648, Nice, Janvier 2008",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C19",
+        "type": "conference",
+        "number": 19,
+        "citation": "N. Chelghoum and K. Benabdeslem. Spatial data mining : An approach based on relational data mining. DG/SUM'07 - ISSNIP/ISPRS joint international workshop on distributed geoinformatics and sensing, ubiquity, and mobility, Melbourne, Australia, 2007.",
+        "title": "Spatial data mining : An approach based on relational data mining",
+        "authors": [
+          "N. Chelghoum",
+          "K. Benabdeslem"
+        ],
+        "year": 2007,
+        "venue_short": null,
+        "venue": "DG/SUM'07 - ISSNIP/ISPRS joint international workshop on distributed geoinformatics and sensing, ubiquity, and mobility, Melbourne, Australia, 2007",
+        "workshop": true,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C18",
+        "type": "conference",
+        "number": 18,
+        "citation": "H. Elghazel, K. Benabdeslem, and A. Dussauchoy. MLG'07. Clustering With Constraints Using Graph Based Approach, In the 5th International Workshop on Mining and Learning with Graphs, Florence, Italy. August 1-3, 2007.",
+        "title": "Clustering With Constraints Using Graph Based Approach",
+        "authors": [
+          "H. Elghazel",
+          "K. Benabdeslem",
+          "and A. Dussauchoy"
+        ],
+        "year": 2007,
+        "venue_short": "MLG'07",
+        "venue": "In the 5th International Workshop on Mining and Learning with Graphs, Florence, Italy. August 1-3, 2007",
+        "workshop": true,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C17",
+        "type": "conference",
+        "number": 17,
+        "citation": "H. ElGhazel, K. Benabdeslem and A. Dussauchoy. DaWaK'O7. Constrained graph b-coloring based clustering approach. 9th International Conference on Data Warehousing and Knowledge Discovery. LNCS N°4654 - © Springer Verlag, Pp 262-271, 3-7 September 2007, Regensburg, Germany.",
+        "title": "Constrained graph b-coloring based clustering approach",
+        "authors": [
+          "H. ElGhazel",
+          "K. Benabdeslem",
+          "A. Dussauchoy"
+        ],
+        "year": 2007,
+        "venue_short": "DaWaK'O7",
+        "venue": "9th International Conference on Data Warehousing and Knowledge Discovery. LNCS N°4654 - © Springer Verlag, Pp 262-271, 3-7 September 2007, Regensburg, Germany",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C16",
+        "type": "conference",
+        "number": 16,
+        "citation": "K. Benabdeslem, M. Lebbah, A. Aussem, N. Chelghoum and M. Corbex. COSI'07. Learning based system for knowledge discovery from nasopharyngeal cancer data. Coloque sur l’optimisation et les systèmes d’information COSI2007, pp 533-542, 11-13 Juin 2007, Oran, Algérie.",
+        "title": "Learning based system for knowledge discovery from nasopharyngeal cancer data",
+        "authors": [
+          "K. Benabdeslem",
+          "M. Lebbah",
+          "A. Aussem",
+          "N. Chelghoum",
+          "M. Corbex"
+        ],
+        "year": 2007,
+        "venue_short": "COSI'07",
+        "venue": "Coloque sur l’optimisation et les systèmes d’information COSI2007, pp 533-542, 11-13 Juin 2007, Oran, Algérie",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C15",
+        "type": "conference",
+        "number": 15,
+        "citation": "K. Benabdeslem and M. Lebbah. ITI’07 . Feature selection for self organizing Map. 29th International conference on information technology interface, IMAC/IEEE, pp 45-50,Cavtat, June 2007.",
+        "title": "Feature selection for self organizing Map",
+        "authors": [
+          "K. Benabdeslem",
+          "M. Lebbah"
+        ],
+        "year": 2007,
+        "venue_short": "ITI’07",
+        "venue": "29th International conference on information technology interface, IMAC/IEEE, pp 45-50,Cavtat, June 2007",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C14",
+        "type": "conference",
+        "number": 14,
+        "citation": "K. Benabdeslem, M. Lebbah, A. Aussem et M. Corbex. EGC'07. Approche connexionniste pour l’extraction de profils cas-témoins du cancer du Nasopharynx à partir des données issues d’une étude épidémiologique. 7ème journées francophones :Extraction et gestion des Connaissances, EGC’07, pp 445 - 454, Namur, Janvier 2007.",
+        "title": "Approche connexionniste pour l’extraction de profils cas-témoins du cancer du Nasopharynx à partir des données issues d’une étude épidémiologique",
+        "authors": [
+          "K. Benabdeslem",
+          "M. Lebbah",
+          "A. Aussem",
+          "M. Corbex"
+        ],
+        "year": 2007,
+        "venue_short": "EGC'07",
+        "venue": "7ème journées francophones :Extraction et gestion des Connaissances, EGC’07, pp 445 - 454, Namur, Janvier 2007",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C13",
+        "type": "conference",
+        "number": 13,
+        "citation": "K. Benabdeslem. ITI’06. Hybrid neural system for time series prediction. the IMACS/IEEE 28th International conference on information technology interface, pp.349-354, Cavtat, June 2006.",
+        "title": "Hybrid neural system for time series prediction",
+        "authors": [
+          "K. Benabdeslem"
+        ],
+        "year": 2006,
+        "venue_short": "ITI’06",
+        "venue": "the IMACS/IEEE 28th International conference on information technology interface, pp.349-354, Cavtat, June 2006",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C12",
+        "type": "conference",
+        "number": 12,
+        "citation": "K. Benabdeslem. IJCNN’06 “Descendant hierarchical support vector machine for multi-class problems”. IEEE International joint conference on neural network. Pp 1470-1475 Vancouver, July 2006.",
+        "title": "Descendant hierarchical support vector machine for multi-class problems",
+        "authors": [
+          "K. Benabdeslem"
+        ],
+        "year": 2006,
+        "venue_short": "IJCNN’06",
+        "venue": "IEEE International joint conference on neural network. Pp 1470-1475 Vancouver, July 2006",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C11",
+        "type": "conference",
+        "number": 11,
+        "citation": "Y. Le Coadou and K. Benabdeslem. ISNN’06. “An optimized local modeling for times series prediction”. The 3rd International symposium in Neural Networks. Chengdu, May 2006. http://www2.acae.cuhk.edu.hk/~isnn2006/acceptedlist.htm",
+        "title": "An optimized local modeling for times series prediction",
+        "authors": [
+          "Y. Le Coadou",
+          "K. Benabdeslem"
+        ],
+        "year": 2006,
+        "venue_short": "ISNN’06",
+        "venue": "The 3rd International symposium in Neural Networks. Chengdu, May 2006. http://www2.acae.cuhk.edu.hk/~isnn2006/acceptedlist.htm",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": [
+          {
+            "label": "Accepted list",
+            "url": "http://www2.acae.cuhk.edu.hk/~isnn2006/acceptedlist.htm"
+          }
+        ]
+      },
+      {
+        "id": "C10",
+        "type": "conference",
+        "number": 10,
+        "citation": "K. Benabdeslem, G. Deléage et C. Geourjon. BIO-EGC’06. Alignement structural et classification hiérarchique pour l’extraction des cœurs structuraux. Atelier : Extraction et gestion de connaissances appliquées aux données biologiques dans le cadre de la conférence EGC 2006, pp.09-17,Lille, Janvier 2006.",
+        "title": "Alignement structural et classification hiérarchique pour l’extraction des cœurs structuraux",
+        "authors": [
+          "K. Benabdeslem",
+          "G. Deléage",
+          "C. Geourjon"
+        ],
+        "year": 2006,
+        "venue_short": "BIO-EGC’06",
+        "venue": "Atelier : Extraction et gestion de connaissances appliquées aux données biologiques dans le cadre de la conférence EGC 2006, pp.09-17,Lille, Janvier 2006",
+        "workshop": true,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C9",
+        "type": "conference",
+        "number": 9,
+        "citation": "K.Benabdeslem et Y. Bennani. FW-EGC’06. Classification et visualisation des données d’usage d’Internet. Atelier : Fouille du web dans le cadre de la conférence EGC2006, pp.29-40, Lille, Janvier 2006.",
+        "title": "Classification et visualisation des données d’usage d’Internet",
+        "authors": [
+          "K.Benabdeslem",
+          "Y. Bennani"
+        ],
+        "year": 2006,
+        "venue_short": "FW-EGC’06",
+        "venue": "Atelier : Fouille du web dans le cadre de la conférence EGC2006, pp.29-40, Lille, Janvier 2006",
+        "workshop": true,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C8",
+        "type": "conference",
+        "number": 8,
+        "citation": "K. Benabdeslem, G. Deléage and C. Geourjon. ECCB'05. A Neural Network System based on Structural Alignment and Clustering for Proteins Fold Recognition. European conference on computational biology, pp.85-88, Madrid, September 2005.",
+        "title": "A Neural Network System based on Structural Alignment and Clustering for Proteins Fold Recognition",
+        "authors": [
+          "K. Benabdeslem",
+          "G. Deléage",
+          "C. Geourjon"
+        ],
+        "year": 2005,
+        "venue_short": "ECCB'05",
+        "venue": "European conference on computational biology, pp.85-88, Madrid, September 2005",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C7",
+        "type": "conference",
+        "number": 7,
+        "citation": "K. Benabdeslem, C. Geourjon, Y. Guermeur et N. Sapay. ASTI'05. Apprentissage automatique: Application à la prédiction de la structure secondaire et tertiaire des protéines. Communication sur invitation présentée dans la session thématique: Bioinformatique II, p.34, Clermont-Ferrand, Octobre 2005.",
+        "title": "Apprentissage automatique: Application à la prédiction de la structure secondaire et tertiaire des protéines",
+        "authors": [
+          "K. Benabdeslem",
+          "C. Geourjon",
+          "Y. Guermeur",
+          "N. Sapay"
+        ],
+        "year": 2005,
+        "venue_short": "ASTI'05",
+        "venue": "Communication sur invitation présentée dans la session thématique: Bioinformatique II, p.34, Clermont-Ferrand, Octobre 2005",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C6",
+        "type": "conference",
+        "number": 6,
+        "citation": "K. Benabdeslem, G. Deléage and C. Geourjon. JOBIM'05. Cores extraction based Neural Network Model for Proteins fold recognition. Journées ouvertes en biologie, informatique et mathématiques, pp.341-347, Lyon, July 2005.",
+        "title": "Cores extraction based Neural Network Model for Proteins fold recognition",
+        "authors": [
+          "K. Benabdeslem",
+          "G. Deléage",
+          "C. Geourjon"
+        ],
+        "year": 2005,
+        "venue_short": "JOBIM'05",
+        "venue": "Journées ouvertes en biologie, informatique et mathématiques, pp.341-347, Lyon, July 2005",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C5",
+        "type": "conference",
+        "number": 5,
+        "citation": "K. Benabdeslem and Y. Bennani. ITI’04 An incremental unsupervised neural network for clustering. The IMACS/IEEE 26th International Conference on Information Technology Interfaces, pp 209-213, Zagreb, June 2004.",
+        "title": "An incremental unsupervised neural network for clustering",
+        "authors": [
+          "K. Benabdeslem",
+          "Y. Bennani"
+        ],
+        "year": 2004,
+        "venue_short": "ITI’04",
+        "venue": "The IMACS/IEEE 26th International Conference on Information Technology Interfaces, pp 209-213, Zagreb, June 2004",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C4",
+        "type": "conference",
+        "number": 4,
+        "citation": "A. Zeboulon, Y. Bennani, K. Benabdeslem. AICCSA’03: Hybrid Connectionist Approach for Knowledge Discovery from Web Navigation Patterns. ACS/IEEE International Conference on Computer Systems and Applications, pp 118-122, Tunis, July 2003.",
+        "title": "Hybrid Connectionist Approach for Knowledge Discovery from Web Navigation Patterns",
+        "authors": [
+          "A. Zeboulon",
+          "Y. Bennani",
+          "K. Benabdeslem"
+        ],
+        "year": 2003,
+        "venue_short": "AICCSA’03",
+        "venue": "ACS/IEEE International Conference on Computer Systems and Applications, pp 118-122, Tunis, July 2003",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C3",
+        "type": "conference",
+        "number": 3,
+        "citation": "K. Benabdeslem, Y. Bennani, E. Janvier. ICANN’02. Visualization and analysis of web navigation data. International Conference on Artificial Neural Networks LNCS N°2415 (Springer), pp.486-491, Madrid, August 2002.",
+        "title": "Visualization and analysis of web navigation data",
+        "authors": [
+          "K. Benabdeslem",
+          "Y. Bennani",
+          "E. Janvier"
+        ],
+        "year": 2002,
+        "venue_short": "ICANN’02",
+        "venue": "International Conference on Artificial Neural Networks LNCS N°2415 (Springer), pp.486-491, Madrid, August 2002",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C2",
+        "type": "conference",
+        "number": 2,
+        "citation": "K. Benabdeslem, Y. Bennani, E. Janvier. AICCSA’01. Connectionist approach for Website visitors behaviors mining . ACS/IEEE International Conference on Computer Systems and Applications, pp.511-515, Lebanon, June 2001",
+        "title": "Connectionist approach for Website visitors behaviors mining",
+        "authors": [
+          "K. Benabdeslem",
+          "Y. Bennani",
+          "E. Janvier"
+        ],
+        "year": 2001,
+        "venue_short": "AICCSA’01",
+        "venue": "ACS/IEEE International Conference on Computer Systems and Applications, pp.511-515, Lebanon, June 2001",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
+        "id": "C1",
+        "type": "conference",
+        "number": 1,
+        "citation": "K. Benabdeslem, Y. Bennani, E. Janvier. JT-EDI’01. Analyse comportementale des internautes. 1ère journée thématique sur l’exploration des données sur Internet, pp.28-38, Villetaneuse, Mars 2001.",
+        "title": "Analyse comportementale des internautes",
+        "authors": [
+          "K. Benabdeslem",
+          "Y. Bennani",
+          "E. Janvier"
+        ],
+        "year": 2001,
+        "venue_short": "JT-EDI’01",
+        "venue": "1ère journée thématique sur l’exploration des données sur Internet, pp.28-38, Villetaneuse, Mars 2001",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      }
+    ],
+    "patents": [
+      {
+        "id": "P1",
+        "type": "patent",
+        "number": 1,
+        "citation": "E. Janvier, K. Benabdeslem, Y. Bennani . Brevet International, Numéro INPI de publication: WO02059781; Titre: « Method for processing Internet Request files». 01/08/2002. (www.inpi.fr)",
+        "title": "Method for processing Internet Request files",
+        "inventors": [
+          "E. Janvier",
+          "K. Benabdeslem",
+          "Y. Bennani"
+        ],
+        "kind": "Brevet International",
+        "publication_number": "WO02059781",
+        "date": "2002-08-01",
+        "year": 2002,
+        "links": [
+          {
+            "label": "Method for processing Internet Request files",
+            "url": "http://v3.espacenet.com/textdoc?DB=EPODOC&IDX=WO02059781&F=0&QPN=WO02059781&CY=ep&LG=fr"
+          },
+          {
+            "label": "www.inpi.fr",
+            "url": "http://www.inpi.fr"
+          }
+        ]
+      }
+    ],
+    "editorial": [
+      {
+        "id": "E3",
+        "type": "editorial",
+        "number": 3,
+        "citation": "K. Benabdeslem. Actes de la conférence : SFC'17: 24èmes rencontres de la société francophone de classification, 28-30 juin 2017, Lyon.",
+        "editors": [
+          "K. Benabdeslem"
+        ],
+        "title": "Actes de la conférence SFC'17: 24èmes rencontres de la société francophone de classification",
+        "event": "SFC'17",
+        "date_text": "28-30 juin 2017",
+        "location": "Lyon",
+        "year": 2017,
+        "links": []
+      },
+      {
+        "id": "E2",
+        "type": "editorial",
+        "number": 2,
+        "citation": "K. Benabdeslem, M. Elati, H. Kheddouci. Actes électroniques de l'atelier : AGS'11: Apprentissage et Graphes pour les Systèmes complexes. Plate-forme AFIA, 17 Mai 2011, Chambéry.",
+        "editors": [
+          "K. Benabdeslem",
+          "M. Elati",
+          "H. Kheddouci"
+        ],
+        "title": "Actes électroniques de l'atelier AGS'11: Apprentissage et Graphes pour les Systèmes complexes",
+        "event": "AGS'11 (Plate-forme AFIA)",
+        "date_text": "17 Mai 2011",
+        "location": "Chambéry",
+        "year": 2011,
+        "links": [
+          {
+            "label": "Actes électroniques",
+            "url": "http://www710.univ-lyon1.fr/%7Eags/actes_026.htm"
+          }
+        ]
+      },
+      {
+        "id": "E1",
+        "type": "editorial",
+        "number": 1,
+        "citation": "K. Benabdeslem, M. Elati, R. Kanawati, H. Kheddouci et C. Rouveirol. Actes électroniques de l'atelier : AGS'09: Apprentissage et Graphes pour les Systèmes complexes. Plate-forme AFIA, 25 Mai 2011, Hammamet-Tunisie (60 pages).",
+        "editors": [
+          "K. Benabdeslem",
+          "M. Elati",
+          "R. Kanawati",
+          "H. Kheddouci",
+          "C. Rouveirol"
+        ],
+        "title": "Actes électroniques de l'atelier AGS'09: Apprentissage et Graphes pour les Systèmes complexes",
+        "event": "AGS'09 (Plate-forme AFIA)",
+        "date_text": "25 Mai 2011",
+        "location": "Hammamet-Tunisie",
+        "pages": 60,
+        "year": 2011,
+        "links": [
+          {
+            "label": "Actes électroniques",
+            "url": "http://www710.univ-lyon1.fr/%7Eags//Welcome_fichiers/Page409.html"
+          }
+        ]
+      }
+    ],
+    "theses": [
+      {
+        "id": "T4",
+        "type": "thesis",
+        "number": 4,
+        "citation": "Contributions en apprentissage semi-supervisé: Modélisation, Classification et Sélection. Mémoire d' HDR. Université Lyon 1. Juin 2014 (96 pages).",
+        "title": "Contributions en apprentissage semi-supervisé: Modélisation, Classification et Sélection",
+        "degree": "HDR",
+        "document": "Mémoire d'HDR",
+        "institution": "Université Lyon 1",
+        "date": "2014-06",
+        "pages": 96,
+        "year": 2014,
+        "links": []
+      },
+      {
+        "id": "T3",
+        "type": "thesis",
+        "number": 3,
+        "citation": "Approches Connexionnistes pour la classification et la visualisation des données évolutives: Application aux données issues d’usages d'internet. Mémoire de thèse de Doctorat. Université Paris 13. Décembre 2003 (178 pages).",
+        "title": "Approches Connexionnistes pour la classification et la visualisation des données évolutives: Application aux données issues d’usages d'internet",
+        "degree": "PhD",
+        "document": "Mémoire de thèse de Doctorat",
+        "institution": "Université Paris 13",
+        "date": "2003-12",
+        "pages": 178,
+        "year": 2003,
+        "links": []
+      },
+      {
+        "id": "T2",
+        "type": "thesis",
+        "number": 2,
+        "citation": "Classification connexionniste pour l’analyse des comportements d’internautes. Rapport de stage de DEA (Master Recherche). Université Paris 13. Septembre 2000 (60 pages)",
+        "title": "Classification connexionniste pour l’analyse des comportements d’internautes",
+        "degree": "DEA (Master Recherche)",
+        "document": "Rapport de stage de DEA",
+        "institution": "Université Paris 13",
+        "date": "2000-09",
+        "pages": 60,
+        "year": 2000,
+        "links": []
+      },
+      {
+        "id": "T1",
+        "type": "thesis",
+        "number": 1,
+        "citation": "Un système Neuro-Markovien pour la reconnaissance automatique de la parole. Rapport de projet de fin d’études d’ Ingénieur. Université des sciences et de technologie d'ORAN. Septembre 1998 (80 pages).",
+        "title": "Un système Neuro-Markovien pour la reconnaissance automatique de la parole",
+        "degree": "Ingénieur",
+        "document": "Rapport de projet de fin d’études d’Ingénieur",
+        "institution": "Université des sciences et de technologie d'ORAN",
+        "date": "1998-09",
+        "pages": 80,
+        "year": 1998,
+        "links": []
+      }
+    ]
+  },
+  "students": {
+    "intro": "I am regurarly involved in the supervision of Post-doc and PhD/MsC students with many subjects in machine learning and data mining. I receive the PES/PEDR/RIPEC...",
+    "phd": [
+      {
+        "number": 12,
+        "name": "Mohamed Ihab Bekkaye",
+        "topic": "Multimodal learning for electric car diagnosis",
+        "start": "2025-09",
+        "end": null,
+        "status": "ongoing",
+        "co_supervisors": [
+          "R. Cazabet"
+        ],
+        "current_position": null,
+        "source_text": "12) Mohamed Ihab Bekkaye. Multimodal learning for electric car diagnosis (09/2025-...) (With R. Cazabet)"
+      },
+      {
+        "number": 11,
+        "name": "Ramzi Badache",
+        "topic": "Multimodal anomaly detection for cardiomyopathy diagnosis",
+        "start": "2025-03",
+        "end": null,
+        "status": "ongoing",
+        "co_supervisors": [
+          "Y. Elmir"
+        ],
+        "current_position": null,
+        "source_text": "11) Ramzi Badache. Multimodal anomaly detection for cardiomyopathy diagnosis (03/2025 - ...) (With Y. Elmir)"
+      },
+      {
+        "number": 10,
+        "name": "Yassir Lairgi",
+        "topic": "Knowledge graph learning for competitive intelligence",
+        "start": "2023-12",
+        "end": null,
+        "status": "ongoing",
+        "co_supervisors": [
+          "R. Cazabet",
+          "L. Moncla"
+        ],
+        "current_position": null,
+        "source_text": "10) Yassir Lairgi. Knowledge graph learning for competitive intelligence (12/2023 - ...) (With R. Cazabet and L. Moncla)"
+      },
+      {
+        "number": 9,
+        "name": "Auday Berro",
+        "topic": "AI-based Paraphrasing in Dialog Services",
+        "start": "2019-12",
+        "end": "2024-06",
+        "status": "completed",
+        "co_supervisors": [
+          "B. Benatallah"
+        ],
+        "current_position": null,
+        "source_text": "9) Auday Berro. AI-based Paraphrasing in Dialog Services (12/2019 - 06/2024) (With B. Benatallah)"
+      },
+      {
+        "number": 8,
+        "name": "Mehdi Hennequin",
+        "topic": "Multi-view transfert regression for industry",
+        "start": "2020-06",
+        "end": "2024-03",
+        "status": "completed",
+        "co_supervisors": [
+          "H. Elghazel"
+        ],
+        "current_position": null,
+        "source_text": "8) Mehdi Hennequin. Multi-view transfert regression for industry (06/2020 - 03/2024) (With H. Elghazel)"
+      },
+      {
+        "number": 7,
+        "name": "Thomas Ranvier",
+        "topic": "Multi-source learning for health",
+        "start": "2020-10",
+        "end": "2023-12",
+        "status": "completed",
+        "co_supervisors": [
+          "H. Elghazel",
+          "E. Coquery"
+        ],
+        "current_position": null,
+        "source_text": "7) Thomas Ranvier. Multi-source learning for health (10/2020 - 12/2023) (With H. Elghazel and E. Coquery)"
+      },
+      {
+        "number": 6,
+        "name": "Yacine Gaci",
+        "topic": "AI-based Subjectivity in NLP and Cognitive Services",
+        "start": "2019-12",
+        "end": "2023-06",
+        "status": "completed",
+        "co_supervisors": [
+          "B. Benatallah"
+        ],
+        "current_position": null,
+        "source_text": "6) Yacine Gaci. AI-based Subjectivity in NLP and Cognitive Services (12/2019 - 06/2023) (With B. Benatallah)"
+      },
+      {
+        "number": 5,
+        "name": "Vivien Kraus",
+        "topic": "Semi-supervised multi-task regression",
+        "start": "2018-03",
+        "end": "2021-03",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": "Post-doc at Reims",
+        "source_text": "5) Vivien Kraus. Semi-supervised multi-task regression (03/2018 - 03/2021) (Post-doc at Reims)"
+      },
+      {
+        "number": 4,
+        "name": "Seif-Eddine Benkabou",
+        "topic": "Unsupervised anomaly detection for time-series",
+        "start": "2015-04",
+        "end": "2018-03",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": "Assistant professor at University of Poitiers",
+        "source_text": "4) Seif-Eddine Benkabou. Unsupervised anomaly detection for time-series (04/2015 - 03/2018) (Assistant professor at University of Poitiers)"
+      },
+      {
+        "number": 3,
+        "name": "Abdelouahid Alalga",
+        "topic": "Semi-supervised multi-label feature selection",
+        "start": "2013-12",
+        "end": "2017-07",
+        "status": "completed",
+        "co_supervisors": [
+          "N. Taleb"
+        ],
+        "current_position": "Associate professor at university of Annaba",
+        "source_text": "3) Abdelouahid Alalga. Semi-supervised multi-label feature selection (12/2013 - 07/2017) (With N. Taleb) (Associate professor at university of Annaba)"
+      },
+      {
+        "number": 2,
+        "name": "Raywat Makkhongkaew",
+        "topic": "Semi-supervised Co-selection",
+        "start": "2013-09",
+        "end": "2016-12",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": "Chief Data scientist at SRT of Thailand",
+        "source_text": "2) Raywat Makkhongkaew. Semi-supervised Co-selection (09/2013 - 12/2016) (Chief Data scientist at SRT of Thailand)"
+      },
+      {
+        "number": 1,
+        "name": "Mohammed Hindawi",
+        "topic": "Semi-supervised feature selection",
+        "start": "2010-03",
+        "end": "2013-02",
+        "status": "completed",
+        "co_supervisors": [
+          "A. Aussem"
+        ],
+        "current_position": "Lecturer at CESI",
+        "source_text": "1) Mohammed Hindawi. Semi-supervised feature selection (03/2010 - 02/2013) (With A. Aussem) (Lecturer at CESI)."
+      }
+    ],
+    "msc": [
+      {
+        "number": 39,
+        "name": "Mohamed Chakib Bourezag",
+        "topic": "Multimodal feature selection for electric car diagnosis",
+        "start": "2026-04",
+        "end": "2026-09",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "39) Mohamed Chakib Bourezag. Multimodal feature selection for electric car diagnosis (04/2026-09/2026)"
+      },
+      {
+        "number": 38,
+        "name": "Antoine Salazar",
+        "topic": "Knowledge Graph Reasonning",
+        "start": "2026-04",
+        "end": "2026-09",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "38) Antoine Salazar. Knowledge Graph Reasonning (04/2026-09/2026)"
+      },
+      {
+        "number": 37,
+        "name": "Nassima Nail",
+        "topic": "Multimodal model selection for electric car diagnosis",
+        "start": "2026-02",
+        "end": "2026-07",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "37) Nassima Nail. Multimodal model selection for electric car diagnosis (02/2026-07/2026)"
+      },
+      {
+        "number": 36,
+        "name": "Rabah Omrani",
+        "topic": "Quantum computing for predicting drug-target interactions using graphical neural networks",
+        "start": "2026-01",
+        "end": "2026-06",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "36) Rabah Omrani. Quantum computing for predicting drug-target interactions using graphical neural networks (01/2026-06/2026)"
+      },
+      {
+        "number": 35,
+        "name": "Hibeterrahmane Ouchene",
+        "topic": "Intelligent energy routing in the Energy Internet through reinforcement learning and federated learning",
+        "start": "2026-01",
+        "end": "2026-06",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "35) Hibeterrahmane Ouchene. Intelligent energy routing in the Energy Internet through reinforcement learning and federated learning (01/2026-06/2026)"
+      },
+      {
+        "number": 34,
+        "name": "Meriem Terki",
+        "topic": "Detection of epileptic seizures from ECG signals using deep learning and quantum computing",
+        "start": "2026-01",
+        "end": "2026-06",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "34) Meriem Terki. Detection of epileptic seizures from ECG signals using deep learning and quantum computing (01/2026-06/2026)"
+      },
+      {
+        "number": 33,
+        "name": "Yacine Dait Dehane",
+        "topic": "Hypoglycemia detection from CGM data using interpretable artificial intelligence",
+        "start": "2026-01",
+        "end": "2026-06",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "33) Yacine Dait Dehane . Hypoglycemia detection from CGM data using interpretable artificial intelligence (01/2026-06/2026)"
+      },
+      {
+        "number": 32,
+        "name": "Oumou Sougou",
+        "topic": "Multimodal anomaly detection for electric car diagnosis",
+        "start": "2025-04",
+        "end": "2025-09",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "32) Oumou Sougou. Multimodal anomaly detection for electric car diagnosis (04/2025-09/2025)"
+      },
+      {
+        "number": 31,
+        "name": "Yacine Benyamina",
+        "topic": "Multimodal feature selection for cardiomyopathy diagnosis",
+        "start": "2025-03",
+        "end": "2025-08",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "31) Yacine Benyamina. Multimodal feature selection for cardiomyopathy diagnosis (03/2025-08/2025)"
+      },
+      {
+        "number": 30,
+        "name": "Emilien Komlenovic",
+        "topic": "Multimodal denoising for electric car diagnosis",
+        "start": "2025-02",
+        "end": "2025-07",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "30) Emilien Komlenovic. Multimodal denoising for electric car diagnosis (02/2025-07/2025)"
+      },
+      {
+        "number": 29,
+        "name": "Chourouk Halah Abdelaziz",
+        "topic": "Multi-view anomaly detection from cardiomyopathy data",
+        "start": "2024-02",
+        "end": "2024-07",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "29) Chourouk Halah Abdelaziz. Multi-view anomaly detection from cardiomyopathy data (02/2024-07/2024)"
+      },
+      {
+        "number": 28,
+        "name": "Abdelkrim Zitouni",
+        "topic": "Multi-view learning for cardiomyopathy diagnosis",
+        "start": "2024-02",
+        "end": "2024-07",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "28) Abdelkrim Zitouni. Multi-view learning for cardiomyopathy diagnosis (02/2024-07/2024)"
+      },
+      {
+        "number": 27,
+        "name": "Heloïse Alheritiere",
+        "topic": "Deep multi-view learning by domain adaptation for predictive maintenance",
+        "start": "2023-04",
+        "end": "2023-09",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "27) Heloïse Alheritiere. Deep multi-view learning by domain adaptation for predictive maintenance (04/2023-09/2023)"
+      },
+      {
+        "number": 26,
+        "name": "Rahma Farssi",
+        "topic": "Deep learning-based NLP for processing and analysing patient experience in health",
+        "start": "2023-04",
+        "end": "2023-09",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "26) Rahma Farssi. Deep learning-based NLP for processing and analysing patient experience in health (04/2023-09/2023)"
+      },
+      {
+        "number": 25,
+        "name": "Baha-Eddine Nil",
+        "topic": "Machine learning for Web-table Data unifying",
+        "start": "2021-03",
+        "end": "2021-09",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "25) Baha-Eddine Nil. Machine learning for Web-table Data unifying (03/2021-09/2021)"
+      },
+      {
+        "number": 24,
+        "name": "Omar Maftoul",
+        "topic": "Efficient Machine learning methods for Web-table data reorganizing",
+        "start": "2021-03",
+        "end": "2021-03",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "24) Omar Maftoul. Efficient Machine learning methods for Web-table data reorganizing (03/2021-03/2021)"
+      },
+      {
+        "number": 23,
+        "name": "Sami Cheminal-Comte",
+        "topic": "Machine learning for reorganization, rearrangement and naming of tyre data",
+        "start": "2020-03",
+        "end": "2020-09",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "23) Sami Cheminal-Comte. Machine learning for reorganization, rearrangement and naming of tyre data (03/2020 - 09/2020)"
+      },
+      {
+        "number": 22,
+        "name": "Thomas Ranvier",
+        "topic": "Multi-view learning for recommendation systems",
+        "start": "2020-02",
+        "end": "2020-08",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "22) Thomas Ranvier. Multi-view learning for recommendation systems (02/2020 - 08/2020)"
+      },
+      {
+        "number": 21,
+        "name": "Maxime Lepetit",
+        "topic": "Deep learning for prediction of the position of the lung tumor",
+        "start": "2020-02",
+        "end": "2020-08",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "21) Maxime Lepetit. Deep learning for prediction of the position of the lung tumor (02/2020 - 08/2020)"
+      },
+      {
+        "number": 20,
+        "name": "Yasmine Djebrouni",
+        "topic": "Machine learning for distributed system optimization",
+        "start": "2020-01",
+        "end": "2020-06",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "20) Yasmine Djebrouni. Machine learning for distributed system optimization (01/2020 - 06/2020)"
+      },
+      {
+        "number": 19,
+        "name": "Assaad Keenan",
+        "topic": "Hybrid approaches for recommendation systems",
+        "start": "2019-02",
+        "end": "2019-07",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "19) Assaad Keenan. Hybrid approaches for recommendation systems (02/2019 - 07/2019)"
+      },
+      {
+        "number": 18,
+        "name": "Abdelnacer Keraghel",
+        "topic": "Deep learning-based NER task recognition",
+        "start": "2019-02",
+        "end": "2019-07",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "18) Abdelnacer Keraghel. Deep learning-based NER task recognition (02/2019 - 07/2019)"
+      },
+      {
+        "number": 17,
+        "name": "Yacine Gaci",
+        "topic": "Machine learning for adaptive execution in Big Data systems",
+        "start": "2019-01",
+        "end": "2019-06",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "17) Yacine Gaci. Machine learning for adaptive execution in Big Data systems (01/2019 - 06/2019)"
+      },
+      {
+        "number": 16,
+        "name": "Matthieu Moisson",
+        "topic": "Machine learning for complex query analysis",
+        "start": "2018-02",
+        "end": "2018-08",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "16) Matthieu Moisson. Machine learning for complex query analysis (02/2018 - 08/2018)"
+      },
+      {
+        "number": 15,
+        "name": "Kilian Bourhis",
+        "topic": "Machine learning for recommendation systems",
+        "start": "2018-02",
+        "end": "2018-08",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "15) Kilian Bourhis. Machine learning for recommendation systems (02/2018 - 08/2018)"
+      },
+      {
+        "number": 14,
+        "name": "Vivien Kraus",
+        "topic": "Semi-supervised regression for town-planning",
+        "start": "2017-04",
+        "end": "2017-09",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "14) Vivien Kraus. Semi-supervised regression for town-planning (04/2017 - 09/2017)"
+      },
+      {
+        "number": 13,
+        "name": "Damien Mornieux",
+        "topic": "Deep-learning for recommendation systems",
+        "start": "2017-03",
+        "end": "2017-09",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "13) Damien Mornieux. Deep-learning for recommendation systems (03/2017 - 09/2017)"
+      },
+      {
+        "number": 12,
+        "name": "Jeremy Ferrer",
+        "topic": "Unsupervised metric learning for recommendation systems",
+        "start": "2016-02",
+        "end": "2016-06",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "12) Jeremy Ferrer. Unsupervised metric learning for recommendation systems (02/2016 - 06/2016)"
+      },
+      {
+        "number": 11,
+        "name": "Pierre-Alain Roullet",
+        "topic": "Outlier detection for time-series by spectral clustering",
+        "start": "2014-02",
+        "end": "2014-06",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "11) Pierre-Alain Roullet. Outlier detection for time-series by spectral clustering (02/2014 - 06/2014)"
+      },
+      {
+        "number": 10,
+        "name": "Antoine Patel",
+        "topic": "Semi-supervised co-selection by weigthing approach",
+        "start": "2014-02",
+        "end": "2014-09",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "10) Antoine Patel. Semi-supervised co-selection by weigthing approach (02/2014 - 09/2014)"
+      },
+      {
+        "number": 9,
+        "name": "Melhem Melhem",
+        "topic": "Privacy preserving clustering by graph based learning",
+        "start": "2011-02",
+        "end": "2011-06",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "09) Melhem Melhem. Privacy preserving clustering by graph based learning (02/2011 - 06/2011)"
+      },
+      {
+        "number": 8,
+        "name": "Kais Allab",
+        "topic": "Topological co-clustering and feature selection",
+        "start": "2010-02",
+        "end": "2010-06",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "08) Kais Allab. Topological co-clustering and feature selection (02/2010 - 06/2010)"
+      },
+      {
+        "number": 7,
+        "name": "Ghizlène Bendiabdallah",
+        "topic": "Fraud detection in Telecoms",
+        "start": "2010-02",
+        "end": "2010-06",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "07) Ghizlène Bendiabdallah. Fraud detection in Telecoms (02/2010 - 06/2010)"
+      },
+      {
+        "number": 6,
+        "name": "Fatma Hamdi",
+        "topic": "Consensus clustering by graphs",
+        "start": "2009-02",
+        "end": "2009-06",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "06) Fatma Hamdi. Consensus clustering by graphs (02/2009 - 06/2009)"
+      },
+      {
+        "number": 5,
+        "name": "Rakia Jaziri",
+        "topic": "Hybrid system (Neural nets and graphs) for knowledge discovery",
+        "start": "2009-02",
+        "end": "2009-06",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "05) Rakia Jaziri. Hybrid system (Neural nets and graphs) for knowledge discovery (02/2009 - 06/2009)"
+      },
+      {
+        "number": 4,
+        "name": "Jihène Snoussi",
+        "topic": "Generative constrained clustering",
+        "start": "2008-02",
+        "end": "2008-06",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "04) Jihène Snoussi. Generative constrained clustering (02/2008 - 06/2008)"
+      },
+      {
+        "number": 3,
+        "name": "Anouar Benhassena",
+        "topic": "Topological constrained clustering",
+        "start": "2007-02",
+        "end": "2007-06",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "03) Anouar Benhassena. Topological constrained clustering (02/2007 - 06/2007)"
+      },
+      {
+        "number": 2,
+        "name": "Yves Lecoadou",
+        "topic": "Local modeling for time-series prediction",
+        "start": "2004-03",
+        "end": "2004-09",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "02) Yves Lecoadou. Local modeling for time-series prediction (03/2004 - 09/2004)"
+      },
+      {
+        "number": 1,
+        "name": "Arnaud Zeboulon",
+        "topic": "Mixture-model for clutering of web navigation patterns",
+        "start": "2001-03",
+        "end": "2001-09",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "01) Arnaud Zeboulon. Mixture-model for clutering of web navigation patterns (03/2001 - 09/2001)"
+      }
+    ],
+    "postdoc": [
+      {
+        "number": 3,
+        "name": "Seif-Eddine Benkabou",
+        "topic": "Semi-supervised regression",
+        "start": "2018-04",
+        "end": "2019-03",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": "Assistant professor at University of Poitiers",
+        "source_text": "3) Seif-Eddine Benkabou. Semi-supervised regression (04/2018-03/2019) (Assistant professor at University of Poitiers)"
+      },
+      {
+        "number": 2,
+        "name": "Haytham Elghazel",
+        "topic": "Unsupervised topological clustering and graph coloring",
+        "start": "2008-09",
+        "end": "2009-08",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": "Assistant professor at University of Lyon1",
+        "source_text": "2) Haytham Elghazel. Unsupervised topological clustering and graph coloring (09/2008-08/2009) (Assistant professor at University of Lyon1)"
+      },
+      {
+        "number": 1,
+        "name": "Nadjim Chelghoum",
+        "topic": "Spatial Data mining",
+        "start": "2007-09",
+        "end": "2008-08",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": "Research engineer at INSERM",
+        "source_text": "1) Nadjim Chelghoum. Spatial Data mining (09/2007-08/2008) (Research engineer at INSERM)"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "CYBERG",
+      "program": "FIL",
+      "partner": "ERIC-LIRIS",
+      "start_year": 2027,
+      "end_year": 2029,
+      "role": "Co-Head",
+      "status": "current",
+      "source_text": "FIL CYBERG (ERIC-LIRIS): 2027-2029 (Co-Head)"
+    },
+    {
+      "name": "MOVED",
+      "program": "CIFRE",
+      "partner": "Renault",
+      "start_year": 2025,
+      "end_year": 2028,
+      "role": "Head",
+      "status": "current",
+      "source_text": "CIFRE MOVED (Renault): 2025-2028 (Head)"
+    },
+    {
+      "name": "KOGIA",
+      "program": "CIFRE",
+      "partner": "Auvalie Innovation",
+      "start_year": 2023,
+      "end_year": 2026,
+      "role": "Co-Head",
+      "status": "current",
+      "source_text": "CIFRE KOGIA (Auvalie Innovation): 2023-2026 (Co-Head)"
+    },
+    {
+      "name": "CARDIA",
+      "program": "RELANCE 23",
+      "partner": null,
+      "start_year": 2023,
+      "end_year": 2024,
+      "role": "Head",
+      "status": "past",
+      "source_text": "RELANCE 23 CARDIA: 2023-2024 (Head)"
+    },
+    {
+      "name": "QUALITOP",
+      "program": "H2020",
+      "partner": null,
+      "start_year": 2020,
+      "end_year": 2024,
+      "role": "WP leader",
+      "status": "past",
+      "source_text": "H2020 QUALITOP: 2020-2024 (WP leader)"
+    },
+    {
+      "name": "ROULAGE",
+      "program": "CIFRE",
+      "partner": "Galilé",
+      "start_year": 2020,
+      "end_year": 2023,
+      "role": "Head",
+      "status": "past",
+      "source_text": "CIFRE ROULAGE (Galilé): 2020-2023 (Head)"
+    },
+    {
+      "name": "MACHINA",
+      "program": "ERASMUS+",
+      "partner": null,
+      "start_year": 2020,
+      "end_year": 2022,
+      "role": "WP leader",
+      "status": "past",
+      "source_text": "ERASMUS+ MACHINA: 2020-2022 (WP leader)"
+    },
+    {
+      "name": "PICASSo",
+      "program": "IDEX Lyon Followship",
+      "partner": null,
+      "start_year": 2019,
+      "end_year": 2022,
+      "role": "WP leader",
+      "status": "past",
+      "source_text": "IDEX Lyon Followship PICASSo: 2019-2022 (WP leader)"
+    },
+    {
+      "name": "Annotation",
+      "program": "CIFRE",
+      "partner": "Lizeo",
+      "start_year": 2018,
+      "end_year": 2021,
+      "role": "Head",
+      "status": "past",
+      "source_text": "CIFRE Annotation (Lizeo) : 2018-2021 (Head)"
+    },
+    {
+      "name": "Recommandation",
+      "program": "Industrial",
+      "partner": "Lizeo",
+      "start_year": 2017,
+      "end_year": 2021,
+      "role": "Head",
+      "status": "past",
+      "source_text": "industrial Recommandation (Lizeo) : 2017 -2021 (Head)"
+    },
+    {
+      "name": "HIREAU",
+      "program": "Labex IMU",
+      "partner": null,
+      "start_year": 2016,
+      "end_year": 2019,
+      "role": "Local Head",
+      "status": "past",
+      "source_text": "Labex IMU HIREAU : 2016-2019 (Local Head)"
+    },
+    {
+      "name": "BioMIA",
+      "program": "Tranverse",
+      "partner": null,
+      "start_year": 2019,
+      "end_year": 2020,
+      "role": "Co-Head",
+      "status": "past",
+      "source_text": "Tranverse BioMIA: 2019-2020 (Co-Head)"
+    },
+    {
+      "name": "AVEN",
+      "program": "Tranverse",
+      "partner": null,
+      "start_year": 2018,
+      "end_year": 2020,
+      "role": "Co-Head",
+      "status": "past",
+      "source_text": "Tranverse AVEN: 2018-2020 (Co-Head)"
+    },
+    {
+      "name": "Détection",
+      "program": "CIFRE",
+      "partner": "Lizeo",
+      "start_year": 2015,
+      "end_year": 2018,
+      "role": "Head",
+      "status": "past",
+      "source_text": "CIFRE Détection (Lizeo): 2015 - 2018 (Head)"
+    },
+    {
+      "name": "Profil-Géo",
+      "program": "Industrial",
+      "partner": "Roxwhale",
+      "start_year": 2016,
+      "end_year": 2017,
+      "role": "Head",
+      "status": "past",
+      "source_text": "Industrial Profil-Géo (Roxwhale): 2016-2017 (Head)"
+    },
+    {
+      "name": "SOPRANO",
+      "program": "PEPS – CNRS Fascido",
+      "partner": null,
+      "start_year": 2015,
+      "end_year": 2016,
+      "role": "Co-Head",
+      "status": "past",
+      "source_text": "PEPS – CNRS Fascido SOPRANO: 2015-2016 (Co-Head)"
+    },
+    {
+      "name": "Integrate",
+      "program": "EU FP7",
+      "partner": null,
+      "start_year": 2013,
+      "end_year": 2015,
+      "role": "Participant",
+      "status": "past",
+      "source_text": "EU FP7 Integrate : 2013 -2015 (Participant)"
+    },
+    {
+      "name": "Etiquetage",
+      "program": "Industrial",
+      "partner": "Lizeo",
+      "start_year": 2013,
+      "end_year": 2015,
+      "role": "Co-Head",
+      "status": "past",
+      "source_text": "industrial Etiquetage (Lizeo): 2013-2015 (Co-Head)"
+    },
+    {
+      "name": "GL2P",
+      "program": "Tranverse",
+      "partner": null,
+      "start_year": 2010,
+      "end_year": 2011,
+      "role": "Co-Head",
+      "status": "past",
+      "source_text": "Tranverse GL2P: 2010-2011 (Co-Head)"
+    },
+    {
+      "name": "Fraudes en Télécom",
+      "program": "Industrial",
+      "partner": "Araxxe",
+      "start_year": 2009,
+      "end_year": 2010,
+      "role": "Head",
+      "status": "past",
+      "source_text": "Industrial Fraudes en Télécom (Araxxe): 2009-2010 (Head)"
+    },
+    {
+      "name": "Cancer de la peau",
+      "program": "Industrial",
+      "partner": "Visoon",
+      "start_year": 2006,
+      "end_year": 2007,
+      "role": "Co-Head",
+      "status": "past",
+      "source_text": "Industrial Cancer de la peau (Visoon): 2006-2007 (Co-Head)"
+    },
+    {
+      "name": "NASO",
+      "program": "Region",
+      "partner": "CIRC",
+      "start_year": 2006,
+      "end_year": 2007,
+      "role": "Participant",
+      "status": "past",
+      "source_text": "Region NASO (CIRC): 2006-2007 (Participant)"
+    }
+  ],
+  "teaching": [
+    {
+      "institution": "Polytech Lyon",
+      "courses": [
+        {
+          "code": null,
+          "title": "Big Data & Machine Learning",
+          "program": "5A",
+          "semester": "S9",
+          "period": null,
+          "source_text": "- Big Data & Machine Learning (5A : S9)"
+        },
+        {
+          "code": null,
+          "title": "Data analysis",
+          "program": "4A",
+          "semester": "S8",
+          "period": null,
+          "source_text": "- Data analysis (4A : S8)"
+        },
+        {
+          "code": null,
+          "title": "Advanced Databases",
+          "program": "3A",
+          "semester": "S6",
+          "period": null,
+          "source_text": "- Advanced Databases (3A : S6)"
+        },
+        {
+          "code": null,
+          "title": "Databases",
+          "program": "3A",
+          "semester": "S5",
+          "period": null,
+          "source_text": "- Databases (3A : S5)"
+        }
+      ]
+    },
+    {
+      "institution": "INFO/FST Lyon1",
+      "courses": [
+        {
+          "code": "LIFDATA",
+          "title": "Data analysis",
+          "program": "L3",
+          "semester": "S6",
+          "period": null,
+          "source_text": "- LIFDATA: Data analysis (L3 : S6)"
+        },
+        {
+          "code": "Deep",
+          "title": "Deep learning",
+          "program": "M2 DS",
+          "semester": "S9",
+          "period": null,
+          "source_text": "- Deep: Deep learning (M2 DS : S9)"
+        }
+      ]
+    },
+    {
+      "institution": "Others",
+      "courses": [
+        {
+          "code": "AFD",
+          "title": "Data analysis",
+          "program": "M1 MIAGE @ Rabat",
+          "semester": null,
+          "period": "since 2015",
+          "source_text": "- AFD: Data analysis (M1 MIAGE @ Rabat) (since 2015 ...)"
+        },
+        {
+          "code": "TAA",
+          "title": "Machine learning techniques",
+          "program": "M2 IA",
+          "semester": "S9",
+          "period": "2009-2025",
+          "source_text": "- TAA: Machine learning techniques (M2 IA : S9) (2009-2025)"
+        },
+        {
+          "code": null,
+          "title": "Machine learning for health",
+          "program": "DU IA & Santé @ CHU Dijon",
+          "semester": null,
+          "period": "2019-2021",
+          "source_text": "- Machine learning for health (DU IA & Santé @ CHU Dijon) (2019-2021)"
+        },
+        {
+          "code": null,
+          "title": "Complex system modeling",
+          "program": "M2 B3S @ CHU Lyon",
+          "semester": null,
+          "period": "2019-2024",
+          "source_text": "- Complex system modeling (M2 B3S @ CHU Lyon) (2019-2024)"
+        },
+        {
+          "code": "M344",
+          "title": "Big Data in practice",
+          "program": "M2 DS for Business @ EM Lyon",
+          "semester": null,
+          "period": "2017-2020",
+          "source_text": "- M344: Big Data in practice (M2 DS for Business @ EM Lyon) (2017-2020)"
+        }
+      ]
+    }
+  ],
+  "responsibilities": {
+    "teaching": [
+      {
+        "text": "Responsible of 5A INFO at Polytech Lyon",
+        "period": null,
+        "current": true,
+        "highlight": true,
+        "source_text": "- Responsible of 5A INFO at Polytech Lyon"
+      },
+      {
+        "text": "Responsible of DATA theme teaching at Polytech Lyon",
+        "period": null,
+        "current": true,
+        "highlight": false,
+        "source_text": "- Responsible of DATA theme teaching at Polytech Lyon"
+      },
+      {
+        "text": "Member of educational council of specialities (CPS) at Polytech Lyon",
+        "period": null,
+        "current": true,
+        "highlight": false,
+        "source_text": "- Member of educational council of specialities (CPS) at Polytech Lyon"
+      },
+      {
+        "text": "Member of computer science department council at Polytech Lyon",
+        "period": null,
+        "current": true,
+        "highlight": false,
+        "source_text": "- Member of computer science department council at Polytech Lyon"
+      },
+      {
+        "text": "Responsible of international relationships at FST/INFO department",
+        "period": "2019-2021",
+        "current": false,
+        "highlight": false,
+        "source_text": "- Responsible of international relationships at FST/INFO department (2019-2021)"
+      },
+      {
+        "text": "Coordinator of international mobility INFO/DRI at Lyon1 University",
+        "period": "2019-2021",
+        "current": false,
+        "highlight": false,
+        "source_text": "- Coordinator of international mobility INFO/DRI at Lyon1 University (2019-2021)"
+      },
+      {
+        "text": "Elected member of advisory board (CA) of Polytech Lyon",
+        "period": "2014-2018",
+        "current": false,
+        "highlight": false,
+        "source_text": "- Elected member of advisory board (CA) of Polytech Lyon (2014-2018)"
+      }
+    ],
+    "research": [
+      {
+        "text": "Co-head of DM2L team at LIRIS Lab",
+        "period": null,
+        "current": true,
+        "highlight": true,
+        "source_text": "- Co-head of DM2L team at LIRIS Lab"
+      },
+      {
+        "text": "Member of scientific concil of LIRIS Lab",
+        "period": null,
+        "current": true,
+        "highlight": false,
+        "source_text": "- Member of scientific concil of LIRIS Lab"
+      },
+      {
+        "text": "Member of transverse-project evaluation commitee at LIRIS Lab",
+        "period": null,
+        "current": true,
+        "highlight": false,
+        "source_text": "- Member of transverse-project evaluation commitee at LIRIS Lab"
+      },
+      {
+        "text": "Member of the thesis committee of doctoral school InfoMaths (ED 512) of Lyon University",
+        "period": null,
+        "current": true,
+        "highlight": false,
+        "source_text": "- Member of the thesis committee of doctoral school InfoMaths (ED 512) of Lyon University"
+      },
+      {
+        "text": "Responsible of industrial relationships at LIRIS Lab",
+        "period": "2015-2020",
+        "current": false,
+        "highlight": false,
+        "source_text": "- Responsible of industrial relationships at LIRIS Lab (2015-2020)"
+      },
+      {
+        "text": "Elected member of scientific expert commitee (MCF) of Lyon1 University",
+        "period": "2009-2016",
+        "current": false,
+        "highlight": false,
+        "source_text": "- Elected member of scientific expert commitee (MCF) of Lyon1 University (2009-2016)"
+      },
+      {
+        "text": "Co-head of machine learning group at LIESP/GAMA Labs",
+        "period": "2009-2012",
+        "current": false,
+        "highlight": false,
+        "source_text": "- Co-head of machine learning group at LIESP/GAMA Labs (2009-2012)"
+      },
+      {
+        "text": "Elected member of council of GAMA Lab",
+        "period": "2010-2012",
+        "current": false,
+        "highlight": false,
+        "source_text": "- Elected member of council of GAMA Lab (2010-2012)"
+      },
+      {
+        "text": "Responsible of seminar of GAMA Lab",
+        "period": "2010-2012",
+        "current": false,
+        "highlight": false,
+        "source_text": "- Responsible of seminar of GAMA Lab (2010-2012)"
+      }
+    ]
+  },
+  "links": [
+    {
+      "category": "Journals",
+      "items": [
+        {
+          "label": "Data Mining & Knowledge Discovery",
+          "url": "http://www.springerlink.com/content/100254/"
+        },
+        {
+          "label": "TKDE",
+          "url": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69"
+        },
+        {
+          "label": "KAIS",
+          "url": "http://www.springer.com/computer/information+systems+and+applications/journal/10115"
+        },
+        {
+          "label": "Neural Computation",
+          "url": "http://neco.mitpress.org/"
+        },
+        {
+          "label": "Neurocomputing",
+          "url": "http://www.sciencedirect.com/science/journal/09252312"
+        },
+        {
+          "label": "Machine Learning",
+          "url": "http://pages.stern.nyu.edu/%7Efprovost/MLJ/"
+        },
+        {
+          "label": "Journal of machine learning research",
+          "url": "http://jmlr.csail.mit.edu/"
+        },
+        {
+          "label": "Neural Networks",
+          "url": "http://www.sciencedirect.com/science/journal/08936080"
+        },
+        {
+          "label": "TPAMI",
+          "url": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34"
+        },
+        {
+          "label": "Pattern Recognition",
+          "url": "http://www.journals.elsevier.com/pattern-recognition/"
+        },
+        {
+          "label": "TNNLS",
+          "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385"
+        },
+        {
+          "label": "RIA",
+          "url": "http://ria.e-revues.com/acceuil.jsp"
+        },
+        {
+          "label": "RNTI",
+          "url": "http://www.antsearch.univ-tours.fr/rnti/default.asp?FCT=DP&ID_PAGE=1"
+        },
+        {
+          "label": "RSA",
+          "url": "http://www.sfds.asso.fr/publicat/c_publ01.htm"
+        }
+      ]
+    },
+    {
+      "category": "International conference",
+      "text": "ICML, ECML/PKDD, NIPS, ICANN, ESANN, IJCNN, ICDM, KDD, ECAI, CIKM, SDM, PAKDD, IJCAI, ICTAI...",
+      "items": [
+        {
+          "label": "All (conference ranking)",
+          "url": "http://webdocs.cs.ualberta.ca/~zaiane/htmldocs/ConfRanking.html"
+        }
+      ]
+    },
+    {
+      "category": "National conference",
+      "text": "CAP, EGC, SFC ...",
+      "items": []
+    },
+    {
+      "category": "Matlab' Toolbox",
+      "items": [
+        {
+          "label": "Cartes topologiques SOM",
+          "url": "http://www.cis.hut.fi/projects/somtoolbox/"
+        },
+        {
+          "label": "Séparateurs à Vaste Marge SVM",
+          "url": "http://www.csie.ntu.edu.tw/~cjlin/libsvm/"
+        },
+        {
+          "label": "Réseaux de Neurones Multi couches MLP",
+          "url": "http://www.ncrg.aston.ac.uk/netlab/"
+        },
+        {
+          "label": "Réseaux Bayésiens RB",
+          "url": "http://bnt.insa-rouen.fr/index.html"
+        }
+      ]
+    },
+    {
+      "category": "Databases",
+      "items": [
+        {
+          "label": "UCI",
+          "url": "http://archive.ics.uci.edu/ml/datasets.html"
+        },
+        {
+          "label": "Feature selection",
+          "url": "http://featureselection.asu.edu/datasets.php"
+        },
+        {
+          "label": "Multi-label",
+          "url": "http://mulan.sourceforge.net/datasets.html"
+        }
+      ]
+    },
+    {
+      "category": "Langages and tools",
+      "text": "Matlab, SAS, Oracle, R, Python, Scala, Hadoop, Spark",
+      "items": []
+    }
+  ],
+  "unlisted_pages": {
+    "software": [
+      {
+        "number": 5,
+        "name": "ASCE",
+        "year": 2006,
+        "url": "http://pig-pbil.ibcp.fr/cgi-bin/asce/asce",
+        "description": "un système d’extraction des cœurs structuraux à partir des classes de protéines (avec une interface web)",
+        "links": [
+          {
+            "label": "Aide",
+            "url": "http://kbenabdeslem.free.fr/Aide_asce.htm"
+          }
+        ],
+        "note": "'Référence' is shown without a link",
+        "source_text": "[5] ASCE : un système d’extraction des cœurs structuraux à partir des classes de protéines (avec une interface web) (2006) Aide , Référence"
+      },
+      {
+        "number": 4,
+        "name": "DSVM",
+        "year": 2006,
+        "url": "http://kbenabdeslem.free.fr/dsvm.tar",
+        "description": "un programme d’apprentissage fait par une nouvelle méthode de SVM hiérarchique pour les problèmes multi-classes",
+        "links": [
+          {
+            "label": "Aide",
+            "url": "http://kbenabdeslem.free.fr/Aide_dsvm.htm"
+          },
+          {
+            "label": "Référence",
+            "url": "http://www710.univ-lyon1.fr/~kbenabde/DSVM_Ref.htm"
+          }
+        ],
+        "source_text": "[4] DSVM : un programme d’apprentissage fait par une nouvelle méthode de SVM hiérarchique pour les problèmes multi-classes (2006). Aide , Référence"
+      },
+      {
+        "number": 3,
+        "name": "SAM",
+        "year": 2006,
+        "url": "http://kbenabdeslem.free.fr/sam.rar",
+        "description": "un source Matlab permettant de combiner plusieurs méthodes connexionnistes pour la prédiction dans les série temporelles",
+        "links": [
+          {
+            "label": "Référence",
+            "url": "http://kbenabdeslem.free.fr/Ref_SAM.htm"
+          }
+        ],
+        "source_text": "[3] SAM : un source Matlab permettant de combiner plusieurs méthodes connexionnistes pour la prédiction dans les série temporelles (2006) , Référence"
+      },
+      {
+        "number": 2,
+        "name": "Maxeem",
+        "year": 2002,
+        "url": null,
+        "description": "Un logiciel protégé par le brevet (Method for processing Internet Request files) et propriété de NumSight SA: qui permet la modélisation comportementale des internautes dans les sites e-commerce.",
+        "links": [
+          {
+            "label": "Method for processing Internet Request files",
+            "url": "http://v3.espacenet.com/textdoc?DB=EPODOC&IDX=WO02059781&F=0&QPN=WO02059781&CY=ep&LG=fr"
+          },
+          {
+            "label": "Référence",
+            "url": "http://v3.espacenet.com/origdoc?DB=EPODOC&IDX=WO02059781&F=0&QPN=WO02059781&CY=ep&LG=fr&RPN=FR2819916&DOC=cda64df49b5413cb8b4b03c08840e7b75e"
+          }
+        ],
+        "source_text": "[2] Maxeem : Un logiciel protégé par le brevet ( Method for processing Internet Request files) et propriété de NumSight SA: qui permet la modélisation comportementale des internautes dans les sites e-commerce. (2002), Référence"
+      },
+      {
+        "number": 1,
+        "name": "SHYNEMA",
+        "year": 1998,
+        "url": null,
+        "description": "un logiciel de reconnaissance vocale, qui permet de simuler les commandes d’un magnétoscope (disponible dans le laboratoire LCHM- USTO. Directeur : A. Benyettou)",
+        "links": [
+          {
+            "label": "A. Benyettou",
+            "url": "mailto:benyettoa@univ-usto.dz"
+          },
+          {
+            "label": "Aide",
+            "url": "http://kbenabdeslem.free.fr/Aide_shynema.htm"
+          }
+        ],
+        "source_text": "[1] SHYNEMA : un logiciel de reconnaissance vocale, qui permet de simuler les commandes d’un magnétoscope (disponible dans le laboratoire LCHM- USTO. Directeur : A. Benyettou) (1998) Aide"
+      }
+    ],
+    "archive_2010": {
+      "title": "Sujets de stage Master 2 Recherche pour 2010",
+      "internships": [
+        {
+          "title": "Apprentissage statistique pour la détection de fraudes dans les télécommunications",
+          "description": [
+            "Un appel téléphonique entre deux entités (appelant, appelé) situées dans des zones géographiques éloignées (à l’échelle mondiale) se fait à travers une série d’opérateurs interconnectés les uns avec les autres. Dans cette série chaque opérateur intermédiaire facture à son appelant l’appel reçu pour permettre son acheminement jusqu’au destinataire final. Ceci dit, l’opérateur de ce dernier possède donc une part de bénéfice grâce à cet appel établi. Cependant, il s’avère qu’un intermédiaire « mystère », qu’on appellera « SIM-Box » et qui appartient au même réseau que le destinataire final, peut contracter une ou plusieurs formules d’appels illimités avec lui, ce qui est légal, par contre il construit une interconnexion via Internet (par voix IP par exemple) avec l’opérateur de l’appelant. Ce dernier cheminement est illégal et constitue une fraude pour l'opérateur du destinataire final qui affiche des pertes financières importantes. Pour détecter ce type de fraudes, il existe actuellement deux solutions. La première dite par filtrage sur rapports et qui consiste à détecter les SIM qui effectuent plusieurs appels, à plusieurs destinataires, qui ne reçoivent pas d’appels, qui n’émettent pas de SMS, etc. Cependant, cette solution est généralement contournée par les fraudeurs et ne constitue pas un argument juridique solide en cas de résiliation de contrat pour cause de fraudes ! La seconde solution consiste à investir dans une série d’abonnements, qu’on appellera routes, pour effectuer une campagne d’appels entre les opérateurs associés et l’opérateur « victime » (l’opérateur client) pour analyser et détecter le maximum de fraudes à partir de cartes SIM différentes dans un environnement sous plusieurs contraintes liées : au nombre maximum d’appels par mois, nombre maximum de routes différentes par mois, nombre minimum d’appels par route et au nombre minimum de routes de types (Fixe, GSM, SIP ou Calling Card). La problématique qui découle de ce stage consiste à répondre aux questions suivantes : Ayant M routes et limité par N appels possibles : 1) comment lister les M’ routes potentielles parmi les M disponibles, 2) Quel poids attribuer à une route (un poids d’une route détermine le nombre d’appels à effectuer par cette route), et 3) comment déterminer un paramètre de régulation sur ces routes. Actuellement, la campagne d’appels est effectuée de manière aléatoire avec une intervention constante des experts du domaine mais qui ne garantit aucunement l’optimisation du nombre de fraudes détectées. Dans le cadre de ce stage, nous proposons de développer une approche automatique basée sur l’apprentissage statistique pour déterminer, particulièrement, le poids pour chaque route afin de détecter le maximum de fraudes sous les contraintes citées ci-dessus. Le stage sera contraint par une close de confidentialité et sera effectué en collaboration avec une société spécialisée dans le monitoring en Télécoms."
+          ],
+          "supervisors": [
+            "Khalid Benabdeslem"
+          ],
+          "contact": "kbenabde[at]bat710.univ-lyon1.fr",
+          "location": null,
+          "funding": null
+        },
+        {
+          "title": "Apprentissage statistique pour la planification sous contraintes complexes : Application aux livraisons de marchandises",
+          "description": [
+            "Contexte de l’étude: La planification de trajectoires dans un environnement contraint et complexe nécessite des techniques et des outils robustes pour son optimisation. Le domaine applicatif concerne la livraison de marchandises et plus particulièrement la problématique de la planification des tournées (colis à livrer) sous contraintes. L'objectif recherché ici est d'optimiser la tournée en fonction de contraintes métiers liées à l'infrastructure (liste des clients à satisfaire, contraintes horaires, disponibilité et caractéristiques des aires de livraison : accessibilité, dimensions, etc.) et des perturbations détectées (congestion de trafic, accidents, travaux). Le livreur utilisera le planificateur à la fois pour définir sa tournée avant d'embarquer dans son camion, mais également en dynamique pour modifier une tournée en cours, lorsque des perturbations rendent impossible la tournée prévue. Il doit donc permettre de modifier une tournée enregistrée et prendre en compte de nouvelles contraintes sur les ressources.",
+            "Objectifs du stage: L'idée ici est d'étudier l'adéquation des techniques de planification sous contraintes par apprentissage statistique et graphique. Une solution théorique de planification des tournées serait de considérer tous les cas possibles par un parcours d’arborescence. Cette solution n’est pas réalisable vu le nombre exponentiel de recherches. Le problème est donc NP-Complet. A partir d'un ensemble de tournées types, d'aléas prédéfinis, et de contraintes envisagées, il s'agirait de proposer une méthode de classification non supervisées des éléments permettant ensuite d'identifier des situations types ou des attributs clefs pour la planification. Les modèles de classification sous contraintes peuvent être envisagés pour cette fin. Il s’agit d’un domaine récent émergent des domaines conjoints de Data Mining et de l'extraction de connaissances. Il s'agirait ensuite de construire à l'aide des experts du Métier, pour chaque classe de situations identifiée, un ensemble de règles qui permettent de définir un plan de tournée. Pour ce faire, on peut envisager la modélisation des stratégies de planification par un graphe valué tel que les sommets sont les arrêts de la tournée, et les arrêtes seront quantifiées par les distances entre chaque arrêt. Dans un premier temps un graphe initial est défini (il faudra étudier de quelle façon). Puis un processus itératif est envisagé pour apprendre ce graphe jusqu’à convergence (optimisation d’une fonction objectif). De même, il s’agit d’un sujet scientifique ouvert en apprentissage automatique et particulièrement en apprentissage des graphes. Le candidat s’appuiera d’une part sur les compétences métier du projet ALF (projet du Ministère des Transports, Nov2009- Juin2011) pour les connaissances sur le transport et la livraison de marchandises, et d’autre part sur le savoir-faire en matière d’apprentissage automatique et statistique de l’équipe LKD (Learning and Knowledge Discovery) du laboratoire LIESP. Ce travail débouchera sur la réalisation d’un logiciel de planification « clef en main ». Il s’agit de mettre à la disposition des utilisateurs une application implémentant des modèles d’apprentissage en fixant automatiquement les valeurs des paramètres représentant les contraintes."
+          ],
+          "supervisors": [
+            "Khalid Benabdeslem",
+            "Véroniques Deslandres"
+          ],
+          "contact": "kbenabde[at]bat710.univ-lyon1.fr , deslandres[at]bat710.univ-lyon1.fr",
+          "location": "Université Lyon1, LIESP.",
+          "funding": "Financé par le projet ALF (Aires de livraisons du Futur)"
+        }
+      ],
+      "workshop": {
+        "label": "Atelier",
+        "title": "Apprentissage et graphes pour les systèmes complexes",
+        "url": "http://www710.univ-lyon1.fr/%7Eags/",
+        "location": "Hammamet",
+        "date": "2009-05-25",
+        "source_text": "Atelier : Apprentissage et graphes pour les systèmes complexes , Hammamet , le 25 Mai 2009."
+      }
+    }
+  }
+}

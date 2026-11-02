@@ -1,0 +1,76 @@
+---
+layout: archive
+title: "CV"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
+{% include base_path %}
+{% assign cv = site.data.cv %}
+{% assign n_journals = site.publications | where: "category", "journals" | size %}
+{% assign n_conf = site.publications | where: "category", "conferences" | size %}
+
+<div class="kb-cvhead">
+  <div>
+    <p class="kb-eyebrow">{{ site.data.profile.position }}</p>
+    <p class="kb-cvhead__line">Université Lyon 1 (Polytech Lyon) · LIRIS, CNRS UMR 5205 · Co-head of the DM2L team</p>
+  </div>
+  <button type="button" class="kb-btn kb-print" onclick="window.print()"><i class="fa-solid fa-print" aria-hidden="true"></i> Print / save as PDF</button>
+</div>
+
+<div class="kb-cvgrid">
+  <section>
+    <h2 class="kb-h2"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Education</h2>
+    <ul class="kb-timeline">
+      {% for d in cv.diplomas %}
+      <li class="kb-timeline__item">
+        <span class="kb-timeline__date">{{ d.date | append: "-01" | date: "%m/%Y" }}</span>
+        <div class="kb-timeline__body"><strong>{{ d.degree }}</strong> in {{ d.field }}<br><span class="kb-muted">{{ d.institution }}</span></div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  <section>
+    <h2 class="kb-h2"><i class="fa-solid fa-briefcase" aria-hidden="true"></i> Experience</h2>
+    <ul class="kb-timeline">
+      {% for e in cv.experience %}
+      <li class="kb-timeline__item">
+        <span class="kb-timeline__date">{% if e.date contains 'Spring' %}{{ e.date | split: ' ' | first }}{% else %}{{ e.date | append: "-01" | date: "%m/%Y" }}{% endif %}</span>
+        <div class="kb-timeline__body"><strong>{{ e.role }}</strong><br><span class="kb-muted">{{ e.organization }}{% if e.date contains 'Spring' %} (Spring){% endif %}</span></div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>
+
+<h2 class="kb-h2" id="responsibilities"><i class="fa-solid fa-sitemap" aria-hidden="true"></i> Responsibilities</h2>
+<div class="kb-cvgrid">
+  {% for group in cv.responsibilities %}
+  <section class="kb-panel">
+    <h3 class="kb-panel__title">{% if group[0] == 'teaching' %}<i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i> Teaching{% else %}<i class="fa-solid fa-flask" aria-hidden="true"></i> Research{% endif %}</h3>
+    <ul class="kb-resp">
+      {% for r in group[1] %}
+      <li class="{% if r.current %}is-current{% else %}is-past{% endif %}">
+        {% if r.highlight %}<strong>{{ r.text }}</strong>{% else %}{{ r.text }}{% endif %}
+        {% if r.period %}<span class="kb-badge kb-badge--muted">{{ r.period }}</span>{% else %}<span class="kb-badge kb-badge--live">Current</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
+
+<h2 class="kb-h2"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i> In numbers</h2>
+<div class="kb-stats kb-stats--small">
+  <a class="kb-stat" href="{{ base_path }}/publications/#journals"><span class="kb-stat__num">{{ n_journals }}</span><span class="kb-stat__label">Journal articles</span></a>
+  <a class="kb-stat" href="{{ base_path }}/publications/#conferences"><span class="kb-stat__num">{{ n_conf }}</span><span class="kb-stat__label">Conference papers</span></a>
+  <a class="kb-stat" href="{{ base_path }}/students/"><span class="kb-stat__num">{{ site.data.students.phd | size }}</span><span class="kb-stat__label">PhD students</span></a>
+  <a class="kb-stat" href="{{ base_path }}/projects/"><span class="kb-stat__num">{{ site.data.projects.current.size | plus: site.data.projects.past.size }}</span><span class="kb-stat__label">Projects</span></a>
+</div>
+
+<h2 class="kb-h2"><i class="fa-solid fa-scroll" aria-hidden="true"></i> Theses</h2>
+{% assign theses = site.publications | where: "category", "theses" | sort: "number" | reverse %}
+<ol class="kb-publist">
+  {% for post in theses %}{% include pub-item.html pub=post %}{% endfor %}
+</ol>

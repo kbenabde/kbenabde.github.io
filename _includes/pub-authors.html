@@ -1,0 +1,5 @@
+{%- comment -%} Author list with the site owner highlighted. Usage: include pub-authors.html authors=list {%- endcomment -%}
+{%- for a in include.authors -%}
+  {%- if site.data.profile.self_aliases contains a -%}<strong class="kb-me">{{ a }}</strong>{%- else -%}{{ a }}{%- endif -%}
+  {%- unless forloop.last -%}, {% endunless -%}
+{%- endfor -%}

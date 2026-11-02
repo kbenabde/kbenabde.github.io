@@ -1,0 +1,22 @@
+{%- comment -%} One publication row. Usage: include pub-item.html pub=post {%- endcomment -%}
+{%- include base_path -%}
+{%- assign p = include.pub -%}
+<li class="kb-pub" data-type="{{ p.category }}" data-year="{{ p.year }}"{% if p.award %} data-award="1"{% endif %} data-search="{{ p.pub_id | append: ' ' | append: p.title | append: ' ' | append: p.authors_text | append: ' ' | append: p.venue | append: ' ' | append: p.year | downcase | escape }}">
+  <span class="kb-pub__id kb-pub__id--{{ p.category }}">{{ p.pub_id }}</span>
+  <div class="kb-pub__body">
+    <a class="kb-pub__title" href="{{ base_path }}{{ p.url }}">{{ p.title }}</a>
+    <div class="kb-pub__authors">{% include pub-authors.html authors=p.authors %}</div>
+    <div class="kb-pub__venue">
+      {%- if p.venue_short %}<span class="kb-tag">{{ p.venue_short }}</span>{% endif -%}
+      <em>{% if p.venue_details %}{{ p.venue_details }}{% else %}{{ p.venue }}{% endif %}</em>
+    </div>
+    {%- if p.award or p.workshop or p.online or p.link %}
+    <div class="kb-pub__badges">
+      {%- if p.award %}<span class="kb-badge kb-badge--award"><i class="fa-solid fa-trophy" aria-hidden="true"></i> {{ p.award }}</span>{% endif -%}
+      {%- if p.workshop %}<span class="kb-badge">Workshop</span>{% endif -%}
+      {%- if p.online %}<span class="kb-badge">Online</span>{% endif -%}
+      {%- if p.link %}<a class="kb-badge kb-badge--link" href="{{ p.link }}"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> DOI</a>{% endif -%}
+    </div>
+    {%- endif %}
+  </div>
+</li>

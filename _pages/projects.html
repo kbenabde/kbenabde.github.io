@@ -1,0 +1,62 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+{% include base_path %}
+{% assign pr = site.data.projects %}
+
+<h2 class="kb-h2"><i class="fa-solid fa-rocket" aria-hidden="true"></i> Current projects</h2>
+<div class="kb-cards">
+  {% for p in pr.current %}
+  <article class="kb-card kb-card--accent">
+    <p class="kb-card__kicker">{% if p.program %}{{ p.program }}{% else %}Project{% endif %}{% if p.partner %} · {{ p.partner }}{% endif %}</p>
+    <h3 class="kb-card__title">{{ p.name }}</h3>
+    <p class="kb-card__meta"><i class="fa-regular fa-calendar" aria-hidden="true"></i> {{ p.start_year }}–{{ p.end_year }} &nbsp; <i class="fa-solid fa-user-tie" aria-hidden="true"></i> {{ p.role }}</p>
+  </article>
+  {% endfor %}
+</div>
+
+<h2 class="kb-h2"><i class="fa-solid fa-timeline" aria-hidden="true"></i> Timeline</h2>
+<div class="kb-gantt" role="table" aria-label="Projects timeline">
+  <div class="kb-gantt__axis" aria-hidden="true">
+    <span class="kb-gantt__label"></span>
+    <span class="kb-gantt__track">
+      {% for t in pr.timeline.ticks %}<span class="kb-gantt__tick" style="left: {{ t.left }}%">{{ t.year }}</span>{% endfor %}
+    </span>
+  </div>
+  {% assign all = pr.current | concat: pr.past %}
+  {% for p in all %}
+  <div class="kb-gantt__row" role="row">
+    <span class="kb-gantt__label" role="cell">
+      <strong>{{ p.name }}</strong>
+      <small>{% if p.program %}{{ p.program }}{% endif %}{% if p.partner %}{% if p.program %} · {% endif %}{{ p.partner }}{% endif %}</small>
+    </span>
+    <span class="kb-gantt__track" role="cell">
+      {% for t in pr.timeline.ticks %}<span class="kb-gantt__grid" style="left: {{ t.left }}%"></span>{% endfor %}
+      <span class="kb-gantt__bar{% if p.status == 'current' %} kb-gantt__bar--current{% endif %}" style="left: {{ p.left }}%; width: {{ p.width }}%" title="{{ p.name }}: {{ p.start_year }}–{{ p.end_year }} · {{ p.role }}">
+        <span class="kb-gantt__barlabel">{{ p.start_year }}–{{ p.end_year }} · {{ p.role }}</span>
+      </span>
+    </span>
+  </div>
+  {% endfor %}
+</div>
+
+<h2 class="kb-h2"><i class="fa-solid fa-box-archive" aria-hidden="true"></i> Past projects</h2>
+<div class="kb-tablewrap">
+  <table class="kb-table">
+    <thead><tr><th>Project</th><th>Programme</th><th>Partner</th><th>Years</th><th>Role</th></tr></thead>
+    <tbody>
+      {% for p in pr.past %}
+      <tr>
+        <td class="kb-table__name">{{ p.name }}</td>
+        <td>{{ p.program }}</td>
+        <td>{{ p.partner }}</td>
+        <td class="kb-table__date">{{ p.start_year }}–{{ p.end_year }}</td>
+        <td>{{ p.role }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

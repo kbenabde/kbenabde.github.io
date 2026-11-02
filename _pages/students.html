@@ -1,0 +1,75 @@
+---
+layout: archive
+title: "Students & Supervision"
+permalink: /students/
+author_profile: true
+redirect_from:
+  - /supervision/
+---
+{% include base_path %}
+{% assign st = site.data.students %}
+{% assign phd_on = st.phd | where: "status", "ongoing" %}
+{% assign phd_done = st.phd | where: "status", "completed" %}
+
+<p class="kb-intro">{{ st.intro }}</p>
+
+<div class="kb-stats kb-stats--small">
+  <a class="kb-stat" href="#phd"><span class="kb-stat__num">{{ st.phd | size }}</span><span class="kb-stat__label">PhD students · {{ phd_on | size }} ongoing</span></a>
+  <a class="kb-stat" href="#postdoc"><span class="kb-stat__num">{{ st.postdoc | size }}</span><span class="kb-stat__label">Post-docs</span></a>
+  <a class="kb-stat" href="#msc"><span class="kb-stat__num">{{ st.msc | size }}</span><span class="kb-stat__label">MSc students</span></a>
+</div>
+
+<h2 class="kb-h2" id="phd"><i class="fa-solid fa-user-graduate" aria-hidden="true"></i> PhD students</h2>
+<div class="kb-cards kb-cards--people">
+  {% for s in st.phd %}
+  <article class="kb-card kb-person{% if s.status == 'ongoing' %} kb-person--ongoing{% endif %}">
+    <div class="kb-person__head">
+      <span class="kb-avatar" aria-hidden="true">{{ s.name | slice: 0 }}{{ s.name | split: ' ' | last | slice: 0 }}</span>
+      <div>
+        <h3 class="kb-card__title">{{ s.name }}</h3>
+        <p class="kb-card__meta">
+          {{ s.start | append: "-01" | date: "%b %Y" }} – {% if s.end %}{{ s.end | append: "-01" | date: "%b %Y" }}{% else %}present{% endif %}
+          {% if s.status == 'ongoing' %}<span class="kb-badge kb-badge--live">Ongoing</span>{% endif %}
+        </p>
+      </div>
+    </div>
+    <p class="kb-person__topic">{{ s.topic }}</p>
+    {% if s.co_supervisors.size > 0 %}<p class="kb-person__extra"><i class="fa-solid fa-handshake" aria-hidden="true"></i> With {{ s.co_supervisors | array_to_sentence_string }}</p>{% endif %}
+    {% if s.current_position %}<p class="kb-person__extra"><i class="fa-solid fa-location-arrow" aria-hidden="true"></i> Now: {{ s.current_position }}</p>{% endif %}
+  </article>
+  {% endfor %}
+</div>
+
+<h2 class="kb-h2" id="postdoc"><i class="fa-solid fa-microscope" aria-hidden="true"></i> Post-docs</h2>
+<div class="kb-cards kb-cards--people">
+  {% for s in st.postdoc %}
+  <article class="kb-card kb-person">
+    <div class="kb-person__head">
+      <span class="kb-avatar" aria-hidden="true">{{ s.name | slice: 0 }}{{ s.name | split: ' ' | last | slice: 0 }}</span>
+      <div>
+        <h3 class="kb-card__title">{{ s.name }}</h3>
+        <p class="kb-card__meta">{{ s.start | append: "-01" | date: "%b %Y" }} – {{ s.end | append: "-01" | date: "%b %Y" }}</p>
+      </div>
+    </div>
+    <p class="kb-person__topic">{{ s.topic }}</p>
+    {% if s.current_position %}<p class="kb-person__extra"><i class="fa-solid fa-location-arrow" aria-hidden="true"></i> Now: {{ s.current_position }}</p>{% endif %}
+  </article>
+  {% endfor %}
+</div>
+
+<h2 class="kb-h2" id="msc"><i class="fa-solid fa-book-open-reader" aria-hidden="true"></i> MSc students</h2>
+<div class="kb-tablewrap">
+  <table class="kb-table">
+    <thead><tr><th>#</th><th>Student</th><th>Subject</th><th>Period</th></tr></thead>
+    <tbody>
+      {% for s in st.msc %}
+      <tr>
+        <td class="kb-table__num">{{ s.number }}</td>
+        <td class="kb-table__name">{{ s.name }}</td>
+        <td>{{ s.topic }}</td>
+        <td class="kb-table__date">{{ s.start | append: "-01" | date: "%m/%Y" }} – {{ s.end | append: "-01" | date: "%m/%Y" }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,34 @@
+---
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+---
+{% include base_path %}
+
+<p class="kb-intro">I teach data science and machine learning across engineering, bachelor and master programmes, at Polytech Lyon and the Faculty of Science of Université Lyon 1, as well as in partner institutions.</p>
+
+<div class="kb-teach">
+  {% for g in site.data.teaching %}
+  <section class="kb-panel{% if forloop.last %} kb-panel--wide{% endif %}">
+    <h2 class="kb-panel__title">
+      {% if g.institution contains 'Polytech' %}<i class="fa-solid fa-building-columns" aria-hidden="true"></i>{% elsif g.institution contains 'FST' %}<i class="fa-solid fa-university" aria-hidden="true"></i>{% else %}<i class="fa-solid fa-earth-europe" aria-hidden="true"></i>{% endif %}
+      {% if g.institution == 'Others' %}Other institutions{% else %}{{ g.institution }}{% endif %}
+    </h2>
+    <ul class="kb-courses">
+      {% for c in g.courses %}
+      <li class="kb-course">
+        <span class="kb-course__title">{% if c.code %}<span class="kb-tag">{{ c.code }}</span>{% endif %}{{ c.title }}</span>
+        <span class="kb-course__meta">
+          <span class="kb-chip kb-chip--sm">{{ c.program }}</span>
+          {% if c.semester %}<span class="kb-chip kb-chip--sm">{{ c.semester }}</span>{% endif %}
+          {% if c.period %}<span class="kb-chip kb-chip--sm kb-chip--muted"><i class="fa-regular fa-clock" aria-hidden="true"></i> {{ c.period }}</span>{% endif %}
+        </span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
+
+<p class="kb-more"><a href="{{ base_path }}/cv/#responsibilities">Teaching responsibilities <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></p>

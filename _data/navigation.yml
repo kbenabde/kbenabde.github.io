@@ -1,0 +1,25 @@
+# Order of the links in the header. Remove an entry to hide it from the menu.
+main:
+  - title: "Research"
+    url: /research/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Students"
+    url: /students/
+
+  - title: "Projects"
+    url: /projects/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "CV"
+    url: /cv/
+
+  - title: "Resources"
+    url: /resources/
+
+  - title: "Contact"
+    url: /contact/

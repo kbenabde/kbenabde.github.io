@@ -1,0 +1,76 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+{% include base_path %}
+
+{% comment %} ---------- counts per category ---------- {% endcomment %}
+<div class="kb-stats kb-stats--small">
+  {% for category in site.publication_category %}
+    {% assign n = site.publications | where: "category", category[0] | size %}
+    {% if n > 0 %}
+    <a class="kb-stat" href="#{{ category[0] }}" data-jump="{{ category[0] }}"><span class="kb-stat__num">{{ n }}</span><span class="kb-stat__label">{{ category[1].title }}</span></a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% comment %} ---------- papers per year (journals + conferences) ---------- {% endcomment %}
+{% assign by_year = site.publications | group_by: "year" | sort: "name" %}
+{% assign max = 1 %}
+{% for g in by_year %}{% if g.size > max %}{% assign max = g.size %}{% endif %}{% endfor %}
+<figure class="kb-chart" aria-label="Publications per year">
+  <div class="kb-chart__bars">
+    {% for g in by_year %}
+      {% assign j = g.items | where: "category", "journals" | size %}
+      {% assign other = g.size | minus: j %}
+      {% assign hj = j | times: 100.0 | divided_by: max %}
+      {% assign ho = other | times: 100.0 | divided_by: max %}
+      <button type="button" class="kb-chart__col" data-year="{{ g.name }}" title="{{ g.name }}: {{ g.size }} ({{ j }} journal)">
+        <span class="kb-chart__stack">
+          <span class="kb-chart__seg kb-chart__seg--other" style="height: {{ ho | round: 2 }}%"></span>
+          <span class="kb-chart__seg kb-chart__seg--journal" style="height: {{ hj | round: 2 }}%"></span>
+        </span>
+        <span class="kb-chart__label">{{ g.name | slice: 2, 2 }}</span>
+      </button>
+    {% endfor %}
+  </div>
+  <figcaption><span class="kb-key kb-key--journal"></span> Journal articles <span class="kb-key kb-key--other"></span> Other publications · click a year to filter</figcaption>
+</figure>
+
+{% comment %} ---------- toolbar ---------- {% endcomment %}
+<div class="kb-toolbar" role="search">
+  <label class="kb-search">
+    <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+    <input type="search" id="pub-search" placeholder="Search by title, author, venue or year…" autocomplete="off" aria-label="Search publications">
+  </label>
+  <div class="kb-filters" id="pub-filters">
+    <button type="button" class="kb-filter is-active" data-filter="all">All</button>
+    {% for category in site.publication_category %}
+      {% assign n = site.publications | where: "category", category[0] | size %}
+      {% if n > 0 %}<button type="button" class="kb-filter" data-filter="{{ category[0] }}">{{ category[1].title | split: ' ' | first }}</button>{% endif %}
+    {% endfor %}
+    <button type="button" class="kb-filter" data-filter="award"><i class="fa-solid fa-trophy" aria-hidden="true"></i> Awards</button>
+  </div>
+  <p class="kb-toolbar__count" id="pub-count" aria-live="polite"></p>
+</div>
+
+{% comment %} ---------- lists ---------- {% endcomment %}
+{% for category in site.publication_category %}
+  {% assign items = site.publications | where: "category", category[0] | sort: "number" | reverse %}
+  {% if items.size > 0 %}
+  <section class="kb-pubgroup" id="{{ category[0] }}" data-group="{{ category[0] }}">
+    <h2 class="kb-h2">{{ category[1].title }} <span class="kb-count">{{ items.size }}</span></h2>
+    <ol class="kb-publist">
+      {% assign last_year = "" %}
+      {% for post in items %}
+        {% assign y = post.year | append: "" %}
+        {% if y != last_year %}<li class="kb-yearmark" data-yearmark="{{ y }}"><span>{{ y }}</span></li>{% assign last_year = y %}{% endif %}
+        {% include pub-item.html pub=post %}
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+{% endfor %}
+<p class="kb-empty" id="pub-empty" hidden>No publication matches your search.</p>

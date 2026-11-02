@@ -1,0 +1,35 @@
+---
+layout: archive
+title: "Contact"
+permalink: /contact/
+author_profile: true
+---
+{% include base_path %}
+{% assign c = site.data.contact %}
+{% capture addr_query %}{{ c.address_lines[2] }}, {{ c.address_lines[3] }}{% endcapture %}
+
+<div class="kb-contact">
+  <section class="kb-panel">
+    <h2 class="kb-panel__title"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Address</h2>
+    <address class="kb-address">
+      {% for l in c.address_lines %}{{ l }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}
+    </address>
+    <p class="kb-card__links">
+      <a href="https://www.openstreetmap.org/search?query={{ addr_query | url_encode }}"><i class="fa-solid fa-map" aria-hidden="true"></i> OpenStreetMap</a> ·
+      <a href="https://www.google.com/maps/search/?api=1&amp;query={{ addr_query | url_encode }}"><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i> Google Maps</a> ·
+      <a href="{{ c.access_map }}"><i class="fa-solid fa-route" aria-hidden="true"></i> Campus access</a>
+    </p>
+  </section>
+
+  <section class="kb-panel">
+    <h2 class="kb-panel__title"><i class="fa-solid fa-address-card" aria-hidden="true"></i> Get in touch</h2>
+    <ul class="kb-contactlist">
+      <li><i class="fa-solid fa-envelope" aria-hidden="true"></i> <a href="#" data-email-user="{{ c.email_user }}" data-email-domain="{{ c.email_domain }}"><span data-email-label>{{ c.email_display }}</span></a></li>
+      <li><i class="fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:{{ c.phone | remove: ' ' | remove: '(0)' }}">{{ c.phone }}</a></li>
+      <li><i class="fa-solid fa-fax" aria-hidden="true"></i> {{ c.fax }}</li>
+      <li><i class="fa-solid fa-globe" aria-hidden="true"></i> <a href="{{ c.website }}">{{ c.website | remove: 'http://' | remove: 'https://' }}</a></li>
+    </ul>
+  </section>
+</div>
+
+<p class="kb-intro">Interested in an internship, a PhD or a collaboration? Have a look at the <a href="{{ base_path }}/positions/">positions page</a> and send me an e-mail with your CV.</p>

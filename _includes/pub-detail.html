@@ -1,0 +1,29 @@
+{%- comment -%} Body of a single publication page (rendered for every file in _publications) {%- endcomment -%}
+{%- include base_path -%}
+{%- assign cat = site.publication_category[page.category] -%}
+<div class="kb-pubpage">
+  <p class="kb-pubpage__kicker">
+    <span class="kb-pub__id kb-pub__id--{{ page.category }}">{{ page.pub_id }}</span>
+    {{ cat.title }} · {{ page.year }}
+    {%- if page.award %} · <span class="kb-badge kb-badge--award"><i class="fa-solid fa-trophy" aria-hidden="true"></i> {{ page.award }}</span>{% endif %}
+  </p>
+  <dl class="kb-dl">
+    <dt>Authors</dt>
+    <dd>{% include pub-authors.html authors=page.authors %}</dd>
+    <dt>{% if page.category == 'journals' %}Journal{% elsif page.category == 'theses' %}Document{% else %}Venue{% endif %}</dt>
+    <dd>{% if page.venue_short %}<span class="kb-tag">{{ page.venue_short }}</span> {% endif %}{% if page.venue_details %}{{ page.venue_details }}{% else %}{{ page.venue }}{% endif %}</dd>
+    {%- if page.pages %}
+    <dt>Pages</dt>
+    <dd>{{ page.pages }}</dd>
+    {%- endif %}
+    {%- if page.doi %}
+    <dt>DOI</dt>
+    <dd><a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a></dd>
+    {%- endif %}
+    {%- if page.links %}
+    <dt>Links</dt>
+    <dd>{% for l in page.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</dd>
+    {%- endif %}
+  </dl>
+  <p><a class="kb-back" href="{{ base_path }}/publications/"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i> All publications</a></p>
+</div>
