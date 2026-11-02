@@ -51,7 +51,7 @@ Extras: searchable/filterable publication list with a per-year chart, project ti
   This rewrites `_publications/` and the YAML files in `_data/` (not the pages in `_pages/`), so do it before making hand edits to those files, or edit the JSON instead.
 - **Biography text** on the home page lives in `_pages/about.html`.
 - **Menu**: `_data/navigation.yml`.
-- **Profile picture**: put a photo in `images/` (e.g. `images/profile.jpg`) and set `avatar: "profile.jpg"` in `_config.yml` (the current one is a "KB" monogram).
+- **Profile picture**: put a photo in `images/` (e.g. `images/profile.jpg`) and set `avatar: "profile.jpg"` in `_config.yml` (the current one is `images/bkw-image.png`).
 - **Academic profiles**: fill `googlescholar`, `orcid`, `researchgate`, `linkedin`… under `author:` in `_config.yml` to show them in the sidebar.
 - **Colours**: change `site_theme` in `_config.yml` (`default`, `air`, `sunrise`, `mint`, `dirt`, `contrast`); the custom components in `_sass/layout/_kb.scss` follow the theme colours automatically.
 

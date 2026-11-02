@@ -902,6 +902,9 @@ body {
 
 /* ---------- sidebar avatar ---------- */
 .author__avatar img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: 50% 20%;
   border: 3px solid var(--global-bg-color);
   box-shadow: 0 0 0 2px color-mix(in srgb, var(--kb-accent) 50%, transparent), var(--kb-shadow);
 }

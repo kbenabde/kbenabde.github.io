@@ -23,13 +23,13 @@ repository               : "kbenabde/kbenabde.github.io" # e.g. "<username>/<use
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.svg"
+  avatar           : "bkw-image.png"
   name             : "Khalid Benabdeslem"
   pronouns         : # example: "she/her"  
   bio              : "Associate Professor (HDR) · Machine Learning"
   location         : "Villeurbanne (Lyon), France"
   employer         : "Université Lyon 1 · LIRIS"
-  uri              : "http://perso.univ-lyon1.fr/khalid.benabdeslem"
+  uri              : "https://kbenabde.github.io/"
   email            : # Kept off the sidebar on purpose (the old site obfuscated it); see the Contact page
 
   # Academic websites
