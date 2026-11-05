@@ -3843,6 +3843,16 @@
       "source_text": "CIFRE MOVED (Renault): 2025-2028 (Head)"
     },
     {
+      "name": "BGR-IA",
+      "program": "Mitacs",
+      "partner": null,
+      "start_year": 2025,
+      "end_year": 2027,
+      "role": "Co-Head",
+      "status": "current",
+      "source_text": "Mitacs BGR-IA: 2025-2027 (Co-Head)"
+    },
+    {
       "name": "KOGIA",
       "program": "CIFRE",
       "partner": "Auvalie Innovation",
