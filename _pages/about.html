@@ -58,7 +58,7 @@ redirect_from:
         <span class="kb-timeline__date">{{ a.year }}</span>
         <div class="kb-timeline__body">
           {{ a.text | remove: ' (Closed)' | remove: '(Closed)' | remove: ': click here' | remove: ' : click here' }}
-          {% if a.status == 'closed' %}<span class="kb-badge kb-badge--muted">Closed</span>{% endif %}
+          {% if a.status == 'closed' %}<span class="kb-badge kb-badge--muted">Closed</span>{% elsif a.status == 'open' %}<span class="kb-badge kb-badge--live">Open</span>{% endif %}
           {% if a.link %}<a class="kb-badge kb-badge--link" href="{{ a.link }}">Details</a>{% endif %}
         </div>
       </li>

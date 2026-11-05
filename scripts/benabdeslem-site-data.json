@@ -235,6 +235,17 @@
     "announcements": [
       {
         "type": "master_internship",
+        "count": 6,
+        "year": 2027,
+        "topic": "Machine Learning",
+        "domain": null,
+        "funding": null,
+        "status": "open",
+        "link": null,
+        "source_text": "- Offer of 6 Master internships (2027) on Machine Learning"
+      },
+      {
+        "type": "master_internship",
         "count": 4,
         "year": 2026,
         "topic": "Advanced Deep Learning",
