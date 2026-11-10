@@ -2,6 +2,15 @@
 
 <!-- start custom head snippets -->
 
+<!-- Apply the day/night theme before the page is drawn; same hours as assets/js/_main.js -->
+<script>
+  (function () {
+    var hour = new Date().getHours();
+    var theme = sessionStorage.getItem("theme") || (hour >= 7 && hour < 19 ? "light" : "dark");
+    if (theme === "dark") { document.documentElement.setAttribute("data-theme", "dark"); }
+  })();
+</script>
+
 <!-- Support for jQuery, this needs to be first so that it has a chance to load. -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 

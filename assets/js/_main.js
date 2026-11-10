@@ -9,24 +9,24 @@
 const PLOTLY_URL = "https://cdn.jsdelivr.net/npm/plotly.js@3.6.0/dist/plotly.min.js";
 const MERMAID_URL = "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
 
-// Detect OS/browser preference
-const browserPref = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+// Light theme during these local hours, dark otherwise. Keep in sync with _includes/head/custom.html.
+const DAY_START_HOUR = 7;
+const DAY_END_HOUR = 19;
+
+function themeForCurrentHour() {
+  const hour = new Date().getHours();
+  return (hour >= DAY_START_HOUR && hour < DAY_END_HOUR) ? "light" : "dark";
+}
 
 // Determine the computed theme, which can be "dark" or "light".
+// A theme chosen with the toggle only lasts for the current visit (sessionStorage).
 function determineComputedTheme() {
-  // Determine the expected state of the theme toggle, which can be "dark", "light", or default "system"
-  let themeSetting = localStorage.getItem("theme");
-  themeSetting = (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
-
-  // Return the setting if set, or use the browser preference
-  if (themeSetting != "system") {
-    return themeSetting;
-  }
-  return browserPref ? "dark" : "light";
+  const chosen = sessionStorage.getItem("theme");
+  return (chosen === "dark" || chosen === "light") ? chosen : themeForCurrentHour();
 }
 
 // Set the theme on page load or when explicitly called. Without an argument the
-// theme is the stored preference or, failing that, the OS/browser preference.
+// theme is the one chosen during this visit or, failing that, the one for the current hour.
 function setTheme(theme) {
   const use_theme = theme || determineComputedTheme();
 
@@ -43,7 +43,7 @@ function setTheme(theme) {
 function toggleTheme() {
   const current_theme = $("html").attr("data-theme");
   const new_theme = current_theme === "dark" ? "light" : "dark";
-  localStorage.setItem("theme", new_theme);
+  sessionStorage.setItem("theme", new_theme);
   setTheme(new_theme);
   redrawPlotly();
 }
@@ -141,14 +141,21 @@ $(document).ready(function () {
   const scssLarge = 925;          // pixels, from /_sass/_themes.scss
   const scssMastheadHeight = 70;  // pixels, from the current theme (e.g., /_sass/theme/_default.scss)
 
-  // If the user hasn't chosen a theme, follow the OS preference
+  // Earlier versions stored the toggle choice permanently, which would block the automatic theme
+  localStorage.removeItem("theme");
+
+  // Follow the time of day, switching at DAY_START_HOUR and DAY_END_HOUR while the page stays open
   setTheme();
-  window.matchMedia('(prefers-color-scheme: dark)')
-        .addEventListener("change", (e) => {
-          if (!localStorage.getItem("theme")) {
-            setTheme(e.matches ? "dark" : "light");
-          }
-        });
+  setInterval(function () {
+    if (sessionStorage.getItem("theme")) {
+      return;
+    }
+    const theme = themeForCurrentHour();
+    if (theme !== ($("html").attr("data-theme") === "dark" ? "dark" : "light")) {
+      setTheme(theme);
+      redrawPlotly();
+    }
+  }, 60 * 1000);
 
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);
