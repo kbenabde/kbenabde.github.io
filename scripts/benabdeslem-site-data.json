@@ -3367,6 +3367,17 @@
     ],
     "msc": [
       {
+        "number": 40,
+        "name": "Ilicia Benaoudia",
+        "topic": "Multimodal learning with missing modalities for electric car diagnosis",
+        "start": "2027-03",
+        "end": "2027-09",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "40) Ilicia Benaoudia. Multimodal learning with missing modalities for electric car diagnosis (03/2027-09/2027)"
+      },
+      {
         "number": 39,
         "name": "Mohamed Chakib Bourezag",
         "topic": "Multimodal feature selection for electric car diagnosis",
