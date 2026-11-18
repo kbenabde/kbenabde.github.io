@@ -3367,6 +3367,17 @@
     ],
     "msc": [
       {
+        "number": 41,
+        "name": "Ahmed Amine Cherqui",
+        "topic": "Multimodal data processing for composite materials modeling",
+        "start": "2027-03",
+        "end": "2027-09",
+        "status": "completed",
+        "co_supervisors": [],
+        "current_position": null,
+        "source_text": "41) Ahmed Amine Cherqui. Multimodal data processing for composite materials modeling (03/2027-09/2027)"
+      },
+      {
         "number": 40,
         "name": "Ilicia Benaoudia",
         "topic": "Multimodal learning with missing modalities for electric car diagnosis",
