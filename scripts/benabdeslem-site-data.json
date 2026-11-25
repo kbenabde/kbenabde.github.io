@@ -1104,6 +1104,28 @@
     ],
     "conferences": [
       {
+        "id": "C92",
+        "type": "conference",
+        "number": 92,
+        "citation": "A. Salazar, L. Moncla, Y. Lairgi, K. Benabdeslem, R. Cazabet. SERAG : une approche sémantique-relationnelle pour la détection d'anomalies dans les graphes de connaissances. EGC, 3-5 février 2027, Poitiers.",
+        "title": "SERAG : une approche sémantique-relationnelle pour la détection d'anomalies dans les graphes de connaissances",
+        "authors": [
+          "A. Salazar",
+          "L. Moncla",
+          "Y. Lairgi",
+          "K. Benabdeslem",
+          "R. Cazabet"
+        ],
+        "year": 2027,
+        "venue_short": "EGC",
+        "venue": "EGC, 3-5 février 2027, Poitiers",
+        "workshop": false,
+        "online": false,
+        "award": null,
+        "doi": null,
+        "links": []
+      },
+      {
         "id": "C91",
         "type": "conference",
         "number": 91,
